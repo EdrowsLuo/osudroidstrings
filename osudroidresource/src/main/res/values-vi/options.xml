@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>Cao</item>
+        <item>Trung Bình</item>
+        <item>Thấp</item>
+        <item>Tắt</item>
+    </string-array>
+    <string-array name="bg_quality_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="bg_brightness_names">
+        <item>100%</item>
+        <item>75%</item>
+        <item>50%</item>
+        <item>25%</item>
+        <item>0%</item>
+    </string-array>
+    <string-array name="bg_brightness_values">
+        <item>100</item>
+        <item>75</item>
+        <item>50</item>
+        <item>25</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="error_meter_display_names">
+        <item>Luôn luôn</item>
+        <item>Chỉ trong replay</item>
+        <item>Tắt</item>
+    </string-array>
+    <string-array name="error_meter_display_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="spinner_style_names">
+        <item>Mới</item>
+        <item>Cũ</item>
+    </string-array>
+    <string-array name="spinner_style_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="metronome_switch_names">
+        <item>Tắt</item>
+        <item>Chỉ dùng với Nightcore</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="metronome_switch_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="opt_onlineOpt">Cài đặt tài khoản</string>
+    <string name="opt_onlineOpt_normal">Cài đặt online</string>
+    <string name="opt_onlineOpt_user">Cài đặt người dùng</string>
+    <string name="opt_offline">Cài đặt offline</string>
+    <string name="opt_graphics">Đồ họa</string>
+    <string name="opt_beatmaps">Thư viện</string>
+    <string name="opt_bg_title">Chất lượng hình nền</string>
+    <string name="opt_bg_summary">Giảm chất lượng hình nền để tăng hiệu năng game </string>
+    <string name="opt_skin_title">Skin riêng cho beatmap</string>
+    <string name="opt_skin_summary">Sử dụng skin riêng của beatmap nếu có</string>
+    <string name="opt_sound_title">Âm thanh riêng cho beatmap</string>
+    <string name="opt_sound_summary">Sử dụng âm thanh riêng của beatmap (ví dụ hitsound) nếu có</string>
+    <string name="opt_largeimages_title">Đếm ngược</string>
+    <string name="opt_largeimages_summary">Hiển thị đếm ngược trước khi bắt đầu beatmap nếu được bật</string>
+    <string name="opt_sound_volume_title">Âm lượng hitsound</string>
+    <string name="opt_sound_volume_summary">Âm lượng của hitsound (0-100), cần khởi động lại game để có hiệu lực</string>
+    <string name="opt_bgm_volume_title">Âm lượng nhạc nền</string>
+    <string name="opt_bgm_volume_summary">Âm lượng nhạc nền (0-100)</string>
+    <string name="opt_offset_title">Độ lệch âm thanh chung</string>
+    <string name="opt_offset_summary">Độ lệch chung của nhạc (giá trị dương cho âm thanh sớm hơn)</string>
+    <string name="opt_special">Đặc biệt</string>
+    <string name="opt_deleteosz_title">Xóa file .osz</string>
+    <string name="opt_deleteosz_summary">Xóa file .osz sau khi nhập map</string>
+    <string name="opt_directory_title">Địa chỉ lưu beatmap</string>
+    <string name="opt_directory_summary">Đường dẫn tới nơi lưu trữ map (mặc định: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">Xóa bộ nhớ đệm thư viện</string>
+    <string name="opt_clear_summary">Bắt buộc xóa bộ nhớ đệm thư viện</string>
+    <string name="opt_doublesound_title">Hitsound đôi</string>
+    <string name="opt_doublesound_summary">Làm cho hitsound gần giống hơn với osu! bản gốc</string>
+    <string name="opt_sound">Âm thanh</string>
+    <string name="opt_fps_title">Hiển thị FPS</string>
+    <string name="opt_fps_summary">Hiển thị số khung hình trên giây khi đang chơi</string>
+
+    <string name="opt_metronome_switch_title">Công tắc phách kế</string>
+    <string name="opt_metronome_switch_summary">Bật hiệu ứng phách kế</string>
+    <string name="opt_sliderborders_title">Vẽ đường biên nốt dài</string>
+    <string name="opt_sliderborders_summary">Vẽ đường biên dọc thân nốt dài. Tắt cho hiệu năng tốt hơn</string>
+    <string name="opt_complexanimations_title">Các hiệu ứng phức tạp</string>
+    <string name="opt_complexanimations_summary">Bật hiệu ứng đồ họa (ví dụ nốt dài trườn). Tắt để hiệu năng tốt hơn</string>
+    <string name="opt_other_title">Linh tinh</string>
+    <string name="opt_multitouch_title">Đa điểm</string>
+    <string name="opt_multitouch_summary">Bật cảm ứng đa điểm nếu thiết bị hỗ trợ</string>
+    <string name="opt_musicpreview_title">Xem trước nhạc</string>
+    <string name="opt_musicpreview_summary">Phát nhạc trong quá trình chọn beatmap</string>
+    <string name="opt_playername_title">Tên người chơi</string>
+    <string name="opt_playername_summary">Tên người chơi khi chơi offline</string>
+    <string name="opt_showcursor_title">Hiển thị con trỏ</string>
+    <string name="opt_showcursor_summary">Hiển thị con trỏ dưới ngón tay khi đang chơi</string>
+
+    <string name="opt_demoSpline_title">Sườn nốt dài thử nghiệm</string>
+    <string name="opt_demoSpline_summary">Sử dụng thuật toán khác để tạo sườn slider (mang tính thử nghiệm, tắt đi nếu có vấn đề xảy ra.)</string>
+    <string name="opt_clearprops_title">Xóa dữ liệu riêng của map</string>
+    <string name="opt_clearprops_summary">Bắt buộc xóa các dữ liệu riêng của beatmap (ví dụ độ lệch riêng)</string>
+
+    <string name="opt_online">Online</string>
+    <string name="opt_online_title">Hiển thị lựa chọn online</string>
+    <string name="opt_online_summary"></string>
+    <string name="opt_stayonline_title">Online liên tục</string>
+    <string name="opt_stayonline_summary">Kết nối đến máy chủ lưu trữ điểm</string>
+    <string name="opt_login_title">Đăng nhập</string>
+    <string name="opt_login_summary">Tên online của bạn</string>
+    <string name="opt_password_title">Mật khẩu</string>
+    <string name="opt_password_summary">Mật khẩu tài khoản của bạn</string>
+    <string name="opt_register_title">Đăng kí</string>
+    <string name="opt_register_summary">Đăng kí tài khoản mới. Bạn chỉ được tạo một tài khoản mỗi thiết bị</string>
+    <string name="opt_loadavatar_title">Tải avatar mà không có Wifi</string>
+    <string name="opt_loadavatar_summary">Tải mà không có kết nối Wifi</string>
+    <string name="opt_error_meter_display_title">Thanh hit error</string>
+    <string name="opt_error_meter_display_summary">Hiển thị hoặc không hiển thị thanh hit error</string>
+    <string name="opt_spinner_style_title">Chế độ nốt xoay</string>
+    <string name="opt_spinner_style_summary">Thay đổi kiểu nốt xoay</string>
+    <string name="opt_combo_burst_title">Combo Burst</string>
+    <string name="opt_combo_burst_summary">Chỉnh combo burst bật/tắt</string>
+
+    <string name="opt_advanced">Nâng cao</string>
+    <string name="opt_advanced_title">Các cài đặt nâng cao</string>
+    <string name="opt_advanced_summary"></string>
+    <string name="opt_corepath_title">Đường dẫn chính</string>
+    <string name="opt_corepath_summary">Đường dẫn chính của osu!droid</string>
+    <string name="opt_lowdelay_title">Chế độ Độ trễ thấp</string>
+    <string name="opt_lowdelay_summary">Giảm độ trễ cảm ứng. Tắt đi nếu bạn cảm thấy khó chịu.</string>
+    <string name="opt_enable_extension_title">Bật tính năng mở rộng</string>
+    <string name="opt_download_extension_title">Tải xuống tính năng mở rộng</string>
+    <string name="opt_syncmusic_title">Đồng bộ độ trễ thấp</string>
+    <string name="opt_syncmusic_summary">"Tắt đi nếu thiết bị của bạn không hỗ trợ âm thanh độ trễ thấp"</string>
+    <string name="opt_savereplays_title">Lưu replay</string>
+    <string name="opt_savereplays_summary">Lưu replays cho điểm số offline</string>
+    <string name="opt_bursts_title">Hiệu ứng nổ</string>
+    <string name="opt_bursts_summary">Hiển thị hiệu ứng nổ khi bấm vào nốt và nốt dài</string>
+    <string name="opt_hitlighting_title">Hit Lighting</string>
+    <string name="opt_hitlighting_summary">Thêm vào một khoảng sáng đằng sau hiệu ứng nổ khi nốt biến mất làm sáng khu vực chơi</string>
+    <string name="opt_dither_title">Làm nhiễu</string>
+    <string name="opt_dither_summary">Làm nhiễu bằng phần cứng</string>
+    <string name="opt_particles_title">Hiệu ứng chấm màu</string>
+    <string name="opt_particles_summary">Hiện thị các chấm màu như là đuôi con trỏ</string>
+    <string name="opt_skinpath_title">Đường dẫn skin</string>
+    <string name="opt_skinpath_summary">Địa điểm lưu trữ tệp skin</string>
+    <string name="opt_bgbrightness_title">Độ sáng hình nền</string>
+    <string name="opt_bgbrightness_summary">Thay đổi độ sáng của hình nền</string>
+    <string name="opt_hide_navibar_title">Ẩn thanh định vị</string>
+    <string name="opt_hide_navibar_summary">Ẩn thanh hiển thị khi đang chơi</string>
+    <string name="opt_enable_pp_title">Enable PerformancePoint System</string>
+    <string name="opt_enable_pp_summary">A simple offline pp system.Just for fun :)</string>
+    <string name="opt_clear_pp_title">Reset PP</string>
+    <string name="opt_clear_pp_summary">Reset your performance point!</string>
+    <string name="opt_combo_colors_title">Màu combo</string>
+    <string name="opt_combo_colors_summary">Sử dụng màu combo tùy chỉnh</string>
+
+    <string name="opt_update_title">Kiểm tra cập nhật</string>
+    <string name="opt_update_summary">Kiểm tra bản cập nhật hiện có bằng tay</string>
+    <string name="force_romanized">Bắt buộc sử dụng kí tự La Mã</string>
+    <string name="force_romanized_summary">Bắt buộc sử dụng kí tự La Mã cho thông tin beatmap, sử dụng nếu không thể đọc được kí tự Hán, Nhật,...</string>
+    <string name="opt_cursor_size">Kích cỡ con trỏ</string>
+    <string name="opt_cursor_size_summary">Điều chỉnh kích cỡ con trỏ (25 - 300, mặc định 100)</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_error">Errore: %s</string>
+    <string name="message_error_createdir">Impossibile creare %s</string>
+    <string name="message_error_multitouch">Il Multitouch non e supportato dal tuo dispositivo</string>
+    <string name="message_error_audio">Impossibile inizializzare l\'audio. Prova a riavviare la canzone</string>
+    <string name="message_error_sdcard">Nessun dispositivo esterno rilevato</string>
+    <string name="message_error_sdcardread">Il dispositivo esterno e\' in sola lettura</string>
+    <string name="message_error_open">Impossibile aprire %s</string>
+    <string name="message_error_mapmode">Modalita mappa non valida: %s</string>
+    <string name="message_error_connect">Impossibile collegarsi al server</string>
+    <string name="message_error_connectlimit">Raggiunto il limite massimo di tentativi di connessione</string>
+    <string name="message_error_download">Impossibile scaricare %s</string>
+    
+    <string name="message_standardplayer">Passaggio al lettore predefinito</string>
+    <string name="message_connecting">Connessione al server...</string>
+    <string name="message_downloaded">%s scaricata!</string>
+
+    <string name="message_lib_update">Aggiornamento della libreria...</string>
+    <string name="message_lib_caching">Creazione dell\'indice della libreria... Puo richiedere alcuni minuti</string>
+    <string name="message_lib_complete">Indicizzazione completata. Trovate %d beatmap</string>
+    <string name="message_lib_cleared">Indicizzazione reimpostata</string>
+    <string name="message_lib_importing">Importazione della beatmap...</string>
+    <string name="message_lib_importing_several">Trovate %s beatmap compresse. Apertura in corso...</string>
+    <string name="message_lib_imported">\"%s\" e stata importata correttamente!</string>
+    
+    
+    <string name="dialog_playername_title">Inserisci il tuo nome utente</string>
+    <string name="dialog_playername_message">Inserisci un nome, sara\' utilizzato per elencare i record</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Annulla</string>
+    <string name="dialog_search_title">Cerca</string>
+    <string name="dialog_search_message">Inserisci testo da cercare</string>
+    
+   	<string name="menu_score" formatted="false">Punteggio: %s (%dx)</string>
+   	<string name="menu_creator">Creatore: %s</string>
+   	<string name="menu_mod_back">Indietro</string>
+   	<string name="menu_mod_title">Selezione Mod</string>
+   	<string name="menu_mod_multiplier">Moltiplicatore %.2fx</string>
+   	
+   	<string name="menu_properties_title">Proprieta\'</string>
+   	<string name="menu_properties_offset">Offset per la canzone:</string>
+   	<string name="menu_properties_tofavs">Aggiungi ai Preferiti</string>
+   	<string name="menu_properties_fromfavs">Rimuovi dai Preferiti</string>
+   	
+   	<string name="menu_search_title">Opzioni di ricerca</string>
+   	<string name="menu_search_filter">Ricerca di:</string>
+   	<string name="menu_search_sort">Ordina per:</string>
+   	<string name="menu_search_sort_title">Titolo</string>
+   	<string name="menu_search_sort_date">Data</string>
+   	<string name="menu_search_sort_creator">Creatore</string>
+   	<string name="menu_search_sort_artist">Artista</string>
+   	<string name="menu_search_favsenabled">Solo Preferiti: attivato</string>
+   	<string name="menu_search_favsdisabled">Solo Preferiti: disattivato</string>
+   	
+   	<string name="downloader_page" formatted="false">Pagina %d di %d</string>
+   	<string name="downloader_nomaps">Nessuna beatmap trovata</string>	
+   	
+   	<string name="menu_mod_reset">Reimposta le mod</string>
+	<string name="menu_properties_delete">Cancella beatmap</string>
+	<string name="menu_properties_delete_confirm">Sei sicuro?</string>
+</resources>

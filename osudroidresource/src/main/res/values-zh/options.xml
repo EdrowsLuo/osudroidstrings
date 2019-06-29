@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+        <item>禁用</item>
+    </string-array>
+    <string-array name="error_meter_display_names">
+        <item>总是开启</item>
+        <item>仅重放</item>
+        <item>禁用</item>
+    </string-array>
+    <string-array name="spinner_style_names">
+        <item>PC样式</item>
+        <item>经典样式</item>
+    </string-array>
+    <string-array name="metronome_switch_names">
+        <item>关闭</item>
+        <item>仅 NightCore 模式开启</item>
+        <item>总是开启</item>
+    </string-array>
+    <string name="opt_onlineOpt">用户选项</string>
+    <string name="opt_onlineOpt_normal">联网选项</string>
+    <string name="opt_onlineOpt_user">账号设置</string>
+    <string name="opt_offline">离线设置</string>
+    <string name="opt_graphics">图像</string>
+    <string name="opt_beatmaps">地图库</string>
+    <string name="opt_bg_title">背景图片质量</string>
+    <string name="opt_bg_summary">降低背景图片显示质量以提高性能</string>
+    <string name="opt_skin_title">地图皮肤</string>
+    <string name="opt_skin_summary">可用时加载地图自带皮肤</string>
+    <string name="opt_sound_title">地图音效</string>
+    <string name="opt_sound_summary">可用时加载地图自带音效</string>
+    <string name="opt_largeimages_title">倒计时</string>
+    <string name="opt_largeimages_summary">在可用此选项的地图开始前显示倒计时</string>
+    <string name="opt_sound_volume_title">音效音量</string>
+    <string name="opt_sound_volume_summary">音效音量，设置范围0–100，需重新启动游戏后生效</string>
+    <string name="opt_bgm_volume_title">音乐音量</string>
+    <string name="opt_bgm_volume_summary">音乐音量，设置范围0-100</string>
+    <string name="opt_offset_title">全局延时</string>
+    <string name="opt_offset_summary">毫秒计音乐延时 (负值则为提前)</string>
+    <string name="opt_special">特殊</string>
+    <string name="opt_deleteosz_title">删除.osz文件</string>
+    <string name="opt_deleteosz_summary">在载入后删除.osz文件</string>
+    <string name="opt_directory_title">地图存储位置</string>
+    <string name="opt_directory_summary">地图文件储存路径 (默认: /sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">清除地图库缓存</string>
+    <string name="opt_clear_summary">强制清除地图库缓存信息</string>
+    <string name="opt_doublesound_title">双重打击音效</string>
+    <string name="opt_doublesound_summary">使打击音听起来更接近原始的osu!</string>
+    <string name="opt_sound">音效</string>
+    <string name="opt_fps_title">显示帧每秒</string>
+    <string name="opt_fps_summary">显示游戏过程中每秒帧数</string>
+    <string name="opt_lowtextures_title">降低材质质量</string>
+    <string name="opt_lowtextures_summary">降低游戏整体的材质质量。如果取消，osu!droid将会使用高分辨率材质</string>
+    <string name="opt_nativeplayer_title">使用Bass播放器</string>
+    <string name="opt_nativeplayer_summary">启用以获得更接近PC版的听感</string>
+    <string name="opt_vbroffset_title">VBR延时</string>
+    <string name="opt_vbroffset_summary">使用动态比特率(VBR)的mp3文件的延时(仅适用于内建播放器)</string>
+    <string name="opt_sliderborders_title">绘制滑条边缘</string>
+    <string name="opt_sliderborders_summary">为滑条轨迹绘制边缘。取消可以获得更好性能</string>
+    <string name="opt_complexanimations_title">复杂特效</string>
+    <string name="opt_complexanimations_summary">启用高级图像特效(例如滑条渐出效果)。取消可以取得更高性能</string>
+    <string name="opt_other_title">其他选项</string>
+    <string name="opt_multitouch_title">多点触控</string>
+    <string name="opt_multitouch_summary">启用多点触控(需设备支持)</string>
+    <string name="opt_offsetscreen_title">设置延时</string>
+    <string name="opt_offsetscreen_summary" />
+    <string name="opt_oggoffset_title">.ogg延时</string>
+    <string name="opt_oggoffset_summary">为.ogg文件设置额外的延时</string>
+    <string name="opt_pauseoffset_title">暂停延时</string>
+    <string name="opt_pauseoffset_summary">从暂停状态恢复时增加的延时</string>
+    <string name="opt_musicpreview_title">音乐预览</string>
+    <string name="opt_musicpreview_summary">当选中地图时播放音乐</string>
+    <string name="opt_playername_title">玩家名</string>
+    <string name="opt_playername_summary">本地玩家的名称</string>
+    <string name="opt_showcursor_title">显示光标</string>
+    <string name="opt_showcursor_summary">游戏中在手指下显示光标</string>
+    <string name="opt_demoSpline_title">demo曲线</string>
+    <string name="opt_demoSpline_summary">为滑条使用另一种曲线算法(实验功能，可能导致卡顿或其他问题)</string>
+    <string name="opt_clearprops_title">清除地图设置</string>
+    <string name="opt_clearprops_summary">强制清除所有地图设置信息(例如地图延时)</string>
+    <string name="opt_online">网络选项</string>
+    <string name="opt_online_title">联网游戏选项</string>
+    <string name="opt_online_summary" />
+    <string name="opt_stayonline_title">保持在线</string>
+    <string name="opt_stayonline_summary">连接到osu!droid排名服务器</string>
+    <string name="opt_loadavatar_title">使用2G/3G/4G网络加载头像</string>
+    <string name="opt_loadavatar_summary">在没有WIFI的情况下加载头像</string>
+    <string name="opt_error_meter_display_title">击打误差指示器</string>
+    <string name="opt_error_meter_display_summary">决定是否或在何时显示指示器</string>
+    <string name="opt_spinner_style_title">转盘样式</string>
+    <string name="opt_spinner_style_summary">改变转盘的样式</string>
+    <string name="opt_metronome_switch_title">节拍器</string>
+    <string name="opt_metronome_switch_summary">启用节拍器音效</string>
+    <string name="opt_combo_burst_title">连击特效</string>
+    <string name="opt_combo_burst_summary">开启关闭连击特效(轻微影响性能)</string>
+    <string name="opt_login_title">登录</string>
+    <string name="opt_login_summary">用户名</string>
+    <string name="opt_password_title">密码</string>
+    <string name="opt_password_summary">账号密码</string>
+    <string name="opt_register_title">注册</string>
+    <string name="opt_register_summary">申请新账号，一台设备仅允许绑定一个账号。</string>
+    <string name="opt_advanced">高级</string>
+    <string name="opt_advanced_title">高级设定</string>
+    <string name="opt_advanced_summary" />
+    <string name="opt_corepath_title">主目录</string>
+    <string name="opt_corepath_summary">点击修改osu主目录</string>
+    <string name="opt_lowdelay_title">低触摸延迟模式</string>
+    <string name="opt_lowdelay_summary">德芙般丝滑（屌单玩家请关闭；不适应请关闭）</string>
+    <string name="opt_syncmusic_title">低延迟同步</string>
+    <string name="opt_syncmusic_summary">在不支持本特性的手机上启用可能导致性能下降</string>
+    <string name="opt_savereplays_title">回放</string>
+    <string name="opt_savereplays_summary">保存回放</string>
+    <string name="opt_bursts_title">爆裂效果</string>
+    <string name="opt_bursts_summary">在命中部件后播放爆裂特效</string>
+    <string name="opt_hitlighting_title">击打闪光</string>
+    <string name="opt_hitlighting_summary">在击打提示后方加上一个轻柔的闪光</string>
+    <string name="opt_dither_title">插值</string>
+    <string name="opt_dither_summary">使用硬件加速插值</string>
+    <string name="opt_particles_title">细节特效</string>
+    <string name="opt_particles_summary">使用细节特效（如光标拖尾）</string>
+    <string name="opt_skinpath_title">皮肤目录</string>
+    <string name="opt_skinpath_summary">点击修改自定义皮肤目录</string>
+    <string name="opt_bgbrightness_title">背景亮度</string>
+    <string name="opt_bgbrightness_summary">背景图片的亮度</string>
+    <string name="opt_hide_navibar_title">隐藏系统导航栏</string>
+    <string name="opt_hide_navibar_summary">游戏过程中隐藏系统导航栏</string>
+    <string name="opt_enable_pp_title">开启PP系统</string>
+    <string name="opt_enable_pp_summary">一个简单的离线pp系统。</string>
+    <string name="opt_clear_pp_title">重置PP</string>
+    <string name="opt_clear_pp_summary">将PP重置，无法还原！（你可以选择自己保存一份osu!droid/pp/pp.json文件的副本）</string>
+    <string name="opt_enable_extension_title">开启扩展</string>
+    <string name="opt_download_extension_title">下载扩展</string>
+    <string name="opt_fix_frame_offset_title">修复随机延迟</string>
+    <string name="opt_fix_frame_offset_summary">修复一个由点击时间和帧开始时间差造成的延迟。不完全保证效果。</string>
+    <string name="opt_combo_colors_title">Combo颜色</string>
+    <string name="opt_combo_colors_summary">使用自定义的combo颜色</string>
+    <string name="opt_update_title">检查更新</string>
+    <string name="opt_update_summary">检查是否有更新版本的osu!droid</string>
+
+    <string name="force_romanized">强制使用罗马音显示铺面数据</string>
+    <string name="force_romanized_summary">让中文和日语更容易看懂</string>
+
+    <string name="opt_cursor_size">光标大小</string>
+    <string name="opt_cursor_size_summary">调整光标大小 (25 ~ 300, 默认100)</string>
+
+    <string name="opt_scandownload_summary">扫描系统下载路径（Download文件夹）里的新铺面</string>
+    <string name="opt_scandownload_title">扫描系统下载路径</string>
+
+    <string name="opt_show_first_approach_circle_title">强制显示第一个缩圈</string>
+    <string name="opt_show_first_approach_circle_summary">在Hidden模式下任然显示第一个note的缩圈</string>
+
+</resources>

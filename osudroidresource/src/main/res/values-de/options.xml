@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>Hoch</item>
+        <item>Mittel</item>
+        <item>Niedrig</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="bg_quality_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="bg_brightness_names">
+        <item>100%</item>
+        <item>75%</item>
+        <item>50%</item>
+        <item>25%</item>
+        <item>0%</item>
+    </string-array>
+    <string-array name="bg_brightness_values">
+        <item>100</item>
+        <item>75</item>
+        <item>50</item>
+        <item>25</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="error_meter_display_names">
+        <item>Immer</item>
+        <item>Nur Replay</item>
+        <item>Nie</item>
+    </string-array>
+    <string-array name="error_meter_display_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="spinner_style_names">
+        <item>Modern</item>
+        <item>Klassisch</item>
+    </string-array>
+    <string-array name="spinner_style_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="metronome_switch_names">
+        <item>Aus</item>
+        <item>Nur bei Nightcore.</item>
+        <item>Immer an</item>
+    </string-array>
+    <string-array name="metronome_switch_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="opt_onlineOpt">Benutzer/Online Einstellungen</string>
+
+    <string name="opt_onlineOpt_normal">Online Einstellungen</string>
+
+    <string name="opt_onlineOpt_user">Benutzer Einstellungen</string>
+
+    <string name="opt_offline">Offline Einstellungen</string>
+
+    <string name="opt_graphics">Grafik Einstellungen</string>
+
+    <string name="opt_beatmaps">Bibliothek Einstellungen</string>
+
+    <string name="opt_bg_title">Hintergrund Qualität</string>
+    <string name="opt_bg_summary">Reduziere die Qualität um bessere Leistung zu bekommen</string>
+
+
+    <string name="opt_skin_title">Beatmap Skins</string>
+    <string name="opt_skin_summary">Lade Beatmaps Skins, falls verfügbar</string>
+
+    <string name="opt_sound_title">Beatmap Sounds</string>
+    <string name="opt_sound_summary">Lade Beatmaps Sounds, falls verfügbar</string>
+
+    <string name="opt_largeimages_title">Countdown</string>
+    <string name="opt_largeimages_summary">Countdown anzeigen</string>
+
+    <string name="opt_sound_volume_title">Hit-Laustärke</string>
+    <string name="opt_sound_volume_summary">Lautstärke der Hitsounds [0 bis 100] (Spiel muss neu gestartet werden)</string>
+
+    <string name="opt_bgm_volume_title">Hintergrund Lautstärke</string>
+    <string name="opt_bgm_volume_summary">Lautstärke der Hintergrundmusik [0 bis 100]</string>
+
+    <string name="opt_offset_title">Globaler offset</string>
+    <string name="opt_offset_summary">Musik offset in ms (Positiver Wert = früher)</string>
+
+
+    <string name="opt_special">Spezial</string>
+    <string name="opt_taiko_title">Lade T-Aiko! Beatmaps</string>
+    <string name="opt_taiko_summary">Lade Beatmaps von T-Aiko Song Ordner</string>
+
+    <string name="opt_deleteosz_title">entferne .osz</string>
+    <string name="opt_deleteosz_summary">entferne .osz Datei nach der Importierung</string>
+
+    <string name="opt_directory_title">Beatmap Pfad</string>
+    <string name="opt_directory_summary">Pfad zur Beatmap (default: /mnt/sdcard/osu!droid/Songs)</string>
+
+    <string name="opt_clear_title">Lösche Bibliothek Speicher</string>
+    <string name="opt_clear_summary">Alle Beatmaps löschen</string>
+
+    <string name="opt_doublesound_title">Hitsounds</string>
+    <string name="opt_doublesound_summary">Originale Hitsounds</string>
+
+
+    <string name="opt_sound">Ton Einstellungen</string>
+
+
+    <string name="opt_fps_title">FPS</string>
+    <string name="opt_fps_summary">Zeigt (frame per second) beim Spielen an</string>
+
+    <string name="opt_skipoffset_title">Skip offset</string>
+    <string name="opt_skipoffset_summary">Dieses offset wird hinzugefügt, wenn du die &quot;Skip&quot; Taste drückst(Benutze -1 für auto offset)</string>
+
+    <string name="opt_lowtextures_title">Textur Qualität</string>
+    <string name="opt_lowtextures_summary">Reduziere deine Qualität vom Spiel (osu!droid benutzt HD-Qualität)</string>
+
+    <string name="opt_nativeplayer_title">Media-Player</string>
+    <string name="opt_nativeplayer_summary">Benutze den Media-Player für genaueres Timing (Keine Support für .ogg Format)</string>
+
+
+    <string name="opt_metronome_switch_title">Metronom</string>
+    <string name="opt_metronome_switch_summary">Aktiviere/Deaktivere den Metronom Sound Effekt (Nur bei Nightcore-Mod)</string>
+
+    <string name="opt_vbroffset_title">Variabler Offset</string>
+    <string name="opt_vbroffset_summary">Offset für .mp3 Format codiert mit Variablen Bitraten (nur Media-Player)</string>
+
+    <string name="opt_sliderborders_title">Slider Ränder</string>
+    <string name="opt_sliderborders_summary">Zeichnet Lange Slider Ränder (Deaktiviere es, für bessere Leistung)</string>
+
+    <string name="opt_complexanimations_title">Komplexe Effekte</string>
+    <string name="opt_complexanimations_summary">Erweitere die Grafik Effekte (Deaktiviere es für bessere Leistung)</string>
+
+    <string name="opt_other_title">Sonstiges</string>
+    <string name="opt_multitouch_title">Multi-touch</string>
+    <string name="opt_multitouch_summary">Aktiviere Multi-Touch Unterstützung</string>
+
+    <string name="opt_offsetscreen_title">Offset Einstellung</string>
+    <string name="opt_offsetscreen_summary"/>
+
+    <string name="opt_oggoffset_title">.OGG Format Offset</string>
+    <string name="opt_oggoffset_summary">Zusätzlicher Offset für Beatmaps mit .ogg Format</string>
+
+    <string name="opt_pauseoffset_title">Pause Offset</string>
+    <string name="opt_pauseoffset_summary">Offset bleibt bei Pausierung ungeändert</string>
+
+    <string name="opt_musicpreview_title">Musik Vorschau</string>
+    <string name="opt_musicpreview_summary">Spielt die Musik der ausgewählten Beatmap im Menü ab</string>
+
+    <string name="opt_playername_title">Spieler Name</string>
+    <string name="opt_playername_summary">Dein Lokaler Spielername</string>
+
+    <string name="opt_showcursor_title">Cursor</string>
+    <string name="opt_showcursor_summary">Zeigt den Cursor an</string>
+
+    <string name="opt_demoSpline_title">Slider</string>
+    <string name="opt_demoSpline_summary">Benutze einen anderen Algorithmen für Slider(Experimentell, kann zu Probleme führen)</string>
+
+    <string name="opt_clearprops_title">Lösche Beatmap Daten</string>
+    <string name="opt_clearprops_summary">Erzwungenes neuladen von allen Spezifischen Daten(z.B. Mapoffset)</string>
+
+
+    <string name="opt_online">Online</string>
+
+
+    <string name="opt_online_title">Zeige Online Funktionen</string>
+    <string name="opt_online_summary"></string>
+
+    <string name="opt_stayonline_title">Server Verbindung</string>
+    <string name="opt_stayonline_summary">Zu den osu!droid Servern verbinden</string>
+
+    <string name="opt_login_title">Login</string>
+    <string name="opt_login_summary">Dein Online Spielername</string>
+
+    <string name="opt_password_title">Password</string>
+    <string name="opt_password_summary">Password für deinen Account</string>
+
+    <string name="opt_register_title">Account</string>
+    <string name="opt_register_summary">Account registrieren (Es ist nur ein Account pro Gerät Erlaubt)</string>
+
+    <string name="opt_loadavatar_title">Avatare</string>
+    <string name="opt_loadavatar_summary">Lade die Avatare ohne Internet Verbindung</string>
+
+    <string name="opt_error_meter_display_title">Hit Error Meter</string>
+    <string name="opt_error_meter_display_summary">Zeigt Hit Error Meter im Spiel an</string>
+
+    <string name="opt_spinner_style_title">Spinner</string>
+    <string name="opt_spinner_style_summary">Ändere Spinner Stil</string>
+
+    <string name="opt_combo_burst_title">Combo Burst</string>
+    <string name="opt_combo_burst_summary">Schalte Combo Bursts an/aus</string>
+
+
+    <string name="opt_advanced">Advanced</string>
+
+
+    <string name="opt_advanced_title">Erweiterte Optionen</string>
+    <string name="opt_advanced_summary"></string>
+
+    <string name="opt_corepath_title">Speicherort</string>
+    <string name="opt_corepath_summary">osu!droid Speicherort</string>
+
+    <string name="opt_lowdelay_title">Input-Delay</string>
+    <string name="opt_lowdelay_summary">Per frame sleeptimer (Empfohlen einzuschalten)</string>
+
+    <string name="opt_enable_extension_title">Aktiviere Erweiterung</string>
+    <string name="opt_download_extension_title">Download Erweiterung</string>
+
+    <string name="opt_syncmusic_title">Niedrige Latenz</string>
+    <string name="opt_syncmusic_summary">"Deaktivieren wenn nicht unterstützt</string>
+
+    <string name="opt_savereplays_title">Replays</string>
+    <string name="opt_savereplays_summary">Speichere Lokale Replays</string>
+
+    <string name="opt_bursts_title">Burst Effekte</string>
+    <string name="opt_bursts_summary">Zeigt Burst Effekte an, wenn du Slider oder Circle triffst</string>
+
+    <string name="opt_hitlighting_title">Hit Effekt</string>
+    <string name="opt_hitlighting_summary">Zeigt Circlewellen Effekte an, wenn du die Slider oder Circle triffst</string>
+
+    <string name="opt_dither_title">Bildbearbeitung</string>
+    <string name="opt_dither_summary">Hardware Bildbearbeitung</string>
+
+    <string name="opt_particles_title">Partikel Effekte</string>
+    <string name="opt_particles_summary">Zeigt Partikel Effekte an (Cursor Trail)</string>
+
+    <string name="opt_skinpath_title">Skin Ordner</string>
+    <string name="opt_skinpath_summary">Skin Speicherort</string>
+
+    <string name="opt_bgbrightness_title">Hintergrund Helligkeit</string>
+    <string name="opt_bgbrightness_summary">Verändert die Helligkeit vom Hintergrund</string>
+
+    <string name="opt_hide_navibar_title">Navigation Bar</string>
+    <string name="opt_hide_navibar_summary">Die Navigation Bar ausblenden, wenn du spielst</string>
+
+    <string name="opt_enable_pp_title">Perfomance Points(PP)System</string>
+    <string name="opt_enable_pp_summary">Ein Einfaches Offline PP System)</string>
+
+    <string name="opt_clear_pp_title">Perfomance Points(PP)</string>
+    <string name="opt_clear_pp_summary">Resete deine Perfomance Points</string>
+
+    <string name="opt_combo_colors_title">Combo Colors</string>
+    <string name="opt_combo_colors_summary">Benutze eigene Combo Farben</string>
+
+    <string name="opt_update_title">Aktualisieren</string>
+    <string name="opt_update_summary">Aktualisiere das Spiel manuel</string>
+
+    <string name="force_romanized">Erzwinge Metadata</string>
+    <string name="force_romanized_summary">Benutze Japanisch/Chinesische Zeichen wenn möglich</string>
+
+    <string name="opt_cursor_size">Cursor Größe</string>
+    <string name="opt_cursor_size_summary">Passe dir deine Cursor größe an (25 - 300, Standart 100)</string>
+</resources>

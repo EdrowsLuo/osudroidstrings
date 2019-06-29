@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>Tinggi</item>
+        <item>Medium</item>
+        <item>Rendah</item>
+        <item>Tidak aktif</item>
+    </string-array>
+    <string name="opt_graphics">Grafik</string>
+    <string name="opt_beatmaps">Perpustakaan</string>
+    <string name="opt_bg_title">Kualitas latar belakang</string>
+    <string name="opt_bg_summary">Mengurangi kualitas latar belakang untuk memperbagus kinerja</string>
+    <string name="opt_skin_title">Tema beatmap</string>
+    <string name="opt_skin_summary">Unduhkan beatmap-dengan tema spesifik jika ada</string>
+    <string name="opt_largeimages_title">Hitung mundur</string>
+    <string name="opt_largeimages_summary">Tunjukkan hitung mundur dari awal map jika tersedia</string>
+    <string name="opt_sound_volume_title">Volume suara hit</string>
+    <string name="opt_sound_volume_summary">Volumenya suara hit (0-100)</string>
+    <string name="opt_offset_title">Offset global</string>
+    <string name="opt_offset_summary">Offset musik dari ms (Nilai positif berarti lebih awal)</string>
+    <string name="opt_special">Istimewa</string>
+    <string name="opt_deleteosz_title">Hapuskan .osz</string>
+    <string name="opt_deleteosz_summary">Hapuskan .osz setelah file di impor</string>
+    <string name="opt_directory_title">Lokasi beatmap</string>
+    <string name="opt_directory_summary">Jalan menuju direktori berisi beatmap (default: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">Bersihkan cache perpustakaan</string>
+    <string name="opt_clear_summary">Pembersihan cache perpustakaan yang di paksa</string>
+    <string name="opt_doublesound_title">Suara hit ganda</string>
+    <string name="opt_doublesound_summary">Buatlah suara hit agar mirip osu! asli</string>
+    <string name="opt_sound">Suara</string>
+    <string name="opt_fps_title">Tampilkan FPS</string>
+    <string name="opt_fps_summary">Tampilkan FPS sewaktu bermain</string>
+	<string name="opt_lowtextures_title">Kurangi kualitas tekstur</string>
+    <string name="opt_lowtextures_summary">Kurangi tekstur keseluruhan permainan. Jika non-aktif, osu!droid akan menggunakan tekstur kualitas HD.</string>
+    <string name="opt_nativeplayer_title">Gunakan pemutar asli</string>
+    <string name="opt_nativeplayer_summary">Gunakan pemutar asli agar meningkatkan akurasi timing (doesn\'t support .ogg files)</string>
+    <string name="opt_bgbrightness_title">Pencerahan latar belakang</string>
+    <string name="opt_bgbrightness_summary">Ubah pencerahan gambar latar belakang</string>
+    <string name="opt_vbroffset_title">Offset VBR</string>
+    <string name="opt_vbroffset_summary">Offset untuk mp3 yang di encode dengan  bitrate bervariasi  (built-in player only)</string>
+    <string name="opt_sliderborders_title">Gambarkan perbatasan untuk slider</string>
+    <string name="opt_sliderborders_summary">Gambarkan perbatasan untuk seliruh jalan slider. Non-aktifkan untuk kinerja yang lebih tinggi</string>
+    <string name="opt_complexanimations_title">Efek kompleks</string>
+    <string name="opt_complexanimations_summary">Aktifkan efek grafik tingkat tinggi (cth. animasi slider). Non-aktifkan untuk kinerja yang lebih tinggi</string>
+    <string name="opt_other_title">Yang lain</string>
+    <string name="opt_multitouch_title">Multi-touch</string>
+    <string name="opt_multitouch_summary">Aktifkan input multi-touch jika tersedia</string>
+    <string name="opt_offsetscreen_title">Atur offset</string>
+    <string name="opt_offsetscreen_summary"></string>
+    <string name="opt_oggoffset_title">Offset OGG</string>
+    <string name="opt_oggoffset_summary">Offset tambahan untuk lagu dalam format .ogg</string>
+    <string name="opt_pauseoffset_title">Hentikan offset</string>
+    <string name="opt_pauseoffset_summary">Offset di tambah setiap kali anda melanjuti permainan yang di hentikan</string>
+    <string name="opt_musicpreview_title">Tinjauan lagu</string>
+    <string name="opt_musicpreview_summary">mainkan lagu jika beatmap di pilih</string>
+    <string name="opt_playername_title">Nama pemain</string>
+    <string name="opt_playername_summary">Nama pemain lokal</string>
+    <string name="opt_showcursor_title">Tunjukkan cursor</string>
+    <string name="opt_showcursor_summary">Tunjukkan cursor di bawah jari sesaat kelangsungan permainan</string>
+
+    <string name="opt_clearprops_title">Bersihkan map-data yang spesifik</string>
+    <string name="opt_clearprops_summary">Pembersihan seluruh map yang di paksa-data spesifik (cth. offset per-map)</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="bg_quality_names">
+
+        <item>สูง</item>
+
+        <item>กลาง</item>
+
+        <item>ต่ำ</item>
+
+        <item>ปิด</item>
+
+    </string-array>
+    <string name="opt_graphics">กราฟิก</string>
+
+    <string name="opt_beatmaps">รายชื่อ beatmap</string>
+
+    <string name="opt_bg_title">คุณภาพพื้นหลัง</string>
+
+    <string name="opt_bg_summary">ลดคุณภาพพื้นหลังเพื่อให้โปรแกรมประมวลผลเร็วขึ้น</string>
+
+    <string name="opt_skin_title">ใช้สกินของ beatmap</string>
+
+    <string name="opt_skin_summary">ใช้สกินประจำ beatmap (ถ้ามี)</string>
+
+    <string name="opt_largeimages_title">นับถอยหลัง</string>
+
+    <string name="opt_largeimages_summary">แสดงการนับถอยหลังตอนเริ่มต้นเพลงสำหรับเพลงที่เปิดใช้</string>
+
+    <string name="opt_sound_volume_title">เสียงเอฟเฟคต์</string>
+
+    <string name="opt_sound_volume_summary">ปรับความดังของเสียงเอฟเฟคต์ (0-100)</string>
+
+    <string name="opt_offset_title">ค่า offset พื้นฐาน</string>
+
+    <string name="opt_offset_summary">ค่า offset ของเพลงในหน่วยมิลลิวินาที (ค่าบวกหมายถึงต้องกดให้เร็วขึ้น)</string>
+
+    <string name="opt_special">พิเศษ</string>
+
+    <string name="opt_taiko_title">โหลดเพลง T-Aiko!</string>
+    <string name="opt_taiko_summary">โหลดเพลงเพิ่มเติมจากโฟลเดอร์เพลงของ T-Aiko!</string>
+    <string name="opt_deleteosz_title">ลบไฟล์ .osz</string>
+
+    <string name="opt_deleteosz_summary">ลบไฟล์ .osz ทิ้งหลัง import เรียบร้อยแล้ว</string>
+
+    <string name="opt_directory_title">ตำแหน่งไฟล์ beatmap</string>
+
+    <string name="opt_directory_summary">ตำแหน่งของโฟลเดอร์ที่ใช้เก็บ beatmap (ค่าเริ่มต้น: /mnt/sdcard/osu!droid/Songs)</string>
+
+    <string name="opt_clear_title">ลบ cache รายชื่อ beatmap</string>
+
+    <string name="opt_clear_summary">บังคับลบ cache ของรายชื่อ beatmap</string>
+
+    <string name="opt_doublesound_title">เล่นเสียงเอฟเฟคต์พร้อมกันได้</string>
+
+    <string name="opt_doublesound_summary">อนุญาตให้โปรแกรมเล่นเสียงเอฟเฟคต์หลายๆเสียงพร้อมกันได้ แบบเดียวกับ osu! เวอร์ชั่น PC</string>
+
+    <string name="opt_sound">เสียง</string>
+
+    <string name="opt_fps_title">แสดงค่า FPS</string>
+
+    <string name="opt_fps_summary">แสดงค่าเฟรมต่อวินาที (Frames Per Second) ในระหว่างเล่น</string>
+    <string name="opt_skipoffset_title">Skip offset</string>
+    <string name="opt_skipoffset_summary">ตั้งค่า offset ที่จะเพิ่มเข้ามาหลังคุณกดปุ่ม &quot;Skip&quot; กรอกค่า -1 เพื่อให้โปรแกรมตั้งค่าให้โดยอัตโนมัติ</string>
+
+    <string name="opt_lowtextures_title">ลดความละเอียดภาพ</string>
+
+    <string name="opt_lowtextures_summary">ลดความละเอียดภาพโดยรวม เมื่อปิดตัวเลือกนี้ osu!droid จะใช้ภาพความละเอียดสูงแทน</string>
+
+    <string name="opt_nativeplayer_title">ใช้ตัวเล่นเพลงที่มากับโปรแกรม</string>
+
+    <string name="opt_nativeplayer_summary">ใช้ตัวเล่นเพลงที่มากับโปรแกรมเพื่อการกะจังหวะที่แม่นยำขึ้น (ไม่รองรับไฟล์ .ogg)</string>
+
+    <string name="opt_bgbrightness_title">ความสว่างของภาพพื้นหลัง</string>
+
+    <string name="opt_bgbrightness_summary">ปรับความสว่างของภาพพื้นหลัง</string>
+
+    <string name="opt_vbroffset_title">VBR offset</string>
+
+    <string name="opt_vbroffset_summary">ค่า offset สำหรับไฟล์ mp3 ที่เข้ารหัสแบบ bitrate ไม่คงที่ (ใช้ได้เมื่อเปิดใช้ตัวเล่นเพลงที่มากับโปรแกรมเท่านั้น)</string>
+
+    <string name="opt_sliderborders_title">วาดเส้นขอบ Slider</string>
+
+    <string name="opt_sliderborders_summary">วาดเส้นขอบตามแนวรางของ slider ปิดตัวเลือกนี้เพื่อเพิ่มความเร็วในการประมวลผล</string>
+
+    <string name="opt_complexanimations_title">เอฟเฟคต์ภาพระดับสูง</string>
+
+    <string name="opt_complexanimations_summary">เปิดใช้เอฟเฟคต์กราฟิกระดับสูง (เช่น slider ยืดออก) ปิดตัวเลือกนี้เพื่อเพิ่มความเร็วในการประมวลผล</string>
+
+    <string name="opt_other_title">อื่นๆ</string>
+
+    <string name="opt_multitouch_title">Multi-touch</string>
+
+    <string name="opt_multitouch_summary">เปิดการรับค่าแบบระบบสัมผัสหลายจุด (multi-touch) บนเครื่องที่รองรับ</string>
+
+    <string name="opt_offsetscreen_title">ตั้งค่า offset</string>
+
+    <string name="opt_offsetscreen_summary"></string>
+
+    <string name="opt_oggoffset_title">OGG offset</string>
+
+    <string name="opt_oggoffset_summary">ตั้งค่า offset เพิ่มเติมสำหรับเพลงที่เป็นไฟล์ .ogg</string>
+
+    <string name="opt_pauseoffset_title">Pause offset</string>
+
+    <string name="opt_pauseoffset_summary">ตั้งค่า offset ที่จะเพิ่มเข้ามาหลังจากที่คุณหยุดเกมแล้วกลับมาเริ่มเล่นต่อ ป้องกันไม่ให้การกะจังหวะเสีย</string>
+
+    <string name="opt_musicpreview_title">เล่นตัวอย่างเพลง</string>
+
+    <string name="opt_musicpreview_summary">เล่นตัวอย่างเพลงของ beatmap ที่คุณเลือก</string>
+
+    <string name="opt_playername_title">ชื่อผู้เล่น</string>
+
+    <string name="opt_playername_summary">ชื่อผู้เล่นปัจจุบัน</string>
+
+    <string name="opt_showcursor_title">แสดงเคอร์เซอร์</string>
+
+    <string name="opt_showcursor_summary">แสดงเคอร์เซอร์ข้างใต้นิ้วในระหว่างเล่น</string>
+
+    <string name="opt_clearprops_title">ล้างการตั้งค่าเฉพาะ beatmap</string>
+    <string name="opt_clearprops_summary">บังคับล้างการตั้งค่าเฉพาะของแต่ละ beatmap (เช่น ค่า offset เฉพาะ beatmap)</string>
+</resources>

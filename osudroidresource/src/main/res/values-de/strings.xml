@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_error">Fehler: %s</string>
+    <string name="message_error_createdir">Kann nicht %s erstellen</string>
+    <string name="message_error_multitouch">Multi-Touch wird auf deinem Gerät nicht unterstützt</string>
+    <string name="message_error_audio">Fehlerhaftes Initialisieren des Liedes. Bitte starte das Lied neu</string>
+    <string name="message_error_sdcard">Deine SD-Karte kann nicht gefunden werden</string>
+    <string name="message_error_sdcardread">Deine SD-Karte ist schreibgeschützt</string>
+    <string name="message_error_open">Kann %s nicht öffnen</string>
+    <string name="message_error_mapmode">Fehlerhafter Map-Mode: %s</string>
+    <string name="message_error_connect">Es konnte keine Verbindung zum Server aufgebaut werden</string>
+    <string name="message_error_connectlimit">Das Limit der Verbindungsfehler wurde überschritten</string>
+    <string name="message_error_download">Kann %s nicht downloaden</string>
+    
+    <string name="message_standardplayer">Wechseln zum Standard-Player</string>
+    <string name="message_connecting">Verbinde zum Server...</string>
+    <string name="message_downloaded">%s wurde erfolgreich heruntergeladen!</string>
+ 
+    <string name="message_lib_update">Updaten der Beatmap-Bibliothek...</string>
+    <string name="message_lib_caching">Caching der Bibliothek... Dieser Vorgang kann mehrere Minuten in Anspruch nehmen</string>
+    <string name="message_lib_complete">Caching abgeschlossen. Es wurden %d Beatmaps gefunden</string>
+    <string name="message_lib_cleared">Cache gelöscht</string>
+    <string name="message_lib_importing">Importiere Beatmap...</string>
+    <string name="message_lib_importing_several">Es wurden %s archivierte Beatmaps gefunden. Importiere...</string>
+    <string name="message_lib_imported">\"%s\" wurde erfolgreich importiert!</string>
+
+
+    <string name="dialog_playername_title">Spielernamen eingeben</string>
+    <string name="dialog_playername_message">Gebe deinen Namen ein. Deine Highscores werden unter diesem verfügbar sein.</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Abbrechen</string>
+    <string name="dialog_search_title">Suche</string>
+    <string name="dialog_search_message">Bitte gebe deine Suchanfrage ein</string>
+    
+        <string name="menu_score" formatted="false">Score: %s (%dx)</string>
+        <string name="menu_creator">Gemappt von: %s</string>
+        <string name="menu_mod_back">Zurück</string>
+        <string name="menu_mod_title">Modauswahl</string>
+        <string name="menu_mod_multiplier">Score Multiplier %.2fx</string>
+        
+        <string name="menu_properties_title">Songeinstellungen</string>
+        <string name="menu_properties_offset">Song-Offset:</string>
+        <string name="menu_properties_tofavs">Zu den Favoriten hinzufügen</string>
+        <string name="menu_properties_fromfavs">Entferne von deinen Favoriten</string>
+        
+        <string name="menu_search_title">Suchoptionen</string>
+        <string name="menu_search_filter">Suche nach:</string>
+        <string name="menu_search_sort">Sortiere nach:</string>
+        <string name="menu_search_sort_title">Titel</string>
+        <string name="menu_search_sort_date">Datum</string>
+        <string name="menu_search_sort_creator">Ersteller</string>
+        <string name="menu_search_sort_artist">Mapper</string>
+        <string name="menu_search_favsenabled">Favoritenansicht: aktiv</string>
+        <string name="menu_search_favsdisabled">Favoritenansicht: ausgeschaltet</string>
+        
+        <string name="downloader_page" formatted="false">Seite %d von %d</string>
+        <string name="downloader_nomaps">Keine Beatmaps gefunden</string>
+
+
+    <!-- Crash -->
+    <string name="crash">Sorry, das Spiel wird beendet</string>
+    <string name="app_run_code_error">Es sind fehler aufgetreten</string>
+    <string name="osu_parser_error">Ein Analysefehler</string>
+    <string name="require_storage_permission">Das Spiel wird nicht ohne Speicherberechtigung ausgeführt, bitte aktivieren es manuell</string>
+
+    <string name="update_dialog_title">Neue Version ist Verfügbar</string>
+    <string name="update_dialog_button_confirm">Update Nun</string>
+    <string name="update_dialog_button_later">Nicht jetzt</string>
+    <string name="update_info_checking">Suche nach Updates, bitte warten</string>
+    <string name="update_info_runs_latest">Du bist auf der neusten Version</string>
+
+    <string name="test_ed_storyboard">Storyboard anzeigen (experiment)</string>
+</resources>
+ 
+ 

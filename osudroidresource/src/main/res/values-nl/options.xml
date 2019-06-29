@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>Hoog</item>
+        <item>Gemiddeld</item>
+        <item>Laag</item>
+        <item>Uitgeschakeld</item>
+    </string-array>
+    <string name="opt_graphics">Grafisch</string>
+    <string name="opt_beatmaps">Bibliotheek</string>
+    <string name="opt_bg_title">Achtergrond kwaliteit</string>
+    <string name="opt_bg_summary">Verlaag de kwaliteit van de achtergrond afbeelding om het spel soepeler te spelen</string>
+    <string name="opt_skin_title">Beatmap thema\'s</string>
+    <string name="opt_skin_summary">Laad beatmap-specifieke thema\'s indien beschikbaar</string>
+    <string name="opt_largeimages_title">Aftellen</string>
+    <string name="opt_largeimages_summary">Tel af voor een indeling die dit ingeschakeld heeft</string>
+    <string name="opt_sound_volume_title">Noot geluid volume</string>
+    <string name="opt_sound_volume_summary">Volume van geraakte noten (0-100)</string>
+    <string name="opt_offset_title">Globale tijdsverschil</string>
+    <string name="opt_offset_summary">Tijdsverschil voor muziek in ms (Positieve waarde is eerder)</string>
+    <string name="opt_special">Speciaal</string>
+    <string name="opt_deleteosz_title">Verwijder .osz</string>
+    <string name="opt_deleteosz_summary">Verwijder .osz bestanden na importeren</string>
+    <string name="opt_directory_title">Beatmap locatie</string>
+    <string name="opt_directory_summary">Pad naar de map met beatmaps (standaard: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">Verwijder de bibliotheek cache</string>
+    <string name="opt_clear_summary">Geforceerd verwijderen van de bibliotheek cache</string>
+    <string name="opt_doublesound_title">Dubbele noot geluid</string>
+    <string name="opt_doublesound_summary">Maak noot geluiden meer als de originele osu! geluiden</string>
+    <string name="opt_sound">Geluid</string>
+    <string name="opt_fps_title">Toon FPS</string>
+    <string name="opt_fps_summary">Toon de frames per seconde tijdens het spelen</string>
+    <string name="opt_lowtextures_title">Verlaag object afbeelding kwaliteit</string>
+    <string name="opt_lowtextures_summary">Verlaag het detail van object afbeeldingen. waneer dit is uitgeschakeld gebruikt osu!droid HD-kwaliteit afbeeldingen.</string>
+    <string name="opt_nativeplayer_title">Gebruik ingebouwde speler</string>
+    <string name="opt_nativeplayer_summary">Gebruik ingebouwde speler voor nauwkeurigere timing (ondersteund geen .ogg bestanden)</string>
+    <string name="opt_bgbrightness_title">Achtergrond helderheid</string>
+    <string name="opt_bgbrightness_summary">Verander de helderheid van achtergrond afbeeldingen</string>
+    <string name="opt_vbroffset_title">VBR tijdsverschil</string>
+    <string name="opt_vbroffset_summary">Tijdsverschil voor mp3 bestanden gecodeerd met een variabele bitrate (alleen ingebouwde speler)</string>
+    <string name="opt_sliderborders_title">Teken slider randen</string>
+    <string name="opt_sliderborders_summary">Teken randen langs slider paden.
+schakel dit uit voor een soepeler spel</string>
+    <string name="opt_complexanimations_title">Complexe effecten</string>
+    <string name="opt_complexanimations_summary">
+Gebruik uitgebreide grafische effecten (bv. slingerende sliders). Schakel dit uit voor een soepeler spel</string>
+    <string name="opt_other_title">Overige</string>
+    <string name="opt_multitouch_title">Multi-touch</string>
+    <string name="opt_multitouch_summary">Gebruik multi-touch invoer als dit beschikbaar is</string>
+    <string name="opt_offsetscreen_title">Stel tijdsverschillen in</string>
+    <string name="opt_offsetscreen_summary"></string>
+    <string name="opt_oggoffset_title">OGG verschil</string>
+    <string name="opt_oggoffset_summary">extra tijdsverschil voor .ogg bestanden</string>
+    <string name="opt_pauseoffset_title">Pauze verschil</string>
+    <string name="opt_pauseoffset_summary">Tijd bijgeteld elke keer dat je het spel hervat</string>
+    <string name="opt_musicpreview_title">Preview muziek</string>
+    <string name="opt_musicpreview_summary">Speel muziek wanneer je een beatmap selecteert</string>
+    <string name="opt_playername_title">Speler naam</string>
+    <string name="opt_playername_summary">Naam van de locale speler</string>
+    <string name="opt_showcursor_title">Toon cursor</string>
+    <string name="opt_showcursor_summary">Toon een cursor onder je vingers tijdens het spelen</string>
+
+	<string name="opt_clearprops_title"> Verwijder beatmap-specifieke data</string>
+	<string name="opt_clearprops_summary">Forceer het verwijderen van alle beatmap-specifieke gegevens (bv. per-beatmap tijdsverschillen)</string>
+</resources>
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="message_error">เกิดข้อผิดพลาด: %s</string>
+
+    <string name="message_error_createdir">ไม่สามารถสร้าง %s ได้</string>
+
+    <string name="message_error_multitouch">อุปกรณ์ของคุณไม่รองรับการสัมผัสหลายจุด (Multi-touch)</string>
+
+    <string name="message_error_audio">ไม่สามารถโหลดเพลงได้ โปรดเริ่มเพลงใหม่อีกครั้ง</string>
+
+    <string name="message_error_sdcard">ยังไม่ได้ทำการ mount การ์ดความจำภายนอก</string>
+
+    <string name="message_error_sdcardread">การ์ดความจำภายนอกเป็นแบบ read only</string>
+
+    <string name="message_error_open">ไม่สามารถเปิด %s ได้</string>
+
+    <string name="message_error_mapmode">โหมดของ beatmap ไม่ถูกต้อง: %s</string>
+
+    <string name="message_error_connect">ไม่สามารถเชื่อมต่อกับเซอร์เวอร์</string>
+
+    <string name="message_error_connectlimit">ไม่สามารถเชื่อมต่อได้ภายในจำนวนครั้งที่กำหนดไว้</string>
+
+    <string name="message_error_download">ไม่สามารถดาวน์โหลด %s ได้</string>
+
+    
+
+    <string name="message_standardplayer">กำลังเปลี่ยนไปใช้ตัวเล่นเพลงมาตรฐาน</string>
+
+    <string name="message_connecting">กำลังเชื่อมต่อกับเซอร์เวอร์...</string>
+
+    <string name="message_downloaded">ดาวน์โหลด %s เรียบร้อยแล้ว!</string>
+
+
+
+    <string name="message_lib_update">กำลังอัพเดทรายชื่อ beatmap...</string>
+
+    <string name="message_lib_caching">กำลังสร้าง cache ของรายชื่อ beatmap... โปรดรอสักครู่</string>
+
+    <string name="message_lib_complete">สร้าง cache เรียบร้อยแล้ว พบ beatmap จำนวน %d beatmap</string>
+
+    <string name="message_lib_cleared">ลบ cache เรียบร้อยแล้ว</string>
+
+    <string name="message_lib_importing">กำลัง import beatmap...</string>
+
+    <string name="message_lib_importing_several">พบ beatmap ที่ถูกเก็บไว้ %s beatmap กำลัง import ลงเครื่อง...</string>
+
+    <string name="message_lib_imported">Import \"%s\"  เรียบร้อยแล้ว!</string>
+
+    
+    
+
+    <string name="dialog_playername_title">โปรดระบุชื่อผู้เล่น</string>
+
+    <string name="dialog_playername_message">โปรดระบุชื่อผู้เล่นสำหรับบันทึกประวัติคะแนน</string>
+
+    <string name="dialog_ok">ตกลง</string>
+
+    <string name="dialog_cancel">ยกเลิก</string>
+
+    <string name="dialog_search_title">ค้นหา</string>
+
+    <string name="dialog_search_message">โปรดระบุคำค้น</string>
+
+
+    
+   	<string name="menu_score" formatted="false">คะแนน: %s (%dx)</string>
+
+   	<string name="menu_creator">ผู้แต่ง beatmap: %s</string>
+
+   	<string name="menu_mod_back">ย้อนกลับ</string>
+
+   	<string name="menu_mod_title">เลือกเอฟเฟคต์พิเศษ</string>
+
+   	<string name="menu_mod_multiplier">ตัวคูณคะแนน %.2fx</string>
+
+        	<string name="menu_mod_reset">ปิดเอฟเฟคต์พิเศษทั้งหมด</string>
+
+   	<string name="menu_properties_title">ข้อมูลเพลง</string>
+
+   	<string name="menu_properties_offset">offset:</string>
+
+   	<string name="menu_properties_tofavs">เพิ่มเข้า Favorites</string>
+
+   	<string name="menu_properties_fromfavs">เอาออกจาก Favorites</string>
+
+        	<string name="menu_properties_delete">ลบ beatmap</string>
+        	<string name="menu_properties_delete_confirm">ต้องการลบ beatmap นี้หรือไม่?</string>
+
+   	<string name="menu_search_title">ตัวเลือกค้นหา</string>
+
+   	<string name="menu_search_filter">ค้นหา:</string>
+
+   	<string name="menu_search_sort">เรียงตาม:</string>
+
+   	<string name="menu_search_sort_title">ชื่อเพลง</string>
+
+   	<string name="menu_search_sort_date">วันที่</string>
+
+   	<string name="menu_search_sort_creator">ผู้แต่ง beatmap</string>
+
+   	<string name="menu_search_sort_artist">ศิลปิน</string>
+
+   	<string name="menu_search_favsenabled">Favorites เท่านั้น: เปิด</string>
+
+   	<string name="menu_search_favsdisabled">Favorites เท่านั้น: ปิด</string>
+
+   	
+   	
+	<string name="downloader_page" formatted="false">หน้าที่ %d จาก %d หน้า</string>
+
+   	<string name="downloader_nomaps">ไม่พบ beatmap</string>
+	
+</resources>

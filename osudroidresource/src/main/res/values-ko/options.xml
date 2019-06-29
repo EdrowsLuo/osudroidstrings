@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>높음</item>
+        <item>중간</item>
+        <item>낮음</item>
+        <item>해제</item>
+    </string-array>
+    <string-array name="error_meter_display_names">
+        <item>항상</item>
+        <item>리플레이할 때만</item>
+        <item>해제</item>
+    </string-array>
+
+    <string-array name="metronome_switch_names">
+        <item>해제</item>
+        <item>나이트코어일 때만</item>
+        <item>항상</item>
+    </string-array>
+
+    <string-array name="spinner_style_names">
+        <item>모던</item>
+        <item>클래식</item>
+    </string-array>
+
+    <string name="opt_onlineOpt">계정 설정</string>
+    <string name="opt_onlineOpt_normal">온라인 설정</string>
+    <string name="opt_onlineOpt_user">사용자 설정</string>
+    <string name="opt_online">온라인</string>
+    <string name="opt_offline">오프라인 설정</string>
+
+    <string name="opt_stayonline_title">자동 로그인</string>
+    <string name="opt_stayonline_summary">등록된 계정으로 자동 로그인 합니다.</string>
+    <string name="opt_login_title">아이디</string>
+    <string name="opt_login_summary">계정 아이디</string>
+    <string name="opt_password_title">비밀번호</string>
+    <string name="opt_password_summary">계정 비밀번호</string>
+    <string name="opt_register_title">회원가입</string>
+    <string name="opt_register_summary">온라인 회원가입 (한 기기당 하나의 계정만 생성 가능합니다!)</string>
+    <string name="opt_loadavatar_title">아바타 불러오기</string>
+    <string name="opt_loadavatar_summary">Wi-Fi에 연결되어있지 않아도 아바타를 불러옵니다.</string>
+
+    <string name="opt_error_meter_display_title">판정 오차</string>
+    <string name="opt_error_meter_display_summary">화면 하단에 표시합니다.</string>
+    <string name="opt_spinner_style_title">스피너 스타일</string>
+    <string name="opt_spinner_style_summary">스피너 스타일을 변경합니다.</string>
+    <string name="opt_combo_burst_title">콤보 버스트</string>
+    <string name="opt_combo_burst_summary">콤보 버스트를 표시합니다.</string>
+    <string name="opt_cursor_size">커서 사이즈</string>
+    <string name="opt_cursor_size_summary">커서 사이즈를 조정합니다. (25 - 300, 기본: 50)</string>
+    <string name="opt_bursts_title">버스트 효과</string>
+    <string name="opt_bursts_summary">서클이나 슬라이더를 누를 때 버스트 효과를 표시합니다.</string>
+    <string name="opt_hitlighting_title">히트 라이트닝</string>
+    <string name="opt_hitlighting_summary">친 노트 뒤에 게임 필드를 밝게 비추는 희미한 빛을 넣습니다.</string>
+    <string name="opt_particles_title">파티클 효과</string>
+    <string name="opt_particles_summary">커서 꼬리와 같은 파티클 효과를 표시합니다.</string>
+    <string name="opt_dither_title">디더링(Dither)</string>
+    <string name="opt_dither_summary">하드웨어 디더링을 사용합니다. (사진 처리)</string>
+    <string name="opt_demoSpline_title">정밀한 슬라이더 (데모 스플라인)</string>
+    <string name="opt_demoSpline_summary">다른 스플라인 알고리즘으로 슬라이더를 표시합니다. (캣멀롬 슬라이더를 사용한 옛날 비트맵에서 오류를 일으킬 수 있습니다.)</string>
+    <string name="opt_combo_colors_title">콤보 색상</string>
+    <string name="opt_combo_colors_summary">사용자 지정 콤보 색상을 사용합니다.</string>
+
+    <string name="opt_bgm_volume_title">음악 볼륨</string>
+    <string name="opt_bgm_volume_summary">음악의 볼륨 (0-100).</string>
+    <string name="opt_metronome_switch_title">메트로놈</string>
+    <string name="opt_metronome_switch_summary">메트로놈 효과음을 추가합니다.</string>
+    <string name="opt_sound_title">비트맵 고유 히트 사운드 사용</string>
+    <string name="opt_sound_summary">가능한 한 비트맵 고유 히트 사운드를 사용합니다.</string>
+
+    <string name="force_romanized">로마자 표기</string>
+    <string name="force_romanized_summary">인코딩 오류로 내용을 읽을 수 없는 경우, 로마자로 표기합니다.</string>
+
+    <string name="opt_advanced">고급</string>
+    <string name="opt_advanced_title">고급</string>
+    <string name="opt_corepath_title">기본 경로</string>
+    <string name="opt_corepath_summary">osu!droid 기본 경로(기본: /sdcard/osu!droid)</string>
+    <string name="opt_skinpath_title">스킨 경로</string>
+    <string name="opt_skinpath_summary">스킨 파일을 포함하는 경로 (기본: /sdcard/osu!droid/Skin)</string>
+    <string name="opt_syncmusic_title">저지연 동기화 (Low-latency)</string>
+    <string name="opt_hide_navibar_title">네비게이션 바</string>
+    <string name="opt_hide_navibar_summary">플레이 중에 하단 네비게이션 바를 숨깁니다.</string>
+    <string name="opt_lowdelay_title">입력 딜레이</string>
+    <string name="opt_lowdelay_summary">입력 딜레이를 줄입니다. 불편하다면 해제하세요.</string>
+
+    <string name="opt_syncmusic_summary">기기가 저지연 오디오를 지원하지 않는다면 해제하십시오.</string>
+    <string name="opt_fix_frame_offset_title">오프셋 고정</string>
+    <string name="opt_fix_frame_offset_summary">가능한 한 입력과 프레임 사이에 오프셋을 고정합니다.</string>
+
+    <string name="opt_update_title">새 버전 확인</string>
+    <string name="opt_update_summary">새로운 업데이트가 있는지 확인합니다.</string>
+
+
+    <string name="opt_graphics">그래픽설정</string>
+    <string name="opt_beatmaps">라이브러리</string>
+    <string name="opt_bg_title">배경화면 품질</string>
+    <string name="opt_bg_summary">배경화면의 품질을 낮추면 좀 더 좋은 성능을 보여줍니다.</string>
+    <string name="opt_skin_title">비트맵 스킨</string>
+    <string name="opt_skin_summary">가능한 한 비트맵 고유 스킨을 사용합니다.</string>
+    <string name="opt_largeimages_title">카운트다운</string>
+    <string name="opt_largeimages_summary">활성화시 맵의 시작부분에서 카운트다운을 표시합니다.</string>
+    <string name="opt_sound_volume_title">타격음 음량</string>
+    <string name="opt_sound_volume_summary">타격음의 음량 (0-100)</string>
+    <string name="opt_offset_title">전체적인 오프셋</string>
+    <string name="opt_offset_summary">노래 오프셋 단위:ms (클수록 노래가 맵보다 빨리 시작됩니다.)</string>
+    <string name="opt_special">특별옵션</string>
+    <string name="opt_deleteosz_title">.osz 파일 삭제</string>
+    <string name="opt_deleteosz_summary">다운받은 .osz파일에서 파일들 추출이 끝난 뒤 .osz 파일을 삭제합니다.</string>
+    <string name="opt_scandownload_summary">Download 폴더에서 비트맵을 스캔합니다.</string>
+    <string name="opt_scandownload_title">Download 스캔</string>
+    <string name="opt_directory_title">비트맵 경로</string>
+    <string name="opt_directory_summary">비트맵을 포함하고 있는 폴더 경로를 설정해주세요. (기본경로: /sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">라이브러리 캐시 초기화</string>
+    <string name="opt_clear_summary">라이브러리 캐시를 강제로 초기화합니다.</string>
+    <string name="opt_doublesound_title">이중 타격음</string>
+    <string name="opt_doublesound_summary">타격음을 좀 더 원래의 osu!와 비슷하게 만듭니다.</string>
+    <string name="opt_sound">사운드</string>
+    <string name="opt_fps_title">프레임 표시</string>
+    <string name="opt_fps_summary">게임 플레이를 하는동안 프레임을 표시합니다.</string>
+    <string name="opt_lowtextures_title">텍스쳐 품질 감소</string>
+    <string name="opt_lowtextures_summary">전체적으로 게임 텍스쳐의 품질을 감소시킵니다. 비활성화시, osu!droid 는 HD품질의 텍스쳐들을 사용합니다.</string>
+    <string name="opt_nativeplayer_title">내장된 재생기 사용</string>
+    <string name="opt_nativeplayer_summary">좀 더 정확한 타이밍을 위해 내장된 재생기를 사용합니다 (.ogg 파일 확장자를 지원하지 않습니다.)</string>
+    <string name="opt_bgbrightness_title">배경화면 밝기</string>
+    <string name="opt_bgbrightness_summary">배경화면 이미지의 밝기를 변경합니다.</string>
+    <string name="opt_vbroffset_title">VBR 오프셋</string>
+    <string name="opt_vbroffset_summary">가변 비트레이트로 인코딩되어있는 mp3 파일을 위한 오프셋입니다. (내장된 재생기 전용)</string>
+    <string name="opt_sliderborders_title">슬라이더 경계 그리기</string>
+    <string name="opt_sliderborders_summary">슬라이더 경로를 따라 경계를 그립니다. 비활성화시 성능이 향상됩니다.</string>
+    <string name="opt_complexanimations_title">복잡한 효과</string>
+    <string name="opt_complexanimations_summary">고급 그래픽 효과를 활성화 합니다 (예. 꿈틀대는 슬라이더). 비활성화시 더나은 성능을 보여줍니다.</string>
+    <string name="opt_other_title">기타 옵션들</string>
+    <string name="opt_multitouch_title">멀티터치</string>
+    <string name="opt_multitouch_summary">기기에서 멀티터치를 지원하면 멀티터치를 활성화 합니다.</string>
+    <string name="opt_offsetscreen_title">오프셋 설정들</string>
+    <string name="opt_offsetscreen_summary"></string>
+    <string name="opt_oggoffset_title">OGG 오프셋</string>
+    <string name="opt_oggoffset_summary">.ogg 확장자의 노래파일을 위한 추가옵션으로서 .ogg 파일의 오프셋을 정합니다.</string>
+    <string name="opt_pauseoffset_title">정지 오프셋</string>
+    <string name="opt_pauseoffset_summary">노래를 일시정지 후 재시작시 오프셋을 추가합니다.</string>
+    <string name="opt_musicpreview_title">음악 미리 듣기</string>
+    <string name="opt_musicpreview_summary">비트맵을 선택할 시, 해당 비트맵 음악을 미리 듣습니다.</string>
+    <string name="opt_playername_title">플레이어 이름</string>
+    <string name="opt_playername_summary">오프라인 아이디</string>
+    <string name="opt_showcursor_title">커서 보이기</string>
+    <string name="opt_showcursor_summary">게임플레이를 하는동안 손가락 아래에 커서를 보이게 합니다.</string>
+    <string name="opt_show_first_approach_circle_title">첫 노트의 어프로치 서클 표시</string>
+    <string name="opt_show_first_approach_circle_summary">히든 모드에서도 첫번째 노트는 어프로치 서클을 표시합니다.</string>
+
+    <string name="opt_clearprops_title">맵 전용 데이터 초기화</string>
+    <string name="opt_clearprops_summary">맵 전용 데이터를 초기화합니다. (예. 각맵들의 오프셋)</string>
+</resources>
+

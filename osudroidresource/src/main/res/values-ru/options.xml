@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>Высокое</item>
+        <item>Среднее</item>
+        <item>Низкое</item>
+        <item>Не показывать</item>
+    </string-array>
+    <string-array name="bg_quality_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>0</item>
+    </string-array>
+    <string name="opt_graphics">Графика</string>
+    <string name="opt_beatmaps">Библиотека</string>
+    <string name="opt_bg_title">Качество фона</string>
+    <string name="opt_bg_summary">Уменьшите качество фонового рисунка для лучшей производительности</string>
+    <string name="opt_skin_title">Скины песен</string>
+    <string name="opt_skin_summary">Загружать встроенные в песню скины, если возможно</string>
+    <string name="opt_largeimages_title">Отсчет</string>
+    <string name="opt_largeimages_summary">Показывать отсчет в начале песни, если это задано в ее настройках</string>
+    <string name="opt_sound_volume_title">Грокость звуков попадания</string>
+    <string name="opt_sound_volume_summary">Задается в процентах (0-100)</string>
+    <string name="opt_offset_title">Общий сдвиг</string>
+    <string name="opt_offset_summary">Сдвиг музыки в миллисекундах</string>
+    <string name="opt_special">Special</string>
+    <string name="opt_taiko_title">Load T-Aiko! songs</string>
+    <string name="opt_taiko_summary">Load songs also from T-Aiko song directory</string>
+    <string name="opt_deleteosz_title">Удалять .osz</string>
+    <string name="opt_deleteosz_summary">Удалять .osz файлы после импорта</string>
+    <string name="opt_directory_title">Путь хранения песен</string>
+    <string name="opt_directory_summary">Путь к директории, в которой находятся песни (по умлочанию: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">Очистить кеш библиотеки</string>
+    <string name="opt_clear_summary">Принудительно очистить кеш библиотеки</string>
+    <string name="opt_doublesound_title">Составные звуки попадания</string>
+    <string name="opt_doublesound_summary">Звуки попадания будут проигрываться как в оригинальном osu!</string>
+    <string name="opt_sound">Звук</string>
+    <string name="opt_fps_title">Показывать FPS</string>
+    <string name="opt_fps_summary">Показывать количество кадров в секунду во время игры</string>
+    <string name="opt_lowtextures_title">Сниженное качество текстур</string>
+    <string name="opt_lowtextures_summary">Снижение качества всех текстур. По умолчанию используются текстуры HD-качества</string>
+    <string name="opt_nativeplayer_title">Использовать встроенный плеер</string>
+    <string name="opt_nativeplayer_summary">Использовать встроенный плеер для лучшего тайминга (не поддерживает .ogg файлы)</string>
+    <string-array name="bg_brightness_names">
+        <item>100%</item>
+        <item>80%</item>
+        <item>60%</item>
+        <item>40%</item>
+        <item>20%</item>
+    </string-array>
+    <string-array name="bg_brightness_values">
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+        <item>40</item>
+        <item>20</item>
+    </string-array>
+    <string name="opt_bgbrightness_title">Яркость фона</string>
+    <string name="opt_bgbrightness_summary">Изменить яркость фонового рисунка</string>
+    <string name="opt_vbroffset_title">Сдвиг VBR</string>
+    <string name="opt_vbroffset_summary">Дополнительный сдвиг для mp3 с переменным битрейтом (только для втроенного плеера)</string>
+    <string name="opt_sliderborders_title">Рисовать контуры слайдеров</string>
+    <string name="opt_sliderborders_summary">Риовать контур для пути слайдера. Отключите для лучшей производительности</string>
+    <string name="opt_complexanimations_title">Сложные эффекты</string>
+    <string name="opt_complexanimations_summary">Включение дополнительных графических эффектов и анимаций. Отключите для лучшей производительности</string>
+    <string name="opt_other_title">Разное</string>
+    <string name="opt_multitouch_title">Мульти-тач</string>
+    <string name="opt_multitouch_summary">Использовать мульти-тач, если он поддерживается устройством</string>
+    <string name="opt_offsetscreen_title">Изменить сдвиги музыки</string>
+    <string name="opt_offsetscreen_summary"></string>
+    <string name="opt_oggoffset_title">Сдвиг для OGG</string>
+    <string name="opt_oggoffset_summary">Дополнительный сдвиг для файлов в .ogg формате</string>
+    <string name="opt_pauseoffset_title">Сдвиг после паузы</string>
+    <string name="opt_pauseoffset_summary">Свиг, добавляемый каждый раз, когда вы ставите игру на паузу</string>
+    <string name="opt_musicpreview_title">Предпросмотр песни</string>
+    <string name="opt_musicpreview_summary">Проигрывать музыку при выборе песни в меню</string>
+    <string name="opt_playername_title">Имя игрока</string>
+    <string name="opt_playername_summary">Имя локального пользователя</string>
+    <string name="opt_showcursor_title">Показывать курсор</string>
+    <string name="opt_showcursor_summary">Показывать курсор на месте нажатия во время игры</string>
+
+	<string name="opt_clearprops_title">Очистить настройки песен</string>
+	<string name="opt_clearprops_summary">Принудительно очистить настройки, устанавливаемые отдельно для каждой песни</string>
+</resources>

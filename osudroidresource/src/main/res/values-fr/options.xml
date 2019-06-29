@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>Haut</item>
+        <item>Moyen</item>
+        <item>Bas</item>
+        <item>Désactivé</item>
+    </string-array>
+    <string name="opt_graphics">Graphismes</string>
+    <string name="opt_beatmaps">Librairie</string>
+    <string name="opt_bg_title">Qualité du fond</string>
+    <string name="opt_bg_summary">Réduire la qualité du fond pour de meilleurs performances.</string>
+    <string name="opt_skin_title">Beatmap skins</string>
+    <string name="opt_skin_summary">Utiliser le skin de la beatmap si disponible.</string>
+    <string name="opt_largeimages_title">Compte-à-Rebours</string>
+    <string name="opt_largeimages_summary">Montre le compte-à-rebours au début de la beatmap si disponible.</string>
+    <string name="opt_sound_volume_title">Volume des clics</string>
+    <string name="opt_sound_volume_summary">Volume des clics (0-100)</string>
+    <string name="opt_offset_title">Compensation globale</string>
+    <string name="opt_offset_summary">Décalage musical en ms (valeur positive signifie plus tot)</string>
+    <string name="opt_special">Special</string>
+    <string name="opt_deleteosz_title">Supprimer .osz</string>
+    <string name="opt_deleteosz_summary">Supprimer les fichiers .osz après importation</string>
+    <string name="opt_directory_title">Emplacement des beatmaps</string>
+    <string name="opt_directory_summary">Chemin vers l\'emplacement des beatmaps (default: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">Vider le cache de la librairie</string>
+    <string name="opt_clear_summary">Forcer le vidage du cache de la librairie.</string>
+    <string name="opt_doublesound_title">Son de double clic</string>
+    <string name="opt_doublesound_summary">Fait que les sons ressemble plus à ceux de osu!</string>
+    <string name="opt_sound">Son</string>
+    <string name="opt_fps_title">Afficher les IPS</string>
+    <string name="opt_fps_summary">Afficher le taux d\'images par secondes en jeu.</string>
+    <string name="opt_lowtextures_title">Réduire la qualité des textures</string>
+    <string name="opt_lowtextures_summary">Réduire la qualité générale des textures. Si désactivé, osu!droid utilisera des textures HD.</string>
+    <string name="opt_nativeplayer_title">Utiliser le player inclus</string>
+    <string name="opt_nativeplayer_summary">Utiliser le player inclus pour un meilleur timing (ne supporte pas les fichiers .ogg)</string>
+    <string name="opt_bgbrightness_title">Lumiosité du fond</string>
+    <string name="opt_bgbrightness_summary">Change la luminosité de l\'image de fond.</string>
+    <string name="opt_vbroffset_title">Compensation VBR</string>
+    <string name="opt_vbroffset_summary">Décalage pour les fichiers mp3 avec bitrate variable (player inclus seulement)</string>
+    <string name="opt_sliderborders_title">Dessiner les bords des sliders</string>
+    <string name="opt_sliderborders_summary">Dessiner les bords des sliders pendant l\'utilisation. Désactiver pour de meilleures performances</string>
+    <string name="opt_complexanimations_title">Effets complexes</string>
+    <string name="opt_complexanimations_summary">Activer les effets avancés (eg. sliders circulaires). Désactiver pour de meilleures performances</string>
+    <string name="opt_other_title">Divers</string>
+    <string name="opt_multitouch_title">Multi-touche</string>
+    <string name="opt_multitouch_summary">Activer le multi-touche si disponible.</string>
+    <string name="opt_offsetscreen_title">Configurer la compensation</string>
+    <string name="opt_offsetscreen_summary"></string>
+    <string name="opt_oggoffset_title">Compensation OGG</string>
+    <string name="opt_oggoffset_summary">Décalage additionnel pour le format .ogg</string>
+    <string name="opt_pauseoffset_title">Compensation en pause</string>
+    <string name="opt_pauseoffset_summary">La compensation est ajouté quand la partie est reprise.</string>
+    <string name="opt_musicpreview_title">Préentendre la musique</string>
+    <string name="opt_musicpreview_summary">Joue la musique de la beatmap sélectionnée</string>
+    <string name="opt_playername_title">Nom du joueur</string>
+    <string name="opt_playername_summary">Nom du joueur local</string>
+    <string name="opt_showcursor_title">Montrer le curseur</string>
+    <string name="opt_showcursor_summary">Montrer le curseur en-dessous du doigt pendant le jeu.</string>
+
+    <string name="opt_clearprops_title">Effacer les données spécifiques des maps.</string>
+    <string name="opt_clearprops_summary">Forcer l\'effacements des données des maps (ex: décalage de la musique)</string>
+</resources>
+

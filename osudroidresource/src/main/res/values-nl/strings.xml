@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_error">Fout: %s</string>
+    <string name="message_error_createdir">Kan %s niet maken</string>
+    <string name="message_error_multitouch">Multitouch wordt niet ondersteund op dit apparaat</string>
+    <string name="message_error_audio">Kan het geluid niet initialiseren. Start het nummer AUB opnieuw</string>
+    <string name="message_error_sdcard">Externe geheugen is niet aangesloten</string>
+    <string name="message_error_sdcardread">Externe geheugen is alleen-lezen</string>
+    <string name="message_error_open">Kan %s niet openen</string>
+    <string name="message_error_mapmode">Ongeschikte indeling stand: %s</string>
+    <string name="message_error_connect">Kan geen verbinding maken met de server</string>
+    <string name="message_error_connectlimit">Limiet van verbindingsfouten bereikt</string>
+    <string name="message_error_download">Kan %s niet downloaden</string>
+    
+    <string name="message_standardplayer">Wisselen naar standaard speler</string>
+    <string name="message_connecting">Bezig met verbinden met de server...</string>
+    <string name="message_downloaded">%s Gedownload!</string>
+
+    <string name="message_lib_update">Bibliotheek aan het bijwerken...</string>
+    <string name="message_lib_caching">Bibliotheek aan het voorladen... Dit kan een paar minuten duren</string>
+    <string name="message_lib_complete">Voorladen voltooid. %d beatmaps gevonden</string>
+    <string name="message_lib_cleared">Cache gewist</string>
+    <string name="message_lib_importing">Beatmap aan het importeren...</string>
+    <string name="message_lib_importing_several">%s verpakte beatmaps gevonden. Importeren...</string>
+    <string name="message_lib_imported">\"%s\" is geimporteerd!</string>
+    
+    
+    <string name="dialog_playername_title">Voer je naam in</string>
+    <string name="dialog_playername_message">Voer je naam in. Deze wordt gebruikt voor scores.</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Anuleren</string>
+    <string name="dialog_search_title">Zoeken</string>
+    <string name="dialog_search_message">Voer een zoekopdracht in</string>
+    
+   	<string name="menu_score" formatted="false">Score: %s (%dx)</string>
+   	<string name="menu_creator">Maker: %s</string>
+   	<string name="menu_mod_back">Terug</string>
+   	<string name="menu_mod_title">Mod selectie</string>
+   	<string name="menu_mod_multiplier">Score Multiplier %.2fx</string>
+   	
+   	<string name="menu_properties_title">Nummer eigenschappen</string>
+   	<string name="menu_properties_offset">Nummer tijdsverschil:</string>
+   	<string name="menu_properties_tofavs">Aan favorieten toevoegen</string>
+   	<string name="menu_properties_fromfavs">Verwijder van favorieten</string>
+   	
+   	<string name="menu_search_title">Zoek opties</string>
+   	<string name="menu_search_filter">Zoek voor:</string>
+   	<string name="menu_search_sort">Sorteer naar:</string>
+   	<string name="menu_search_sort_title">Titel</string>
+   	<string name="menu_search_sort_date">Datum</string>
+   	<string name="menu_search_sort_creator">Maker</string>
+   	<string name="menu_search_sort_artist">Artiest</string>
+   	<string name="menu_search_favsenabled">Alleen favorieten: ingeschakeld</string>
+   	<string name="menu_search_favsdisabled">Alleen favorieten: uitgeschakeld</string>
+   	
+   	<string name="downloader_page" formatted="false">Pagina %d van %d</string>
+   	<string name="downloader_nomaps">Geen beatmaps gevonden</string>	
+   	
+   	<string name="menu_mod_reset">Reset alle mods</string>
+	<string name="menu_properties_delete">Verwijder beatmap</string>
+	<string name="menu_properties_delete_confirm">Weet je het zeker?</string>
+</resources>
+
+
+

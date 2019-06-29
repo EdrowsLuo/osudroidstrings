@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>Alta</item>
+        <item>Mediana</item>
+        <item>Baja</item>
+        <item>Deshabilitada</item>
+    </string-array>
+    <string name="opt_graphics">Gráficos</string>
+    <string name="opt_beatmaps">Librería</string>
+    <string name="opt_bg_title">Calidad de fondo</string>
+    <string name="opt_bg_summary">Reduzca la calidad de fondo para incrementar rendimiento</string>
+    <string name="opt_skin_title">Skins de beatmaps</string>
+    <string name="opt_skin_summary">Cargar Skins específicos de cada beatmap si se encuentra disponible</string>
+    <string name="opt_largeimages_title">Cuenta regresiva</string>
+    <string name="opt_largeimages_summary">Mostrar cuenta regresiva al principio de un mapa si lo tiene habilitado</string>
+    <string name="opt_sound_volume_title">Volúmen de golpes de sonido</string>
+    <string name="opt_sound_volume_summary">Volúmen de golpes de sonido (0-100)</string>
+    <string name="opt_offset_title">Offset global</string>
+    <string name="opt_offset_summary">Offset de la música en ms (valores positivos indican golpes más tempranos)</string>
+    <string name="opt_special">Especial</string>
+    <string name="opt_deleteosz_title">Eliminar .osz</string>
+    <string name="opt_deleteosz_summary">Eliminar archivos .osz después de importar</string>
+    <string name="opt_directory_title">Localización de beatmaps</string>
+    <string name="opt_directory_summary">Ruta al directorio conteniendo beatmaps (por defecto: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">Eliminar cache de librería</string>
+    <string name="opt_clear_summary">Forzar la eliminación del cache de librería</string>
+    <string name="opt_doublesound_title">Dobles sonidos de golpe</string>
+    <string name="opt_doublesound_summary">¡Haz que los sonidos se parezcan más a osu! original!</string>
+    <string name="opt_sound">Sonido</string>
+    <string name="opt_fps_title">Mostrar FPS</string>
+    <string name="opt_fps_summary">Muestra fotogramas por segundo (FPS) durante el juego</string>
+	<string name="opt_lowtextures_title">Reducir la calidad de texturas</string>
+    <string name="opt_lowtextures_summary">Reduce la calidad en general de las texturas del juego. Si se deshabilita, osu!droid utilizará texturas de alta calidad.</string>
+    <string name="opt_nativeplayer_title">Utilizar reproductor integrado</string>
+    <string name="opt_nativeplayer_summary">Utilizar reproductor integrado para mayor precisión de tiempo (no soporta archivos .ogg)</string>
+    <string name="opt_bgbrightness_title">Brillo de fondo</string>
+    <string name="opt_bgbrightness_summary">Cambia el brillo de la imagen de fondo</string>
+    <string name="opt_vbroffset_title">Offset de VBR</string>
+    <string name="opt_vbroffset_summary">Offset para mp3s encodificados con una tasa de bits (bitrate) variable (sólo reproductor integrado)</string>
+    <string name="opt_sliderborders_title">Dibujar bordes de deslizadores</string>
+    <string name="opt_sliderborders_summary">Dibuja bordes junto con las pistas de deslizadores. Deshabilite para mayor rendimiento.</string>
+    <string name="opt_complexanimations_title">Efectos complejos</string>
+    <string name="opt_complexanimations_summary">Habilite efectos gráficos avanzados (ej. deslizadores serpenteantes). Deshabilite para mayor rendimiento.</string>
+    <string name="opt_other_title">Misceláneo</string>
+    <string name="opt_multitouch_title">Multi-touch</string>
+    <string name="opt_multitouch_summary">Habilita entrada multi-touch si se encuentra disponible</string>
+    <string name="opt_offsetscreen_title">Configurar offsets</string>
+    <string name="opt_offsetscreen_summary"></string>
+    <string name="opt_oggoffset_title">Offset de OGG</string>
+    <string name="opt_oggoffset_summary">Offset adicional para canciones en formato .ogg</string>
+    <string name="opt_pauseoffset_title">Offset de pausa</string>
+    <string name="opt_pauseoffset_summary">Offset añadido cada vez que se resume un juego pausado</string>
+    <string name="opt_musicpreview_title">Vista previa de músca</string>
+    <string name="opt_musicpreview_summary">Tocar música cuando selecciona un beatmap</string>
+    <string name="opt_playername_title">Nombre del jugador</string>
+    <string name="opt_playername_summary">Nombre del jugador local</string>
+    <string name="opt_showcursor_title">Mostrar puntero</string>
+    <string name="opt_showcursor_summary">Muestra un puntero debajo de los dedos durante el juego</string>
+
+    <string name="opt_clearprops_title">Eliminar datos específicos de mapa</string>
+    <string name="opt_clearprops_summary">Forzar la eliminación de todos los datos específicos de cada mapa (ej. offset por mapa)</string>
+</resources>
+
+

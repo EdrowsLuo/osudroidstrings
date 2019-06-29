@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_error">Lỗi: %s</string>
+    <string name="message_error_createdir">Không thể tạo đường dẫn %s</string>
+    <string name="message_error_multitouch">Thiết bị của bạn không hỗ trợ cảm ứng đa điểm</string>
+    <string name="message_error_audio">Không thể nạp bài hát, xin hãy khởi động lại map</string>
+    <string name="message_error_sdcard">Bộ nhớ ngoài không được gắn</string>
+    <string name="message_error_sdcardread">Bộ nhớ ngoài chỉ cho phép đọc</string>
+    <string name="message_error_open">Không thể mở %s</string>
+    <string name="message_error_mapmode">Chế độ map không phù hợp: %s</string>
+    <string name="message_error_connect">Không thể kết nối đến máy chủ</string>
+    <string name="message_error_connectlimit">Đã đạt giới hạn lỗi kết nối</string>
+    <string name="message_error_download">Không thể tải xuống %s</string>
+
+    <string name="message_standardplayer">Chuyển sang người chơi standard</string>
+    <string name="message_connecting">Đang kết nối tới máy chủ...</string>
+    <string name="message_downloaded">%s đã được tải xuống</string>
+
+    <string name="message_lib_update">Đang cập nhật thư viện...</string>
+    <string name="message_lib_caching">Đang lưu trữ thư viện... có thể mất vài phút</string>
+    <string name="message_lib_complete">Lưu trữ hoàn tất. Tìm được %d beatmap</string>
+    <string name="message_lib_cleared">Bộ nhớ đệm lưu trữ đã được xóa</string>
+    <string name="message_lib_importing">Đang nhập beatmap...</string>
+    <string name="message_lib_importing_several">Tìm được %s beatmap được nén. Đang nhập...</string>
+    <string name="message_lib_imported">\"%s\" đã được nhập!</string>
+
+
+    <string name="dialog_playername_title">Nhập tên người chơi</string>
+    <string name="dialog_playername_message">Hãy nhập tên của bạn. Nó sẽ được dùng để lưu điểm.</string>
+    <string name="dialog_ok">OК</string>
+    <string name="dialog_cancel">Hủy bỏ</string>
+    <string name="dialog_search_title">Tìm kiếm</string>
+    <string name="dialog_search_message">Nhập từ khóa tìm kiếm</string>
+
+    <string name="menu_score" formatted="false">Điểm: %s (%dx)</string>
+    <string name="binfoStr1" formatted="false">Độ dài: %s BPM: %s Combo: %d</string>
+    <string name="binfoStr2" formatted="false">Nốt: %d Nốt dài: %d Nốt xoay: %d (%d nốt/phút)</string>
+
+    <string name="menu_mod_reset">Đặt lại tất cả các mod</string>
+    <string name="menu_properties_delete">Xóa map</string>
+    <string name="menu_properties_delete_confirm">Bạn chắc chứ?</string>
+    <string name="menu_mod_back">Trở lại</string>
+    <string name="menu_mod_title">Lựa chọn mod</string>
+    <string name="menu_mod_multiplier">Điểm số %.2fx</string>
+
+    <string name="menu_properties_title">Cài đặt riêng bài hát</string>
+    <string name="menu_properties_offset">Độ lệch nhạc:</string>
+    <string name="menu_properties_tofavs">Thêm vào mục yêu thích</string>
+    <string name="menu_properties_fromfavs">Xóa khỏi mục yêu thích</string>
+    <string name="menu_search_title">Tùy chọn tìm kiếm</string>
+    <string name="menu_search_filter">Tìm kiếm:</string>
+    <string name="menu_search_sort">Sắp xếp theo:</string>
+    <string name="menu_search_sort_title">Tên bài</string>
+    <string name="menu_search_sort_date">Ngày nhập</string>
+    <string name="menu_search_sort_creator">Creator</string>
+    <string name="menu_search_sort_artist">Nhạc sĩ</string>
+    <string name="menu_search_favsenabled">Chỉ mục yêu thích: Bật</string>
+    <string name="menu_search_favsdisabled">Chỉ mục yêu thích: Tắt</string>
+
+    <string name="hint_login">Tên tài khoản</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_confirm">Xác nhận mật khẩu</string>
+    <string name="hint_email">E-mail</string>
+    <string name="online_registration">Đăng kí</string>
+    <string name="online_registration_process">Đang đăng kí</string>
+    <string name="online_loadrecord">Đang nạp thông tin tài khoản</string>
+    <string name="online_invlogin">Đăng nhập không hợp lệ</string>
+    <string name="online_invpassword">Mật khẩu nên dài từ 4 đến 32 kí tự</string>
+    <string name="online_invconfirm">Mật khẩu không trùng khớp</string>
+    <string name="online_invemail">E-mail không hợp lệ</string>
+    <string name="online_regcomplete">Đăng kí hoàn tất. Khởi động lại game để đăng nhập</string>
+
+    <!-- Crash -->
+    <string name="crash">Xin lỗi, ứng dụng đã bị lỗi và sẽ tự động thoát.</string>
+    <string name="app_run_code_error">Có lỗi nghiêm trọng đã xảy ra</string>
+    <string name="osu_parser_error">Lỗi nạp độ khó</string>
+    <string name="require_storage_permission">Game sẽ không chạy mà không có quyền truy cập bộ nhớ, xin hãy cho phép nó bằng cách thủ công</string>
+
+    <string name="update_dialog_title">Đã có phiên bản mới!</string>
+    <string name="update_dialog_button_confirm">Cập nhật ngay</string>
+    <string name="update_dialog_button_later">Để sau</string>
+    <string name="update_info_checking">Đang kiểm tra cập nhật, xin hãy đợi</string>
+    <string name="update_info_runs_latest">Bạn đang chạy phiên bản mới nhất</string>
+
+</resources>

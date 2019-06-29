@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_error">错误: %s</string>
+    <string name="message_error_createdir">无法创建 %s</string>
+    <string name="message_error_multitouch">您的设备不支持多点触控</string>
+    <string name="message_error_audio">无法初始化音频。请重新开始</string>
+    <string name="message_error_sdcard">没有挂载储存卡</string>
+    <string name="message_error_sdcardread">储存卡是只读的</string>
+    <string name="message_error_open">无法打开 %s</string>
+    <string name="message_error_mapmode">无效的地图模式：%s</string>
+    <string name="message_error_connect">无法连接到服务器</string>
+    <string name="message_error_connectlimit">已达到最大连接数量</string>
+    <string name="message_error_download">无法下载 %s</string>
+
+    <string name="message_extension_not_found">未找到可用扩展</string>
+    <string name="message_open_beatmap_in_extension">在扩展里打开Beatmap</string>
+
+    <string name="message_standardplayer">切换到默认播放器</string>
+    <string name="message_connecting">正在连接到服务器...</string>
+    <string name="message_downloaded">%s 下载完毕!</string>
+
+    <string name="message_lib_update">更新地图库...</string>
+    <string name="message_lib_caching">正在创建地图库缓存... 可能需要几分钟时间</string>
+    <string name="message_lib_complete">地图库缓存创建完毕。发现 %d 张地图</string>
+    <string name="message_lib_cleared">缓存已清空</string>
+    <string name="message_lib_importing">地图载入中...</string>
+    <string name="message_lib_importing_several">发现 %s 可用地图。正在载入...</string>
+    <string name="message_lib_imported">%s 载入完毕</string>
+
+
+    <string name="dialog_playername_title">输入玩家名</string>
+    <string name="dialog_playername_message">输入你的名字。它将会被显示在计分板上</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_search_title">搜索</string>
+    <string name="dialog_search_message">输入搜索关键词</string>
+
+    <string name="dialog_delete_pp_title">重置PP?</string>
+    <string name="dialog_delete_pp_make_sure">真的?! ∑(ﾟДﾟノ)ノ</string>
+    <string name="dialog_delete_pp_deleted">PP重置了</string>
+
+    <string name="menu_score" formatted="false">得分: %s  (%dx)</string>
+    <string name="menu_creator">作者: %s</string>
+    <string name="menu_mod_back">返回</string>
+    <string name="menu_mod_title">选择模式</string>
+    <string name="menu_mod_multiplier" formatted="false">分数 %.2fx</string>
+
+    <string name="menu_properties_title">歌曲属性</string>
+    <string name="menu_properties_offset">歌曲延时:</string>
+    <string name="menu_properties_tofavs">添加到收藏</string>
+    <string name="menu_properties_fromfavs">从收藏中移除</string>
+
+    <string name="menu_search_title">搜索选项</string>
+    <string name="menu_search_filter">搜索:</string>
+    <string name="menu_search_sort">分类:</string>
+    <string name="menu_search_sort_title">标题</string>
+    <string name="menu_search_sort_date">日期</string>
+    <string name="menu_search_sort_creator">作者</string>
+    <string name="menu_search_sort_artist">艺术家</string>
+    <string name="menu_search_favsenabled">只显示收藏：是</string>
+    <string name="menu_search_favsdisabled">只显示收藏：否</string>
+
+    <string name="downloader_page" formatted="false">第 %d 页，共 %d 页</string>
+    <string name="downloader_nomaps">没有找到地图</string>
+
+    <string name="menu_mod_reset">重置所有模式</string>
+    <string name="menu_properties_delete">删除地图</string>
+    <string name="menu_properties_delete_confirm">你确定么？</string>
+
+    <string name="binfoStr1" formatted="false">长度: %s BPM: %s Combo: %d</string>
+    <string name="binfoStr2" formatted="false">圈数: %d 滑条数: %d 转盘数: %d (图号：%d)</string>
+    <string name="crash">很抱歉,程序出现异常,即将退出.</string>
+    <string name="app_run_code_error">应用程序运行时异常</string>
+    <string name="http_exception_error">网络异常，请求超时</string>
+    <string name="http_status_code_error">网络异常，错误码：%d</string>
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="xml_parser_failed">数据解析异常</string>
+    <string name="osu_parser_error">有个难度解析出错啦,咱就扔掉噜.</string>
+    <string name="require_storage_permission">请在权限管理中允许应用读写内部存储，现在游戏将退出</string>
+    <string name="menu_deletescore_delete_success">删除成绩成功</string>
+
+    <string name="update_dialog_title">发现新版本</string>
+    <string name="update_dialog_button_confirm">立即更新</string>
+    <string name="update_dialog_button_later">稍后</string>
+    <string name="update_info_checking">正在检查更新, 请稍候</string>
+    <string name="update_info_runs_latest">您当前版本已经是最新</string>
+
+
+
+    <string name="favorite_folder">收藏夹:</string>
+    <string name="favorite_default">默认</string>
+    <string name="favorite_select">选择</string>
+    <string name="favorite_delete">删除收藏夹</string>
+    <string name="favorite_add">添加</string>
+    <string name="favorite_remove">移除</string>
+    <string name="favorite_new_folder">新建收藏夹</string>
+    <string name="favorite_warning_on_delete_default">你无法删除默认收藏夹</string>
+    <string name="favorite_ensure">确认删除?</string>
+    <string name="favorite_manage">管理收藏夹</string>
+
+    <string name="mod_precise_is_unrank_now">Precise模式暂时不计入排名</string>
+
+    <string name="beta_checking_upgrade">正在检查，请稍候...</string>
+    <string name="beta_check_upgrade_error">检查新版本失败，请稍后重试</string>
+    <string name="beta_you_are_the_latest_version">你已经是最新版了</string>
+    <string name="beta_downloading">正在下载</string>
+    <string name="beta_click_to_view">点击查看</string>
+    <string name="beta_click_to_install">点击安装</string>
+    <string name="beta_click_to_retry">点击重试</string>
+    <string name="beta_click_to_continue">继续下载</string>
+    <string name="beta_download_success">下载完成</string>
+    <string name="beta_download_error">下载失败</string>
+    <string name="beta_have_new_version">有新版本</string>
+</resources>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="message_error">Ошибка: %s</string>
+    <string name="message_error_createdir">Невозможно создать %s</string>
+    <string name="message_error_multitouch">Мульти-тач не поддерживается устройством</string>
+    <string name="message_error_audio">Ошибка инициализации аудио</string>
+    <string name="message_error_sdcard">SD-карта недоступна</string>
+    <string name="message_error_sdcardread">SD-карта открыта только для чтения</string>
+    <string name="message_error_open">Невозможно открыть %s</string>
+    <string name="message_error_mapmode">Неизвестный режим игры: %s</string>
+    <string name="message_error_connect">Не удалось соединиться с сервером</string>
+    <string name="message_error_connectlimit">Достигнут лими ошибок на загрузку</string>
+    <string name="message_error_download">Не удалось загрузить %s</string>
+    
+    <string name="message_standardplayer">Переключение на стандартный плеер</string>
+    <string name="message_connecting">Соединение с сервером...</string>
+    <string name="message_downloaded">Карта %s загружена!</string>
+
+    <string name="message_lib_update">Обновление библиотеки...</string>
+    <string name="message_lib_caching">Кеширование библиотеки... Это может занять несколько минут</string>
+    <string name="message_lib_complete">Кеширование завершено. Найдено %d карт</string>
+    <string name="message_lib_cleared">Кеш очищен</string>
+    <string name="message_lib_importing">Импортирование песни...</string>
+    <string name="message_lib_importing_several">Найдено %s архивов. Импортирование...</string>
+    <string name="message_lib_imported">\"%s\" успешно импортирован!</string>
+    
+    
+    <string name="dialog_playername_title">Введите имя</string>
+    <string name="dialog_playername_message">Введите имя игрока. Оно будет использоваться для записи рекордов.</string>
+    <string name="dialog_ok">OК</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_search_title">Поиск</string>
+    <string name="dialog_search_message">Введите фразу для поиска</string>
+    
+   	<string name="menu_score" formatted="false">Очки: %s (%dx)</string>
+   	<string name="menu_creator">Создатель: %s</string>
+   	<string name="menu_mod_back">Назад</string>
+   	<string name="menu_mod_title">Выбор мода</string>
+   	<string name="menu_mod_multiplier">Множитель очков %.2fx</string>
+   	
+   	<string name="menu_properties_title">Свойства песни</string>
+   	<string name="menu_properties_offset">Смещение музыки:</string>
+   	<string name="menu_properties_tofavs">Добавить в избранное</string>
+   	<string name="menu_properties_fromfavs">Убрать из избранного</string>
+   	
+   	<string name="menu_search_title">Опции поиска</string>
+   	<string name="menu_search_filter">Искать:</string>
+   	<string name="menu_search_sort">Сортировка по:</string>
+   	<string name="menu_search_sort_title">Названию</string>
+   	<string name="menu_search_sort_date">Дате</string>
+   	<string name="menu_search_sort_creator">Создателю</string>
+   	<string name="menu_search_sort_artist">Артисту</string>
+   	<string name="menu_search_favsenabled">Только избранное: да</string>
+   	<string name="menu_search_favsdisabled">Только избранное: нет</string>
+   	
+   	<string name="downloader_page" formatted="false">Страница %d из %d</string>
+   	<string name="downloader_nomaps">Список пуст</string>	
+   	
+   	<string name="menu_mod_reset">Сбросить все моды</string>
+	<string name="menu_properties_delete">Удалить карту</string>
+	<string name="menu_properties_delete_confirm">Вы уверены?</string>
+</resources>
