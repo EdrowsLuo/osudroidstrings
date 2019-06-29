@@ -1,6 +1,7 @@
 # osu!droid strings
-This repo stores the language files that osu!droid uses.
-You can contribute translation for osu!droid from here.
+[![](https://jitpack.io/v/EdrowsLuo/osudroidstrings.svg)](https://jitpack.io/#EdrowsLuo/osudroidstrings)
+<br>This repo stores the language files that osu!droid uses.
+<br>You can contribute translation for osu!droid from here.
 
 # Where to find the language files
 All language files are in the folder [/osudroidresource/src/main/res](https://github.com/EdrowsLuo/osudroidstrings/tree/master/osudroidresource/src/main/res)
