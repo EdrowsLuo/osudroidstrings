@@ -151,5 +151,8 @@
 
     <string name="opt_show_first_approach_circle_title">强制显示第一个缩圈</string>
     <string name="opt_show_first_approach_circle_summary">在Hidden模式下任然显示第一个note的缩圈</string>
+    
+    <string name="opt_superSlider_title">超级滑条</string>
+    <string name="opt_superSlider_summary">形状完美的滑条!</string>
 
 </resources>
