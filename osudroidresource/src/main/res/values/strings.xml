@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
 	<string name="message_error">Error: %s</string>
 	<string name="message_error_createdir">Cannot create %s</string>
 	<string name="message_error_multitouch">Multitouch is not supported by your device</string>
@@ -152,7 +151,9 @@
 	<string name="beta_download_success">Download successful</string>
 	<string name="beta_download_error">Download failed</string>
 	<string name="beta_have_new_version">New version available</string>
-    <string name="opt_apikey_title">[Beta] osu!ppy API Key</string>
-	<string name="opt_apikey_summary">Uses osu!ppy API to get beatmaps\' information. &#xD;If key is invalid, uses bloodcat instead (might be outdated/bad connection)</string>
     <string name="menu_map_updatable">Update beatmap</string>
+    <string name="message_loading_skin">Applying new skin</string>
+
+
+	<string name="message_error_dir_not_found">Directory is not found</string>
 </resources>

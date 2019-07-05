@@ -236,8 +236,8 @@
     <string name="opt_particles_title">Particle effects</string>
     <string name="opt_particles_summary">Show particle-based effects like cursor trail</string>
 
-    <string name="opt_skinpath_title">Skin directory</string>
-    <string name="opt_skinpath_summary">Location of custom skin files</string>
+    <string name="opt_skin_top_path_title">Skin directory</string>
+    <string name="opt_skin_top_path_summary">Path to directory containing skin files. (default: /sdcard/osu!droid/Skin)</string>
 
     <string name="opt_bgbrightness_title">Background brightness</string>
     <string name="opt_bgbrightness_summary">Change the brightness of the background image</string>
@@ -261,4 +261,17 @@
 
     <string name="opt_cursor_size">Cursor Size</string>
     <string name="opt_cursor_size_summary">Adjust cursor size (25 - 300, default 100)</string>
+
+    <string name="opt_apikey_title">[Beta] osu!ppy API Key</string>
+    <string name="opt_apikey_summary">Uses osu!ppy API to get beatmaps\' information. &#xD;If key is invalid, uses bloodcat instead (might be outdated/bad connection)</string>
+
+    <string name="opt_show_scoreboard_summary">Show scoreboard of selected beatmap during game</string>
+    <string name="opt_show_scoreboard_title">Show scoreboard</string>
+
+    <string name="opt_skinpath_title">Select skin</string>
+    <string name="opt_skinpath_summary">Select skin from top skin directory</string>
+
+    <string name="opt_enableStoryboard_summary">Your phone will be very hot!</string>
+    <string name="opt_enableStoryboard_title">Enable Storyboard</string>
+
 </resources>
