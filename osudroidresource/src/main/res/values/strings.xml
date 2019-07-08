@@ -25,11 +25,6 @@
 	<string name="message_lib_importing_several">Found %s archived beatmaps. Importing...</string>
 	<string name="message_lib_imported">\"%s\" has been imported!</string>
 
-	<string name="message_update_hint">Long press to update</string>
-	<string name="message_update_download_success">Update Successful!</string>
-	<string name="message_update_download_fail">Update fail, try again later</string>
-	<string name="message_update_ppy_unavailable">This map can not be downloaded on ppy\n\n</string>
-
 	<string name="message_extension_not_found">No extension app found.</string>
 	<string name="message_open_beatmap_in_extension">Open beatmap in extension</string>
 
@@ -140,6 +135,8 @@
 
 	<string name="mod_precise_is_unrank_now">MOD_PRECISE is unrank now</string>
 
+
+	<!-- new data after 1.6.7(beta1) -->
     <string name="beta_checking_upgrade">Checking Upgrade...</string>
 	<string name="beta_check_upgrade_error">Failed to check new version, try again later</string>
 	<string name="beta_you_are_the_latest_version">You are already using the latest version</string>
@@ -156,4 +153,10 @@
 
 
 	<string name="message_error_dir_not_found">Directory is not found</string>
+
+	<string name="message_update_hint">Long press to update</string>
+	<string name="message_update_download_success">Update Successful!</string>
+	<string name="message_update_download_fail">Update fail, try again later</string>
+	<string name="message_update_ppy_unavailable">This map can not be downloaded on ppy\n\n</string>
+
 </resources>

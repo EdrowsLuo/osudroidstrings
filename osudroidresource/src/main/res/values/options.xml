@@ -95,9 +95,6 @@
     <string name="opt_deleteosz_title">Delete .osz</string>
     <string name="opt_deleteosz_summary">Delete .osz files after importing</string>
 
-    <string name="opt_scandownload_summary">Scan /Download directory for new beatmaps</string>
-    <string name="opt_scandownload_title">Scan Download</string>
-
     <string name="opt_directory_title">Beatmap location</string>
     <string name="opt_directory_summary">Path to directory containing beatmaps (default: /mnt/sdcard/osu!droid/Songs)</string>
 
@@ -160,9 +157,6 @@
     <string name="opt_demoSpline_title">Demo Spline</string>
     <string name="opt_demoSpline_summary">Use another spline algorithm for sliders. (experimental, may cause some unexpected problems.)</string>
 
-    <string name="opt_superSlider_title">Super Slider</string>
-    <string name="opt_superSlider_summary">Perfect shape slider!</string>
-
     <string name="opt_clearprops_title">Map-specific data</string>
     <string name="opt_clearprops_summary">Forced clear of all map-specific data (eg. per-map offsets)</string>
 
@@ -191,9 +185,6 @@
 
     <string name="opt_spinner_style_title">Spinner style</string>
     <string name="opt_spinner_style_summary">Change the spinner style</string>
-
-    <string name="opt_show_first_approach_circle_title">Force show first approach circle</string>
-    <string name="opt_show_first_approach_circle_summary">Do not hide the first approach circle in hidden mods</string>
 
     <string name="opt_combo_burst_title">Combo Burst</string>
     <string name="opt_combo_burst_summary">Toggle combo burst on/off</string>
@@ -236,9 +227,6 @@
     <string name="opt_particles_title">Particle effects</string>
     <string name="opt_particles_summary">Show particle-based effects like cursor trail</string>
 
-    <string name="opt_skin_top_path_title">Skin directory</string>
-    <string name="opt_skin_top_path_summary">Path to directory containing skin files. (default: /sdcard/osu!droid/Skin)</string>
-
     <string name="opt_bgbrightness_title">Background brightness</string>
     <string name="opt_bgbrightness_summary">Change the brightness of the background image</string>
 
@@ -253,6 +241,9 @@
     <string name="opt_combo_colors_title">Combo Colors</string>
     <string name="opt_combo_colors_summary">Use custom combo\'s color</string>
 
+
+
+    <!-- new data after 1.6.7(beta1) -->
     <string name="opt_update_title">Check for updates</string>
     <string name="opt_update_summary">Check for available updates</string>
 
@@ -261,6 +252,9 @@
 
     <string name="opt_cursor_size">Cursor Size</string>
     <string name="opt_cursor_size_summary">Adjust cursor size (25 - 300, default 100)</string>
+
+    <string name="opt_show_first_approach_circle_title">Force show first approach circle</string>
+    <string name="opt_show_first_approach_circle_summary">Do not hide the first approach circle in hidden mods</string>
 
     <string name="opt_apikey_title">[Beta] osu!ppy API Key</string>
     <string name="opt_apikey_summary">Uses osu!ppy API to get beatmaps\' information. &#xD;If key is invalid, uses bloodcat instead (might be outdated/bad connection)</string>
@@ -271,7 +265,16 @@
     <string name="opt_skinpath_title">Select skin</string>
     <string name="opt_skinpath_summary">Select skin from top skin directory</string>
 
+    <string name="opt_skin_top_path_title">Skin directory</string>
+    <string name="opt_skin_top_path_summary">Path to directory containing skin files. (default: /sdcard/osu!droid/Skin)</string>
+
     <string name="opt_enableStoryboard_summary">Your phone will be very hot!</string>
     <string name="opt_enableStoryboard_title">Enable Storyboard</string>
+
+    <string name="opt_scandownload_summary">Scan /Download directory for new beatmaps</string>
+    <string name="opt_scandownload_title">Scan Download</string>
+
+    <string name="opt_superSlider_title">Super Slider</string>
+    <string name="opt_superSlider_summary">Perfect shape slider!</string>
 
 </resources>
