@@ -121,8 +121,6 @@
     <string name="opt_dither_summary">使用硬件加速插值</string>
     <string name="opt_particles_title">细节特效</string>
     <string name="opt_particles_summary">使用细节特效（如光标拖尾）</string>
-    <string name="opt_skinpath_title">皮肤目录</string>
-    <string name="opt_skinpath_summary">点击修改自定义皮肤目录</string>
     <string name="opt_bgbrightness_title">背景亮度</string>
     <string name="opt_bgbrightness_summary">背景图片的亮度</string>
     <string name="opt_hide_navibar_title">隐藏系统导航栏</string>
@@ -137,6 +135,8 @@
     <string name="opt_fix_frame_offset_summary">修复一个由点击时间和帧开始时间差造成的延迟。不完全保证效果。</string>
     <string name="opt_combo_colors_title">Combo颜色</string>
     <string name="opt_combo_colors_summary">使用自定义的combo颜色</string>
+
+    <!-- new data after 1.6.7(beta1) -->
     <string name="opt_update_title">检查更新</string>
     <string name="opt_update_summary">检查是否有更新版本的osu!droid</string>
 
@@ -154,5 +154,20 @@
     
     <string name="opt_superSlider_title">超级滑条</string>
     <string name="opt_superSlider_summary">形状完美的滑条!</string>
+
+    <string name="opt_apikey_title">[Beta] osu!ppy API Key</string>
+    <string name="opt_apikey_summary">使用 osu!ppy API 来获取铺面的信息. &#xD;如果这个值无效会改为使用血猫，但是有可能加载慢或者数据过时。</string>
+
+    <string name="opt_show_scoreboard_summary">在游戏中显示当前铺面的排行榜（本地或者在线）</string>
+    <string name="opt_show_scoreboard_title">显示排行榜</string>
+
+    <string name="opt_skinpath_title">选择一个皮肤</string>
+    <string name="opt_skinpath_summary">从主皮肤目录里选择一个皮肤</string>
+
+    <string name="opt_skin_top_path_title">主皮肤目录</string>
+    <string name="opt_skin_top_path_summary">存储各种皮肤的文件夹。 (默认: /sdcard/osu!droid/Skin)</string>
+
+    <string name="opt_enableStoryboard_summary">你的手机可能可以煎鸡蛋！</string>
+    <string name="opt_enableStoryboard_title">开启Storyboard</string>
 
 </resources>

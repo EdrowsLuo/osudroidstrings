@@ -101,6 +101,7 @@
 
     <string name="mod_precise_is_unrank_now">Precise模式暂时不计入排名</string>
 
+    <!-- new data after 1.6.7(beta1) -->
     <string name="beta_checking_upgrade">正在检查，请稍候...</string>
     <string name="beta_check_upgrade_error">检查新版本失败，请稍后重试</string>
     <string name="beta_you_are_the_latest_version">你已经是最新版了</string>
@@ -112,5 +113,18 @@
     <string name="beta_download_success">下载完成</string>
     <string name="beta_download_error">下载失败</string>
     <string name="beta_have_new_version">有新版本</string>
+
+    <string name="menu_map_updatable">更新铺面</string>
+    <string name="message_loading_skin">正在应用新皮肤</string>
+
+
+    <string name="message_error_dir_not_found">文件目录不存在</string>
+
+    <string name="message_update_hint">长摁更新</string>
+    <string name="message_update_download_success">更新成功</string>
+    <string name="message_update_download_fail">更新失败，一段时间后将重试</string>
+    <string name="message_update_ppy_unavailable">ppy扔掉这个铺面了(q w q)\n\n</string>
+
+
 </resources>
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- after 1.6.7(beta1) -->
+    <string name="act_import_replay">将回放导入osu!droid</string>
+    <string name="invalid_edr_file">无效的回放文件!</string>
+    <string name="failed_to_import_edr">导入回放文件失败!</string>
+    <string name="failed_to_import_edr_with_err" formatted="true">导入回放文件失败: %s</string>
+    <string name="import_edr_successfully">成功导入回放文件!</string>
+
+</resources>

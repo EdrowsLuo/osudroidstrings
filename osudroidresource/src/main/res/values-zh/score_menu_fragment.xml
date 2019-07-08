@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- after 1.6.7(beta1) -->
+    <string name="frg_score_menu_title">成绩</string>
+    <string name="frg_score_menu_export_score">导出回放</string>
+    <string name="frg_score_menu_export_failed">导出回放失败!</string>
+    <string name="frg_score_menu_export_succeed" formatted="true">回放文件成功导出到：%s</string>
+
+</resources>
