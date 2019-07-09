@@ -114,13 +114,15 @@ ComboColor, Slider, Utils, Layout, Color<br>
 | h | 浮点数/-1 | 高度，-1时为组件原本高度 |
 | x | 浮点数/0 | 改变组件的x值 |
 | y | 浮点数/0 | 改变组件的y值 |
+| scale | 浮点数/1 | 组件的大小缩放值 |
 
-更加具体的设置在下面:
-* BackButton
-接受常规设置，但是对x,y的设置无效
--额外的属性：scaleWhenHold，设置为false时禁用点击back按钮时按钮的缩放
+更加具体的设置在下面:<br>
+**BackButton** <br>
+接受常规设置，但是对x,y的设置无效<br>
+ - 额外的属性：scaleWhenHold，设置为false时禁用点击back按钮时按钮的缩放<br>
 
-* ModsButton,OptionsButton,RandomButton
+**ModsButton,OptionsButton,RandomButton**<br>
 接受常规设置，但是对x,y的设置无效
+(这些组件的默认scale是1.5)
 
 
