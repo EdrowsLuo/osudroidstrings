@@ -85,6 +85,19 @@ ComboColor, Slider, Utils, Layout, Color<br>
 | limitComboTextLength | 布尔值/false | 设置为true时当note的数字达到了9以上的时候只显示个位 |
 | disableKiai | 布尔值/false | 设置为true时可以关闭kiai闪光 |
 
+### Colors
+一些关于布局的颜色设定<br>
+属性都是颜色字符串，默认都是空（跟随游戏默认）
+
+| 属性id | 属性描述 |
+|------------ | ------------------------------- |
+| MenuItemDefaultColor | 选歌界面铺面集项目的背景的默认颜色 |
+| MenuItemOnTouchColor | 当点击某一项时显示的背景颜色 |
+| MenuItemVersionsDefaultColor | 点开铺面集显示的各个难度的背景默认颜色 |
+| MenuItemVersionsSelectedColor | 被选中的难度的背景颜色 |
+| MenuItemSelectedTextColor | 被选中的难度的文本颜色 |
+| MenuItemDefaultTextColor | 展开的难度里没被选择的项的文本颜色 |
+
 ### Layout
 一些关于ui组件的设定<br>
 每一个子类里都有相同的默认属性设定<br>
