@@ -77,4 +77,50 @@ ComboColor, Slider, Utils, Layout, Color<br>
 | sliderHintWidth | 浮点数/3 | 滑条提示的宽度 |
 | sliderHintShowMinLength | 浮点数/300 | 显示滑条提示的最小滑条长度 |
 
+### Utils
+一些杂项设定<br>
+
+| 属性id | 属性类型、默认值 | 属性描述 |
+|-------------|------ | ------------------------------- |
+| limitComboTextLength | 布尔值/false | 设置为true时当note的数字达到了9以上的时候只显示个位 |
+| disableKiai | 布尔值/false | 设置为true时可以关闭kiai闪光 |
+
+### Layout
+一些关于ui组件的设定<br>
+每一个子类里都有相同的默认属性设定<br>
+示例：<br>
+
+```json
+"Layout" : {
+    "BackButton" : {
+        "scaleWhenHold" : false
+    },
+    "ModsButton" : {
+        "scale" : 1
+    },
+    "OptionsButton" : {
+        "scale" : 1
+    },
+    "RandomButton" : {
+        "scale" : 1
+    }
+}
+```
+每个组件可以设置的基础属性有：
+
+| 属性id | 属性类型、默认值 | 属性描述 |
+|-------------|------ | ------------------------------- |
+| w | 浮点数/-1 | 宽度，-1时为组件原本宽度 |
+| h | 浮点数/-1 | 高度，-1时为组件原本高度 |
+| x | 浮点数/0 | 改变组件的x值 |
+| y | 浮点数/0 | 改变组件的y值 |
+
+更加具体的设置在下面:
+* BackButton
+接受常规设置，但是对x,y的设置无效
+-额外的属性：scaleWhenHold，设置为false时禁用点击back按钮时按钮的缩放
+
+* ModsButton,OptionsButton,RandomButton
+接受常规设置，但是对x,y的设置无效
+
 
