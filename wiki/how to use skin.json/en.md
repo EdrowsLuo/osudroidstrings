@@ -2,12 +2,12 @@
 
 Translation is in progress...
 
-## 简介
-skin.json是在1.6.7版本后新出现的skin.ini的替代品，具有比skin.ini更加灵活的特性。
-正如其名，数据的以json的格式存储的，可以直接用任何文本编辑器编辑。
+## Introduction
+skin.json is a skin.ini replacement after 1.6.7 is introduced，it has a speciality of being more versatile。
+As it's name suggests，data will be stored in the .json format，and can be directly edited using NotePad/TextEdit。
 
 
-## 示例文件
+## Example file
 ```json
 {
     "ComboColor" : {
@@ -50,16 +50,16 @@ skin.json是在1.6.7版本后新出现的skin.ini的替代品，具有比skin.in
     }
 }
 ```
-## 如何使用
-所有的可编辑属性被分为了几个不同的类别：<br>
+## How to use
+All skinnable elements are separated into a few different catagories：<br>
 ComboColor, Slider, Utils, Layout, Color<br>
 
 ### ComboColor
-设置note组的颜色变化<br>
+Setting note set's color variations<br>
 
-| 属性id | 属性类型、默认值 | 属性描述 |
+| characteristic id | characteristic type、default value | Characteristic description |
 |-------------|------ | ------------------------------- |
-| forceOverride | 布尔值/false  | 设置为true时可以启用这个设置来自定义note组的颜色，false时和游戏内设置的一样 |
+| forceOverride | 布尔value/false  | 设置为true时可以启用这个设置来自定义note组的颜色，false时和游戏内设置的一样 |
 | colors | 颜色字符串数组/无 | 具体的一组颜色值|
 
 ### Slider
