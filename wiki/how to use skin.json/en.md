@@ -3,8 +3,8 @@
 Translation is in progress...
 
 ## Introduction
-skin.json is a skin.ini replacement after 1.6.7 is introduced，it has a speciality of being more versatile。
-As it's name suggests，data will be stored in the .json format，and can be directly edited using NotePad/TextEdit。
+skin.json is a skin.ini replacement after 1.6.7 is introduced，it has a speciality of being more versatile.
+As it's name suggests，data will be stored in the .json format，and can be directly edited using NotePad/TextEdit.
 
 
 ## Example file
@@ -59,8 +59,8 @@ Setting note set's color variations<br>
 
 | characteristic id | characteristic type、default value | Characteristic description |
 |-------------|------ | ------------------------------- |
-| forceOverride | 布尔value/false  | 设置为true时可以启用这个设置来自定义note组的颜色，false时和游戏内设置的一样 |
-| colors | 颜色字符串数组/无 | 具体的一组颜色值|
+| forceOverride | 布尔值/false  | When set to true, this setting will be enabled to customize the note set's colour，when it's set to false, it will be similar to what's originally in-game |
+| colors | 颜色字符串数组/None | 具体的一组颜色值 |
 
 ### Slider
 设置滑条相关的属性
