@@ -3,8 +3,8 @@
 Translated from Chinese to English by ImagineBlaze, with assitance from the Chinese osu!droid closed beta development team.
 
 ## Introduction
-skin.json is a skin.ini replacement after 1.6.7 is introduced，it has a speciality of being more versatile.
-As it's name suggests，data will be stored in the .json format，and can be directly edited using NotePad/TextEdit.
+skin.json is a skin.ini replacement after 1.6.7 is introduced, it has a speciality of being more versatile.
+As it's name suggests，data will be stored in the .json format, and can be directly edited using NotePad/TextEdit.
 
 
 ## Example file
@@ -52,7 +52,7 @@ As it's name suggests，data will be stored in the .json format，and can be dir
 ```
 ## How to use
 All skinnable elements are separated into a few different catagories：<br>
-ComboColor, Slider, Utils, Layout, Color<br>
+ComboColor, Slider, Utilities, Layout, Color<br>
 
 ### ComboColor
 Setting note set's color variations<br>
@@ -63,7 +63,7 @@ Setting note set's color variations<br>
 | colors | Color hex string set/None | The color hex code for a specific set |
 
 ### Slider
-Setting characteristics of related sliders 
+Characteristics settings related to sliders 
 
 | Characteristic id | Characteristic type、Default value | Characteristic description |
 |-------------|------ | ------------------------------- |
@@ -71,9 +71,9 @@ Setting characteristics of related sliders
 | sliderBorderWidth | Decimal/5.2 | Setting the sliderborder's width |
 | sliderBodyBaseAlpha | Decimal/0.7 | Setting the sliderbody's base transparency（Does not affect the sliderborder） |
 | sliderFollowComboColor | Boolean/false | Setting if the slider will follow the current note set's color or not |
-| sliderBodyColor | Color hex/None | Sliders will use this color instead if they are set to not follow |
+| sliderBodyColor | Color hex/None | Sliders will use this color instead if they are set not to follow |
 | sliderBorderColor | Color hex/None | Setting the sliderborder's color |
-| sliderHintEnable | Boolean/false | Turn On or Off the slider hint （When sliders exceed a set length, the sliderbody will be indicated clearly with an additional line down the slider's path） |
+| sliderHintEnable | Boolean/false | Turn On or Off the slider hint （When sliders exceed a set length, the sliderbody will be indicated clearly with an additional line down the middle of the slider's path） |
 | sliderHintAlpha | Decimal/0.3 | Base transparency for the slider hint |
 | sliderHintColor | Color hex/None | Color of the slider hint，when it is not set, it will default to follow the current note set's color |
 | sliderHintWidth | Decimal/3 | Width of the slider hint |
@@ -93,7 +93,7 @@ Characteristics are all color hex codes，all default values are blank（As the 
 
 | Characteristic id | Characteristic description |
 |------------ | ------------------------------- |
-| MenuItemDefaultColor | In the songs selection page, each Mapset's background's default color |
+| MenuItemDefaultColor | In the songs selection page, each mapset's background's default color |
 | MenuItemOnTouchColor | The background color displayed when an item is tapped on |
 | MenuItemVersionsDefaultColor | The default background color displayed on each difficulty when a mapset is selected |
 | MenuItemVersionsSelectedColor | The background color for a selected difficulty |
@@ -102,7 +102,7 @@ Characteristics are all color hex codes，all default values are blank（As the 
 
 ### Layout
 Some settings about the UI elements <br>
-Every minor type all has similar default characteristic settings <br>
+All minor types have similar default characteristic settings <br>
 Example：<br>
 
 ```json
@@ -121,7 +121,7 @@ Example：<br>
     }
 }
 ```
-Every item that can be changed has base characteristics like：
+Every item that can be changed have base characteristics like：
 
 | Characteristic id | Characteristic type、Default value | Characteristic description |
 |-------------|------ | ------------------------------- |
