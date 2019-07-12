@@ -1,6 +1,6 @@
 # How to use skin.json
 
-Translation is in progress...
+Translated by ImagineBlaze, with help from the osu!droid closed beta development team.
 
 ## Introduction
 skin.json is a skin.ini replacement after 1.6.7 is introduced，it has a speciality of being more versatile.
@@ -57,53 +57,53 @@ ComboColor, Slider, Utils, Layout, Color<br>
 ### ComboColor
 Setting note set's color variations<br>
 
-| characteristic id | characteristic type、default value | Characteristic description |
+| Characteristic id | Characteristic type, default value | Characteristic description |
 |-------------|------ | ------------------------------- |
-| forceOverride | 布尔值/false  | When set to true, this setting will be enabled to customize the note set's colour，when it's set to false, it will be similar to what's originally in-game |
-| colors | 颜色字符串数组/None | 具体的一组颜色值 |
+| forceOverride | Boolean/false  | When set to true, this setting will be enabled to customize the note set's colour，when it's set to false, it will be similar to what's originally in-game |
+| colors | Color hex string set/None | The color hex code for a specific set |
 
 ### Slider
-设置滑条相关的属性
+Setting characteristics of related sliders 
 
-| 属性id | 属性类型、默认值 | 属性描述 |
+| Characteristic id | Characteristic type、Default value | Characteristic description |
 |-------------|------ | ------------------------------- |
-| sliderBodyWidth | 浮点数/61 | 设置滑条的默认宽度 |
-| sliderBorderWidth | 浮点数/5.2 | 设置滑条边框的宽度 |
-| sliderBodyBaseAlpha | 浮点数/0.7 | 设置滑条的基础透明度（不会对边框生效） |
-| sliderFollowComboColor | 布尔值/false | 设置滑条是否是和当前note组的颜色同步 |
-| sliderBodyColor | 颜色字符串/无 | 当不跟随note组的颜色时滑条将会使用这个颜色 |
-| sliderBorderColor | 颜色字符串/无 | 设置滑条边框的颜色 |
-| sliderHintEnable | 布尔值/false | 是否开启滑条提示 （当滑条达到一定长度时绘制一条额外的路径来辅助读图） |
-| sliderHintAlpha | 浮点数/0.3 | 滑条提示的基础透明度 |
-| sliderHintColor | 颜色字符串/无 | 滑条提示的颜色，没有设置时默认为跟随note组颜色 |
-| sliderHintWidth | 浮点数/3 | 滑条提示的宽度 |
-| sliderHintShowMinLength | 浮点数/300 | 显示滑条提示的最小滑条长度 |
+| sliderBodyWidth | Decimal/61 | Setting the deafult value for the sldierbody's width |
+| sliderBorderWidth | Decimal/5.2 | Setting the sliderborder's width |
+| sliderBodyBaseAlpha | Decimal/0.7 | Setting the sliderbody's base transparency（Does not affect the sliderborder） |
+| sliderFollowComboColor | Boolean/false | Setting if the slider will follow the current note set's color or not |
+| sliderBodyColor | Color hex/None | Sliders will use this color instead if they are set to not follow |
+| sliderBorderColor | Color hex/None | Setting the sliderborder's color |
+| sliderHintEnable | Boolean/false | Turn On or Off the slider hint （When sliders exceed a set length, the sliderbody will be indicated clearly with an additional line down the slider's path） |
+| sliderHintAlpha | Decimal/0.3 | Base transparency for the slider hint |
+| sliderHintColor | Color hex/None | Color of the slider hint，when it is not set, it will default to follow the current note set's color |
+| sliderHintWidth | Decimal/3 | Width of the slider hint |
+| sliderHintShowMinLength | Decimal/300 | The minimal length a slider must exceed for it to show a slider hint |
 
-### Utils
-一些杂项设定<br>
+### Utilities
+Some miscellaneous settings <br>
 
-| 属性id | 属性类型、默认值 | 属性描述 |
+| Characteristic id | Characteristic type, default value | Characteristic description |
 |-------------|------ | ------------------------------- |
-| limitComboTextLength | 布尔值/false | 设置为true时当note的数字达到了9以上的时候只显示个位 |
-| disableKiai | 布尔值/false | 设置为true时可以关闭kiai闪光 |
+| limitComboTextLength | Boolean/false | When set to true, only the first digit will show for any combo number above 9 |
+| disableKiai | Boolean/false | Kiai flashes can be turned off when this is set to true |
 
 ### Colors
-一些关于布局的颜色设定<br>
-属性都是颜色字符串，默认都是空（跟随游戏默认）
+Some color settings related to layouts <br>
+Characteristics are all color hex codes，all default values are blank（As the game defaults to）
 
-| 属性id | 属性描述 |
+| Characteristic id | Characteristic description |
 |------------ | ------------------------------- |
-| MenuItemDefaultColor | 选歌界面铺面集项目的背景的默认颜色 |
-| MenuItemOnTouchColor | 当点击某一项时显示的背景颜色 |
-| MenuItemVersionsDefaultColor | 点开铺面集显示的各个难度的背景默认颜色 |
-| MenuItemVersionsSelectedColor | 被选中的难度的背景颜色 |
-| MenuItemSelectedTextColor | 被选中的难度的文本颜色 |
-| MenuItemDefaultTextColor | 展开的难度里没被选择的项的文本颜色 |
+| MenuItemDefaultColor | In the songs selection page, each Mapset's background's default color |
+| MenuItemOnTouchColor | The background color displayed when an item is tapped on |
+| MenuItemVersionsDefaultColor | The default background color displayed on each difficulty when a mapset is selected |
+| MenuItemVersionsSelectedColor | The background color for a selected difficulty |
+| MenuItemSelectedTextColor | The text color for a difficulty selected |
+| MenuItemDefaultTextColor | The text color of the difficulties not selected in a selected mapset |
 
 ### Layout
-一些关于ui组件的设定<br>
-每一个子类里都有相同的默认属性设定<br>
-示例：<br>
+Some settings about the UI elements <br>
+Every minor type all has similar default characteristic settings <br>
+Example：<br>
 
 ```json
 "Layout" : {
@@ -121,21 +121,21 @@ Setting note set's color variations<br>
     }
 }
 ```
-每个组件可以设置的基础属性有：
+Every item that can be changed has base characteristics like：
 
-| 属性id | 属性类型、默认值 | 属性描述 |
+| Characteristic id | Characteristic type、Default value | Characteristic description |
 |-------------|------ | ------------------------------- |
-| w | 浮点数/-1 | 宽度，-1时为组件原本宽度 |
-| h | 浮点数/-1 | 高度，-1时为组件原本高度 |
-| x | 浮点数/0 | 改变组件的x值 |
-| y | 浮点数/0 | 改变组件的y值 |
-| scale | 浮点数/1 | 组件的大小缩放值 |
+| w | Decimal/-1 | Width，-1 is the item's original width |
+| h | Decimal/-1 | Height，-1 is the item's original height |
+| x | Decimal/0 | Change item's X value |
+| y | Decimal/0 | Change item's Y value |
+| scale | Decimal/1 | Scale value for the item's size |
 
-更加具体的设置在下面:<br>
+More specific settings are below:<br>
 **BackButton** <br>
-接受常规设置，但是对x,y的设置无效<br>
- - 额外的属性：scaleWhenHold，设置为false时禁用点击back按钮时按钮的缩放<br>
+Accepts conventional settings，but settings to X and Y has no effect<br>
+ - Additional characteristic：scaleWhenHold，When set to false, the back button's zoom when tapped will be disabled <br>
 
 **ModsButton,OptionsButton,RandomButton**<br>
-接受常规设置，但是对x,y的设置无效
-(这些组件的默认scale是1.5)
+Accepts conventional settings，but settings to X and Y has no effect
+(These item's default scale is 1.5)
