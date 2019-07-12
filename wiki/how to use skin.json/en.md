@@ -1,6 +1,6 @@
 # How to use skin.json
 
-Translated by ImagineBlaze, with help from the osu!droid closed beta development team.
+Translated from Chinese to English by ImagineBlaze, with assitance from the Chinese osu!droid closed beta development team.
 
 ## Introduction
 skin.json is a skin.ini replacement after 1.6.7 is introduced，it has a speciality of being more versatile.
