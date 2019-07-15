@@ -10,7 +10,7 @@
     <string name="message_error_mapmode">Modo del mapa inválido: %s</string>
     <string name="message_error_connect">No se puede conectar al servidor</string>
     <string name="message_error_connectlimit">Se alcanzo el límite de errores de conexión</string>
-    <string name="message_error_download">No se pude descargar: %s</string>
+    <string name="message_error_download">No se puede descargar: %s</string>
     
     <string name="message_standardplayer">Cambiando a reproductor estándar</string>
     <string name="message_connecting">Conectando al servidor...</string>
