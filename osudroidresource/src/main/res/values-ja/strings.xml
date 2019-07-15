@@ -27,7 +27,7 @@
     <string name="dialog_cancel">戻る</string>
     <string name="dialog_search_title">検索</string>
     <string name="dialog_search_message">キーワードを入力してください</string>
-    <string name="dialog_regster">新規登録</string>
+    <string name="dialog_register">新規登録</string>
 
     <string name="menu_score" formatted="false">スコア: %s (%dx)</string>
     <string name="menu_creator">クリエーター: %s</string>
