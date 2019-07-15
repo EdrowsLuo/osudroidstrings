@@ -31,7 +31,7 @@
     <string name="dialog_cancel">취소</string>
     <string name="dialog_search_title">검색</string>
     <string name="dialog_search_message">검색어를 입력해 주세요.</string>
-    <string name="dialog_regster">회원가입</string>
+    <string name="dialog_register">회원가입</string>
     
    	<string name="menu_score" formatted="false">점수: %s (%dx)</string>
    	<string name="menu_creator">제작자: %s</string>
