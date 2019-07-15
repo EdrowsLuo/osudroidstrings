@@ -3,21 +3,21 @@
     <string name="message_error">エラー: %s</string>
     <string name="message_error_createdir">%s が生成できませんでした</string>
     <string name="message_error_multitouch">このデヴァイスではマルチタッチをサポートされません</string>
-    <string name="message_error_sdcard">외부 저장소가 마운트되지 않았습니다.</string>
-    <string name="message_error_sdcardread">외부 저장소가 읽기전용으로 되어있습니다.</string>
-    <string name="message_error_open">%s 를 열 수 없습니다.</string>
-    <string name="message_error_mapmode">인식 불가능한 맵 모드: %s</string>
-    <string name="message_error_connect">서버에 연결할 수 없습니다.</string>
+    <string name="message_error_sdcard">外部ストレージがマウントされておりません</string>
+    <string name="message_error_sdcardread">外部ストレージが読み取り専用になっております。</string>
+    <string name="message_error_open">%sを読めませんでした</string>
+    <string name="message_error_mapmode">認識不可能なマップモード: %s</string>
+    <string name="message_error_connect">サーバーへの接続に失敗しました</string>
 
-    <string name="message_connecting">서버에 연결중...</string>
+    <string name="message_connecting">接続中...</string>
     <string name="message_downloaded">%s ダウンロード完了!</string>
 
     <string name="message_lib_update">ライブラリ更新中...</string>
     <string name="message_lib_caching">ライブラリキャッシング... この作業は数分が所要されます</string>
-    <string name="message_lib_complete">キャッシング完了 %d のビットマップが見つかりました</string>
+    <string name="message_lib_complete">キャッシング完了 %d のビートマップが見つかりました</string>
     <string name="message_lib_cleared">キャッシュ初期化完了</string>
-    <string name="message_lib_importing">ビットマップ抽出中...</string>
-    <string name="message_lib_importing_several">%sの圧縮されているビットマップが見つかりました。抽出中...</string>
+    <string name="message_lib_importing">ビートマップ抽出中...</string>
+    <string name="message_lib_importing_several">%sの圧縮されているビートマップが見つかりました。抽出中...</string>
     <string name="message_lib_imported">\"%s\"が抽出されました!</string>
 
 
@@ -34,26 +34,26 @@
     <string name="menu_mod_back">戻る</string>
     <string name="menu_mod_title">モード選択</string>
     <string name="menu_mod_multiplier" formatted="false">スコア %.2f倍</string>
-    <string name="menu_mod_reset">全モードリセット</string>
+    <string name="menu_mod_reset">全modリセット</string>
 
     <string name="menu_properties_title">曲情報</string>
     <string name="menu_properties_offset">楽曲オフセット:</string>
     <string name="menu_properties_tofavs">お気に入りに追加</string>
     <string name="menu_properties_fromfavs">お気に入りから削除</string>
-    <string name="menu_properties_delete">ビットマップ削除</string>
+    <string name="menu_properties_delete">ビートマップ削除</string>
     <string name="menu_properties_delete_confirm">本当に削除しますか？</string>
 
     <string name="menu_search_title">検索オプション</string>
     <string name="menu_search_filter">キーワード:</string>
-    <string name="menu_search_sort">분류:</string>
+    <string name="menu_search_sort">並び替え:</string>
     <string name="menu_search_sort_title">タイトル</string>
     <string name="menu_search_sort_date">追加日付時刻</string>
     <string name="menu_search_sort_creator">クリエーター</string>
     <string name="menu_search_sort_artist">アーティスト</string>
-    <string name="menu_search_favsenabled">즐겨찾기のみ検索: ON</string>
-    <string name="menu_search_favsdisabled">즐겨찾기のみ検索: OFF</string>
+    <string name="menu_search_favsenabled">お気に入りのみ表示: ON</string>
+    <string name="menu_search_favsdisabled">お気に入りのみ表示: OFF</string>
 
-    <string name="downloader_nomaps">ビットマップが見つかりませんでした</string>
+    <string name="downloader_nomaps">ビートマップが見つかりませんでした</string>
 
     <string name="favorite_folder">フォルダ:</string>
     <string name="favorite_default">デフォルト</string>
@@ -64,7 +64,7 @@
     <string name="favorite_new_folder">フォルダ生成</string>
     <string name="favorite_warning_on_delete_default">デフォルトフォルダは削除できません</string>
     <string name="favorite_ensure">本当に削除しますか？</string>
-    <string name="favorite_manage">ビットマップフォルダ管理</string>
+    <string name="favorite_manage">ビートマップフォルダ管理</string>
 
     <string name="hint_login">ユーザーネーム</string>
     <string name="hint_password">パスワード</string>
@@ -74,48 +74,48 @@
 
     <string name="replay_invalid">リプレイ読み込み失敗</string>
     <string name="replay_cantdownload">リプレイダウンロード失敗</string>
-    <string name="replay_wrongmap">リプレイと現在のビットマップが一致されません</string>
+    <string name="replay_wrongmap">リプレイと現在のビートマップが一致されません</string>
     <string name="replay_corrupted">リプレイファイル損傷</string>
 
     <string name="online_registration">新規登録</string>
     <string name="online_registration_process">登録中...</string>
-    <string name="online_loadrecord">Loading record details...</string>
+
     <string name="online_invlogin">ユーザーネーム使用不能</string>
     <string name="online_invpassword">パスワードは  4-32字しかできません</string>
     <string name="online_invconfirm">パスワードが一致されません</string>
     <string name="online_invemail">イーメールを確かめてください</string>
     <string name="online_regcomplete">登録成功、ログインのために再起動してください</string>
--->
-    <!-- Color Picker --><!--
-    <string name="dialog_color_picker">색상 선택기</string>
-    <string name="press_color_to_apply">색상을 눌러 선택하세요.</string>
--->
-    <!-- Crash --><!--
-    <string name="app_run_code_error">치명적 오류 발생</string>
-    <string name="osu_parser_error">맵 해석 오류</string>
-    <string name="require_storage_permission">저장소 권한이 필요합니다, 직접 허가한 후 재시작해주세요.</string>
 
-    <string name="update_dialog_title">업데이트 가능</string>
-    <string name="update_dialog_button_confirm">지금 업데이트</string>
-    <string name="update_dialog_button_later">나중에</string>
-    <string name="update_info_checking">새로운 업데이트를 확인중, 잠시만 기다려주세요.</string>
-    <string name="update_info_runs_latest">최신 버전을 사용중입니다.</string>
-    <string name="menu_deletescore_title">점수 삭제</string>
-    <string name="menu_deletescore_delete">삭제</string>
-    <string name="menu_deletescore_delete_confirm">정말로 삭제하시겠습니까?</string>
-    <string name="menu_deletescore_delete_success">점수가 삭제되었습니다.</string>
-    <string name="beta_check_upgrade_error">새 버전 확인 실패, 잠시 후 다시 시도하세요.</string>
-    <string name="beta_checking_upgrade">업데이트 확인중...</string>
-    <string name="beta_click_to_continue">계속</string>
-    <string name="beta_click_to_install">설치</string>
-    <string name="beta_click_to_retry">재시도</string>
-    <string name="beta_click_to_view">눌러서 확인</string>
-    <string name="beta_download_error">다운로드 실패</string>
-    <string name="beta_download_success">다운로드 성공</string>
-    <string name="beta_downloading">다운로드중</string>
-    <string name="beta_have_new_version">새 버전 업데이트 가능</string>
-    <string name="beta_you_are_the_latest_version">이미 최신 버전을 사용중입니다.</string>
--->
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">カラー選択</string>
+    <string name="press_color_to_apply">カラーコード</string>
+
+    <!-- Crash -->
+    <string name="app_run_code_error">致命的なエラー発生</string>
+    <string name="osu_parser_error">マップ解析エラー</string>
+    <string name="require_storage_permission">ストレージ権限がありません, 直接許可した後、再起動してください</string>
+
+    <string name="update_dialog_title">アップデートあり</string>
+    <string name="update_dialog_button_confirm">今アップデート</string>
+    <string name="update_dialog_button_later">後で</string>
+    <string name="update_info_checking">アップデートチェック中、 しばらくお待ちください</string>
+    <string name="update_info_runs_latest">最新版を使用しています</string>
+    <string name="menu_deletescore_title">スコア削除</string>
+    <string name="menu_deletescore_delete">削除</string>
+    <string name="menu_deletescore_delete_confirm">本当に削除しますか？</string>
+    <string name="menu_deletescore_delete_success">スコアが削除されました</string>
+    <string name="beta_check_upgrade_error">アップデートチェック失敗、後でやり直してください</string>
+    <string name="beta_checking_upgrade">アップデートチェック中。。。</string>
+    <string name="beta_click_to_continue">続く</string>
+    <string name="beta_click_to_install">インストール</string>
+    <string name="beta_click_to_retry">リトライ</string>
+    <string name="beta_click_to_view">押して読む</string>
+    <string name="beta_download_error">ダウンロード失敗</string>
+    <string name="beta_download_success">ダウンロード完了</string>
+    <string name="beta_downloading">ダウンロード中</string>
+    <string name="beta_have_new_version">アップデートあり</string>
+    <string name="beta_you_are_the_latest_version">最新版を使用しています</string>
+
 </resources>
 
 

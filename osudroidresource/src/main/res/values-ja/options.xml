@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>高画質</item>
+        <item>軽量</item>
+        <item>超軽量</item>
+        <item>無し</item>
+    </string-array>
+    <string-array name="error_meter_display_names">
+        <item>常に</item>
+        <item>リプレイのみ</item>
+        <item>無し</item>
+    </string-array>
+
+    <string-array name="metronome_switch_names">
+        <item>無し</item>
+        <item>ナイトコアのみ</item>
+        <item>常に</item>
+    </string-array>
+
+    <string-array name="spinner_style_names">
+        <item>モダン</item>
+        <item>クラシック</item>
+    </string-array>
+
+    <string name="opt_onlineOpt">アカウント</string>
+    <string name="opt_onlineOpt_normal">オンライン</string>
+    <string name="opt_onlineOpt_user">ユーザー</string>
+    <string name="opt_online">オンライン</string>
+    <string name="opt_offline">オフライン</string>
+
+    <string name="opt_stayonline_title">自動ログイン</string>
+    <string name="opt_stayonline_summary">登録されたアカウントで自動ログイン</string>
+    <string name="opt_login_title">ユーザーネーム</string>
+    <string name="opt_login_summary">アカウントのユーザーネーム</string>
+    <string name="opt_password_title">パスワード</string>
+    <string name="opt_password_summary">アカウントのパスワード</string>
+    <string name="opt_register_title">新規登録</string>
+    <string name="opt_register_summary">オンライン新規登録 (新規登録はデバイス一つで一度しかできません!)</string>
+    <string name="opt_loadavatar_title">アバターの読み込み</string>
+    <string name="opt_loadavatar_summary">Wi‐Fiを利用していなくてもアバターを読み込みます</string>
+
+    <string name="opt_error_meter_display_title">スコアメーター</string>
+    <string name="opt_error_meter_display_summary">画面の下部に表示されます</string>
+    <string name="opt_spinner_style_title">スピナースタイル</string>
+    <string name="opt_spinner_style_summary">スピナースタイルを変更します</string>
+    <string name="opt_combo_burst_title">コンボ バースト</string>
+    <string name="opt_combo_burst_summary">コンボ バーストが表示されます</string>
+    <string name="opt_cursor_size">カーソルサイズ</string>
+    <string name="opt_cursor_size_summary">カーソルサイズを調整します (25 - 300, デフォルト: 50)</string>
+    <string name="opt_bursts_title">バースト効果</string>
+    <string name="opt_bursts_summary">サークルやスライダーを押すたびにバースト効果が表示されます</string>
+    <string name="opt_hitlighting_title">ヒットライティング</string>
+    <string name="opt_hitlighting_summary">ヒットした場所を光らせます</string>
+    <string name="opt_particles_title">パーティクル</string>
+    <string name="opt_particles_summary">Cursortailなどのパーティクルが表示されます</string>
+    <string name="opt_dither_title">ディザー(Dither)</string>
+    <string name="opt_dither_summary">ハードウェアディザーを使用します (写真処理)</string>
+    <string name="opt_demoSpline_title">正確なスライダー (デモスプライン)</string>
+    <string name="opt_demoSpline_summary">別のスプラインアルゴリズムでスライダーが表示されます (catmull romスライダーが適用された古いビートマップでエラーが発生する可能性があります)</string>
+    <string name="opt_combo_colors_title">コンボカラー</string>
+    <string name="opt_combo_colors_summary">カスタムコンボカラーを使用します</string>
+
+    <string name="opt_bgm_volume_title">楽曲</string>
+    <string name="opt_bgm_volume_summary">楽曲の音量 (0-100)</string>
+    <string name="opt_metronome_switch_title">メトロノーム</string>
+    <string name="opt_metronome_switch_summary">メトロノーム効果音を発生させます</string>
+    <string name="opt_sound_title">付属ヒットサウンドを使用</string>
+    <string name="opt_sound_summary">可能な場合、ビートマップ付属のヒットサウンドを使用します</string>
+
+    <string name="force_romanized">ローマ字表示</string>
+    <string name="force_romanized_summary">エンコードエラーによって内容が読めない場合、ローマ字で表示されます</string>
+
+    <string name="opt_advanced">詳細設定</string>
+    <string name="opt_advanced_title">詳細設定</string>
+    <string name="opt_corepath_title">デフォルトディレクトリ</string>
+    <string name="opt_corepath_summary">osu!droidのデフォルトのディレクトリ (デフォルト: /sdcard/osu!droid)</string>
+    <string name="opt_skin_top_path_title">スキンディレクトリ</string>
+    <string name="opt_skin_top_path_summary">スキンファイルを保存するディレクトリ (デフォルト: /sdcard/osu!droid/Skin)</string>
+    <string name="opt_syncmusic_title">低レイテンシ</string>
+    <string name="opt_hide_navibar_title">ナビゲーションバー</string>
+    <string name="opt_hide_navibar_summary">プレイ中にナビゲーションバーを隠します</string>
+    <string name="opt_lowdelay_title">入力遅延</string>
+    <string name="opt_lowdelay_summary">入力遅延を減らします。ラグがある場合、解除してください</string>
+
+    <string name="opt_syncmusic_summary">デバイスが低レイテンシオーディオをサポートしていない場合、解除してください</string>
+    <string name="opt_fix_frame_offset_title">オフセット固定</string>
+    <string name="opt_fix_frame_offset_summary">可能な限り、入力とフレームの間にオフセットを固定します</string>
+
+    <string name="opt_update_title">更新を確認</string>
+    <string name="opt_update_summary">アップデートがあるか確かめます</string>
+
+
+    <string name="opt_graphics">グラフィック</string>
+    <string name="opt_beatmaps">ライブラリ</string>
+    <string name="opt_bg_title">背景画質</string>
+    <string name="opt_bg_summary">背景の画質を下げると、パフォーマンスが向上します</string>
+    <string name="opt_skin_title">ビートマップ付属のスキン</string>
+    <string name="opt_skin_summary">ビートマップ付属のスキンのエレメントなどを使用します</string>
+    <string name="opt_largeimages_title">カウントダウン</string>
+    <string name="opt_largeimages_summary">導入部でカウントダウンが表示されます</string>
+    <string name="opt_sound_volume_title">効果音</string>
+    <string name="opt_sound_volume_summary">効果音の音量 (0-100)</string>
+    <string name="opt_offset_title">全体的なオフセット</string>
+    <string name="opt_offset_summary">オフセット単位:ms (この時間だけ曲がノートより早く始まります)</string>
+    <string name="opt_deleteosz_title">.osz ファイル削除</string>
+    <string name="opt_deleteosz_summary">ダウンロードされた.oszファイルから抽出が終わった後、 .oszファイルを削除します</string>
+    <string name="opt_scandownload_summary">Downloadフォルダからビートマップを検出します</string>
+    <string name="opt_scandownload_title">Download スキャン</string>
+    <string name="opt_directory_title">ビートマップディレクトリ</string>
+    <string name="opt_directory_summary">ビートマップが含まれたディレクトリを設定してください (デフォルト: /sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">ライブラリキャッシュリセット</string>
+    <string name="opt_clear_summary">ライブラリキャッシュをリセットします</string>
+    <string name="opt_sound">サウンド</string>
+    <string name="opt_fps_title">FPS表示</string>
+    <string name="opt_fps_summary">ゲームプレイ中にフレームが表示されます</string>
+    <string name="opt_lowtextures_title">テクスチャ品質軽量化</string>
+    <string name="opt_lowtextures_summary">全体的なテクスチャのクォリティーを低めます。解除すればosu!droid は HD品質のテクスチャを使用します</string>
+    <string name="opt_bgbrightness_title">背景の明るさ</string>
+    <string name="opt_bgbrightness_summary">背景イメージの明るさを変更します</string>
+    <string name="opt_sliderborders_title">スライダー境界</string>
+    <string name="opt_sliderborders_summary">スライダー境界が表示されます。</string>
+    <string name="opt_complexanimations_title">複雑な効果</string>
+    <string name="opt_complexanimations_summary">高級グラフィックを活性化します (例. 伸びるスライダー). 解除すればパフォーマンスが向上します</string>
+    <string name="opt_musicpreview_title">曲プレビュー</string>
+    <string name="opt_musicpreview_summary">ビートマップを選択すると、そのマップの曲を再生します</string>
+    <string name="opt_playername_title">ローカルユーザー</string>
+    <string name="opt_playername_summary">オフラインユーザーネーム</string>
+    <string name="opt_showcursor_title">カーソル表示</string>
+    <string name="opt_showcursor_summary">ゲームプレイ中に指の下にカーソルが表示されます</string>
+    <string name="opt_show_first_approach_circle_title">最初nのノートのアプローチサークル表示</string>
+    <string name="opt_show_first_approach_circle_summary">Hidden Modでも一番最初のヒットオブジェクトのサークルが表示されます</string>
+
+    <string name="opt_clearprops_title">マップ専用データリセット</string>
+    <string name="opt_clearprops_summary">マップ専用データをリセットします (例： マップのオフセット)</string>
+
+    <string name="opt_skinpath_title">スキン選択</string>
+    <string name="opt_skinpath_summary">スキンディレクトリからスキンを選択します</string>
+    <string name="opt_show_scoreboard_summary">ゲームプレイ中にビートマップのスコアボードが表示されます</string>
+    <string name="opt_show_scoreboard_title">スコアボード表示</string>
+    <string name="opt_superSlider_title">スーパースライダー</string>
+    <string name="opt_superSlider_summary">完璧な形のスライダー!</string>
+    <string name="opt_enableStoryboard_summary">デバイスが熱くなる可能性があります</string>
+    <string name="opt_enableStoryboard_title">ストーリボード表示</string>
+
+</resources>
+
