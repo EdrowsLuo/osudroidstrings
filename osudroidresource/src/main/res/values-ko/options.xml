@@ -8,7 +8,7 @@
     </string-array>
     <string-array name="error_meter_display_names">
         <item>항상</item>
-        <item>리플레이할 때만</item>
+        <item>리플레이 재생시에만</item>
         <item>해제</item>
     </string-array>
 
