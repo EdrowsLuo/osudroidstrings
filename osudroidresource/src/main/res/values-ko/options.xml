@@ -109,7 +109,7 @@
     <string name="opt_scandownload_summary">Download 폴더에서 비트맵을 스캔합니다.</string>
     <string name="opt_scandownload_title">Download 스캔</string>
     <string name="opt_directory_title">비트맵 경로</string>
-    <string name="opt_directory_summary">비트맵을 포함하고 있는 폴더 경로를 설정해주세요. (기본경로: /sdcard/osu!droid/Songs)</string>
+    <string name="opt_directory_summary">비트맵을 포함하고 있는 폴더 경로를 설정해주세요. (기본: /sdcard/osu!droid/Songs)</string>
     <string name="opt_clear_title">라이브러리 캐시 초기화</string>
     <string name="opt_clear_summary">라이브러리 캐시를 강제로 초기화합니다.</string>
     <string name="opt_doublesound_title">이중 타격음</string>
