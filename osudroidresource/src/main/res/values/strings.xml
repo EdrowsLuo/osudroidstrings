@@ -34,7 +34,7 @@
 	<string name="dialog_cancel">Cancel</string>
 	<string name="dialog_search_title">Search</string>
 	<string name="dialog_search_message">Enter search query</string>
-	<string name="dialog_regster">Register</string>
+	<string name="dialog_register">Register</string>
 
 	<string name="dialog_delete_pp_title">Reset your pp?</string>
 	<string name="dialog_delete_pp_make_sure">Really?</string>
