@@ -2,62 +2,216 @@
 <resources>
     <string-array name="bg_quality_names">
         <item>Tinggi</item>
-        <item>Medium</item>
+        <item>Sedang</item>
         <item>Rendah</item>
         <item>Tidak aktif</item>
     </string-array>
+    <string-array name="error_meter_display_names">
+        <item>Selalu</item>
+        <item>Hanya replay</item>
+        <item>Tidak aktif</item>
+    </string-array>
+    <string-array name="spinner_style_names">
+        <item>Modern</item>
+        <item>Klasik</item>
+    </string-array>
+    <string-array name="metronome_switch_names">
+        <item>Tidak aktif</item>
+        <item>Hanya untuk mod NightCore</item>
+        <item>Selalu</item>
+    </string-array>
+	
     <string name="opt_graphics">Grafik</string>
+	
     <string name="opt_beatmaps">Perpustakaan</string>
+	
     <string name="opt_bg_title">Kualitas latar belakang</string>
-    <string name="opt_bg_summary">Mengurangi kualitas latar belakang untuk memperbagus kinerja</string>
+    <string name="opt_bg_summary">Mengurangi kualitas latar belakang untuk meningkatkan kinerja</string>
+	
     <string name="opt_skin_title">Tema beatmap</string>
-    <string name="opt_skin_summary">Unduhkan beatmap-dengan tema spesifik jika ada</string>
+    <string name="opt_skin_summary">Muat tema spesifik dalam beatmap jika ada</string>
+	
     <string name="opt_largeimages_title">Hitung mundur</string>
     <string name="opt_largeimages_summary">Tunjukkan hitung mundur dari awal map jika tersedia</string>
+	
     <string name="opt_sound_volume_title">Volume suara hit</string>
-    <string name="opt_sound_volume_summary">Volumenya suara hit (0-100)</string>
+    <string name="opt_sound_volume_summary">Besar volume suara hit (0-100)</string>
+	
     <string name="opt_offset_title">Offset global</string>
-    <string name="opt_offset_summary">Offset musik dari ms (Nilai positif berarti lebih awal)</string>
+    <string name="opt_offset_summary">Offset musik dari ms (nilai positif berarti lebih awal)</string>
+	
     <string name="opt_special">Istimewa</string>
-    <string name="opt_deleteosz_title">Hapuskan .osz</string>
-    <string name="opt_deleteosz_summary">Hapuskan .osz setelah file di impor</string>
+	
+    <string name="opt_deleteosz_title">Hapus .osz</string>
+    <string name="opt_deleteosz_summary">Hapus .osz setelah file diimpor</string>
+	
     <string name="opt_directory_title">Lokasi beatmap</string>
-    <string name="opt_directory_summary">Jalan menuju direktori berisi beatmap (default: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_directory_summary">Jalan menuju direktori berisi beatmap (standar: /mnt/sdcard/osu!droid/Songs)</string>
+	
     <string name="opt_clear_title">Bersihkan cache perpustakaan</string>
-    <string name="opt_clear_summary">Pembersihan cache perpustakaan yang di paksa</string>
+    <string name="opt_clear_summary">Pembersihan cache perpustakaan secara paksa</string>
+	
     <string name="opt_doublesound_title">Suara hit ganda</string>
-    <string name="opt_doublesound_summary">Buatlah suara hit agar mirip osu! asli</string>
+    <string name="opt_doublesound_summary">Buat suara hit mirip osu! asli</string>
+	
     <string name="opt_sound">Suara</string>
-    <string name="opt_fps_title">Tampilkan FPS</string>
+	
+    <string name="opt_fps_title">FPS</string>
     <string name="opt_fps_summary">Tampilkan FPS sewaktu bermain</string>
-	<string name="opt_lowtextures_title">Kurangi kualitas tekstur</string>
-    <string name="opt_lowtextures_summary">Kurangi tekstur keseluruhan permainan. Jika non-aktif, osu!droid akan menggunakan tekstur kualitas HD.</string>
+	
+    <string name="opt_lowtextures_title">Kurangi kualitas tekstur</string>
+    <string name="opt_lowtextures_summary">Kurangi tekstur keseluruhan permainan. Jika tidak aktif, osu!droid akan menggunakan tekstur kualitas HD.</string>
+	
     <string name="opt_nativeplayer_title">Gunakan pemutar asli</string>
-    <string name="opt_nativeplayer_summary">Gunakan pemutar asli agar meningkatkan akurasi timing (doesn\'t support .ogg files)</string>
+    <string name="opt_nativeplayer_summary">Gunakan pemutar asli untuk meningkatkan akurasi timing (tidak mendukung file .ogg)</string>
+	
     <string name="opt_bgbrightness_title">Pencerahan latar belakang</string>
-    <string name="opt_bgbrightness_summary">Ubah pencerahan gambar latar belakang</string>
+    <string name="opt_bgbrightness_summary">Ubah kecerahan gambar latar belakang</string>
+	
     <string name="opt_vbroffset_title">Offset VBR</string>
-    <string name="opt_vbroffset_summary">Offset untuk mp3 yang di encode dengan  bitrate bervariasi  (built-in player only)</string>
-    <string name="opt_sliderborders_title">Gambarkan perbatasan untuk slider</string>
-    <string name="opt_sliderborders_summary">Gambarkan perbatasan untuk seliruh jalan slider. Non-aktifkan untuk kinerja yang lebih tinggi</string>
+    <string name="opt_vbroffset_summary">Offset untuk mp3 yang diencode dengan bitrate bervariasi (hanya untuk pemutar asli)</string>
+	
+    <string name="opt_sliderborders_title">Gambar perbatasan untuk slider</string>
+    <string name="opt_sliderborders_summary">Gambar perbatasan untuk seluruh jalan slider. Nonaktifkan untuk kinerja yang lebih tinggi</string>
+	
     <string name="opt_complexanimations_title">Efek kompleks</string>
-    <string name="opt_complexanimations_summary">Aktifkan efek grafik tingkat tinggi (cth. animasi slider). Non-aktifkan untuk kinerja yang lebih tinggi</string>
-    <string name="opt_other_title">Yang lain</string>
+    <string name="opt_complexanimations_summary">Aktifkan efek grafik tingkat tinggi (seperti animasi slider). Nonaktifkan untuk kinerja yang lebih tinggi</string>
+	
+    <string name="opt_other_title">Lainnya</string>
+	
     <string name="opt_multitouch_title">Multi-touch</string>
     <string name="opt_multitouch_summary">Aktifkan input multi-touch jika tersedia</string>
+	
     <string name="opt_offsetscreen_title">Atur offset</string>
     <string name="opt_offsetscreen_summary"></string>
+	
     <string name="opt_oggoffset_title">Offset OGG</string>
     <string name="opt_oggoffset_summary">Offset tambahan untuk lagu dalam format .ogg</string>
-    <string name="opt_pauseoffset_title">Hentikan offset</string>
-    <string name="opt_pauseoffset_summary">Offset di tambah setiap kali anda melanjuti permainan yang di hentikan</string>
+	
+    <string name="opt_pauseoffset_title">Jeda offset</string>
+    <string name="opt_pauseoffset_summary">Tambah offset setiap kali Anda melanjutkan permainan yang dihentikan</string>
+	
     <string name="opt_musicpreview_title">Tinjauan lagu</string>
-    <string name="opt_musicpreview_summary">mainkan lagu jika beatmap di pilih</string>
+    <string name="opt_musicpreview_summary">Mainkan lagu ketika beatmap dipilih</string>
+	
     <string name="opt_playername_title">Nama pemain</string>
     <string name="opt_playername_summary">Nama pemain lokal</string>
-    <string name="opt_showcursor_title">Tunjukkan cursor</string>
-    <string name="opt_showcursor_summary">Tunjukkan cursor di bawah jari sesaat kelangsungan permainan</string>
+	
+    <string name="opt_showcursor_title">Perlihatkan kursor</string>
+    <string name="opt_showcursor_summary">Perlihatkan kursor di bawah jari saat permainan berlangsung</string>
+	
+    <string name="opt_clearprops_title">Bersihkan data spesifik tiap map</string>
+    <string name="opt_clearprops_summary">Bersihkan seluruh map dengan data spesifik secara paksa (seperti offset tiap map)</string>
+	
+    <string name="opt_taiko_title">Muat lagu-lagu T-Aiko!</string>
+    <string name="opt_taiko_summary">Memuat lagu-lagu dari direktori T-Aiko!</string>
 
-    <string name="opt_clearprops_title">Bersihkan map-data yang spesifik</string>
-    <string name="opt_clearprops_summary">Pembersihan seluruh map yang di paksa-data spesifik (cth. offset per-map)</string>
+    <string name="opt_online">Daring</string>
+	
+    <string name="opt_online_title">Memperlihatkan opsi daring</string>
+    <string name="opt_online_summary"></string>
+
+    <string name="opt_stayonline_title">Koneksi server</string>
+    <string name="opt_stayonline_summary">Sambungkan ke server osu!droid</string>
+	
+    <string name="opt_login_title">Masuk</string>
+    <string name="opt_login_summary">Nama daring Anda</string>
+	
+    <string name="opt_password_title">Kata sandi</string>
+    <string name="opt_password_summary">Kata sandi akun Anda</string>
+	
+    <string name="opt_register_title">Daftar</string>
+    <string name="opt_register_summary">Daftarkan akun baru (Anda hanya boleh mombuat satu akun untuk setiap perangkat)</string>
+	
+    <string name="opt_loadavatar_title">Muat avatar</string>
+    <string name="opt_loadavatar_summary">Muat tanpa koneksi Wi-Fi</string>
+	
+    <string name="opt_error_meter_display_title">Bilah kesalahan hit</string>
+    <string name="opt_error_meter_display_summary">Perlihatkan bilah kesalahan hit</string>
+	
+    <string name="opt_spinner_style_title">Model spinner</string>
+    <string name="opt_spinner_style_summary">Ubah model spinner</string>
+	
+    <string name="opt_combo_burst_title">Burst kombo</string>
+    <string name="opt_combo_burst_summary">Aktifkan atau nonaktifkan burst kombo</string>
+	
+    <string name="opt_advanced">Lebih lanjut</string>
+
+    <string name="opt_advanced_title">Pengaturan lebih lanjut</string>
+    <string name="opt_advanced_summary"></string>
+	
+    <string name="opt_corepath_title">Direktori utama</string>
+    <string name="opt_corepath_summary">Direktori utama osu!droid</string>
+	
+    <string name="opt_lowdelay_title">Keterlambatan input</string>
+    <string name="opt_lowdelay_summary">Mengurangi keterlambatan input. Nonaktifkan apabila Anda merasa tidak nyaman</string>
+	
+    <string name="opt_fix_frame_offset_title">Perbaiki offset acak</string>
+    <string name="opt_fix_frame_offset_summary">Memperbaiki offset antara waktu input and waktu frame.</string>
+	
+    <string name="opt_enable_extension_title">Aktifkan ekstensi</string>
+
+    <string name="opt_download_extension_title">Unduh ekstensi</string>
+
+    <string name="opt_syncmusic_title">Sinkronisasi latensi rendah</string>
+    <string name="opt_syncmusic_summary">"Nonaktifkan apabila perangkat Anda tidak mendukung audio berlatensi rendah"</string>
+	
+    <string name="opt_savereplays_title">Replay</string>
+    <string name="opt_savereplays_summary">Simpan replay untuk rekaman lokal</string>
+	
+    <string name="opt_bursts_title">Efek meledak</string>
+    <string name="opt_bursts_summary">Perlihatkan efek meledak saat hit lingkaran atau slider</string>
+	
+    <string name="opt_hitlighting_title">Pencahayaan hit</string>
+    <string name="opt_hitlighting_summary">Tambahkan cahaya halus yang menerangi area bermain di belakang ledakan hit</string>
+	
+    <string name="opt_dither_title">Dither</string>
+    <string name="opt_dither_summary">Gunakan hardware dither (pemrosesan gambar)</string>
+	
+    <string name="opt_particles_title">Efek partikel</string>
+    <string name="opt_particles_summary">Perlihatkan efek berbasis partikel seperti jejak kursor</string>
+	
+    <string name="opt_hide_navibar_title">Bilah navigasi</string>
+    <string name="opt_hide_navibar_summary">Sembunyikan bilah navigasi ketika bermain</string>
+	
+    <string name="opt_enable_pp_title">Sistem poin performa (PP)</string>
+    <string name="opt_enable_pp_summary">Sistem poin performa luring. Hanya untuk kesenangan :)</string>
+    <string name="opt_clear_pp_title">Ulang poin performa (PP)</string>
+    <string name="opt_clear_pp_summary"></string>
+	
+    <string name="opt_combo_colors_title">Warna kombo</string>
+    <string name="opt_combo_colors_summary">Gunakan warna kombo yang telah ditentukan</string>
+	
+    <string name="opt_update_title">Cek untuk pembaruan</string>
+    <string name="opt_update_summary">Cek untuk pembaruan yang ada</string>
+	
+    <string name="force_romanized">Gunakan metadata yang diromanisasi</string>
+    <string name="force_romanized_summary">Penggunaan karakter roman untuk metadata, apabila judul dalam bahasa Jepang atau China tidak dapat dibaca</string>
+	
+    <string name="opt_cursor_size">Ukuran kursor</string>
+    <string name="opt_cursor_size_summary">Atur ukuran kursor (25 - 300, standar 100)</string>
+	
+    <string name="opt_show_first_approach_circle_title">Perlihatkan approach circle pertama</string>
+    <string name="opt_show_first_approach_circle_summary">Jangan sembunyikan approach circle pertama dalam mod Hidden</string>
+	
+    <string name="opt_apikey_title">[Beta] Kunci API osu!ppy</string>
+    <string name="opt_apikey_summary">Gunakan API osu!ppy untuk mendapatkan informasi mengenai beatmap. &#xD;Apabila kunci tidak sah, bloodcat akan digunakan (kemungkinan lama/koneksi buruk)</string>
+	
+    <string name="opt_show_scoreboard_title">Perlihatkan panel skor</string>
+    <string name="opt_show_scoreboard_summary">Perlihatkan panel skor dari beatmap selama permainan</string>
+	
+    <string name="opt_skin_top_path_title">Direktori skin</string>
+    <string name="opt_skin_top_path_summary">Jalan ke direktori berisi file tema (standar: /sdcard/osu!droid/Skin)</string>
+	
+    <string name="opt_skinpath_title">Pilih tema</string>
+    <string name="opt_skinpath_summary">Pilih tema dari direktori tema di atas</string>
+	
+    <string name="opt_enableStoryboard_title">Aktifkan storyboard</string>
+    <string name="opt_enableStoryboard_summary">Perangkatmu akan panas!</string>
+
+    <string name="opt_scandownload_summary">Pindai direktori /Download untuk beatmap baru</string>
+    <string name="opt_scandownload_title">Pindai /Download</string>
+	
+    <string name="opt_superSlider_title">Slider super</string>
+    <string name="opt_superSlider_summary">Slider dengan bentuk yang sempurna!</string>
 </resources>
