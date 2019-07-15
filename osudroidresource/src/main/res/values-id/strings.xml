@@ -18,10 +18,10 @@
 
     <string name="message_lib_update">Memperbarui perpustakaan</string>
     <string name="message_lib_caching">Mengcache perpustakaan...</string>
-    <string name="message_lib_complete">Caching selesai. Ditemukan%d beatmap</string>
+    <string name="message_lib_complete">Caching selesai. Ditemukan %d beatmap</string>
     <string name="message_lib_cleared">Cache dibersihkan</string>
     <string name="message_lib_importing">Mengimpor beatmap...</string>
-    <string name="message_lib_importing_several">Menemukan %s Beatmap yang di arsip. Mengimpor</string>
+    <string name="message_lib_importing_several">Ditemukan %s beatmap yang diarsip. Mengimpor</string>
     <string name="message_lib_imported">\"%s\" telah diimpor!</string>
     
     <string name="message_extension_not_found">Tidak ada aplikasi ekstensi yang ditemukan.</string>
