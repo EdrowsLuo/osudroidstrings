@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="bg_quality_names">
         <item>높음</item>
@@ -8,7 +8,7 @@
     </string-array>
     <string-array name="error_meter_display_names">
         <item>항상</item>
-        <item>리플레이할 때만</item>
+        <item>리플레이 재생시에만</item>
         <item>해제</item>
     </string-array>
 
@@ -47,7 +47,7 @@
     <string name="opt_combo_burst_title">콤보 버스트</string>
     <string name="opt_combo_burst_summary">콤보 버스트를 표시합니다.</string>
     <string name="opt_cursor_size">커서 사이즈</string>
-    <string name="opt_cursor_size_summary">커서 사이즈를 조정합니다. (25 - 300, 기본: 50)</string>
+    <string name="opt_cursor_size_summary">커서 사이즈를 조정합니다. (25 - 300, 기본: 100)</string>
     <string name="opt_bursts_title">버스트 효과</string>
     <string name="opt_bursts_summary">서클이나 슬라이더를 누를 때 버스트 효과를 표시합니다.</string>
     <string name="opt_hitlighting_title">히트 라이트닝</string>
@@ -76,7 +76,7 @@
     <string name="opt_corepath_title">기본 경로</string>
     <string name="opt_corepath_summary">osu!droid 기본 경로(기본: /sdcard/osu!droid)</string>
     <string name="opt_skin_top_path_title">스킨 경로</string>
-    <string name="opt_skin_top_path_summary">스킨  포함하는 경로 (기본: /sdcard/osu!droid/Skin)</string>
+    <string name="opt_skin_top_path_summary">스킨을 포함하는 경로 (기본: /sdcard/osu!droid/Skin)</string>
     <string name="opt_syncmusic_title">저지연 동기화 (Low-latency)</string>
     <string name="opt_hide_navibar_title">네비게이션 바</string>
     <string name="opt_hide_navibar_summary">플레이 중에 하단 네비게이션 바를 숨깁니다.</string>
@@ -109,7 +109,7 @@
     <string name="opt_scandownload_summary">Download 폴더에서 비트맵을 스캔합니다.</string>
     <string name="opt_scandownload_title">Download 스캔</string>
     <string name="opt_directory_title">비트맵 경로</string>
-    <string name="opt_directory_summary">비트맵을 포함하고 있는 폴더 경로를 설정해주세요. (기본경로: /sdcard/osu!droid/Songs)</string>
+    <string name="opt_directory_summary">비트맵을 포함하고 있는 폴더 경로를 설정해주세요. (기본: /sdcard/osu!droid/Songs)</string>
     <string name="opt_clear_title">라이브러리 캐시 초기화</string>
     <string name="opt_clear_summary">라이브러리 캐시를 강제로 초기화합니다.</string>
     <string name="opt_doublesound_title">이중 타격음</string>
@@ -151,7 +151,7 @@
     <string name="opt_clearprops_summary">맵 전용 데이터를 초기화합니다. (예. 각맵들의 오프셋)</string>
 
     <string name="opt_apikey_title">[베타] osu!ppy API 키</string>
-    <string name="opt_apikey_summary">osu!ppy API 를 이용해 비트맵 정보를 불러옵니다. &#xD;옳바른 키가 아닐 경우, 블러드캣으로 대체됩니다. (정보가 만료되거나, 연결 상태가 원활하지 않을 수 있습니다.)</string>
+    <string name="opt_apikey_summary">osu!ppy API 를 이용해 비트맵 정보를 불러옵니다. &#xD;올바른 키가 아닐 경우, 블러드캣으로 대체합니다. (정보가 만료되거나, 연결 상태가 원활하지 않을 수 있습니다.)</string>
 
 
     <string name="opt_show_scoreboard_summary">게임 플레이 중에 해당 비트맵의 순위표를 표시합니다.</string>
