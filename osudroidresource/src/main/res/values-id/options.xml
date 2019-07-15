@@ -121,7 +121,7 @@
     <string name="opt_password_summary">Kata sandi akun Anda</string>
 	
     <string name="opt_register_title">Daftar</string>
-    <string name="opt_register_summary">Daftarkan akun baru (Anda hanya boleh mombuat satu akun untuk setiap perangkat)</string>
+    <string name="opt_register_summary">Daftarkan akun baru (Anda hanya boleh membuat satu akun untuk setiap perangkat)</string>
 	
     <string name="opt_loadavatar_title">Muat avatar</string>
     <string name="opt_loadavatar_summary">Muat tanpa koneksi Wi-Fi</string>
