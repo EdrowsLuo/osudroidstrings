@@ -195,7 +195,7 @@
     <string name="opt_show_first_approach_circle_summary">Jangan sembunyikan approach circle pertama dalam mod Hidden</string>
 	
     <string name="opt_apikey_title">[Beta] Kunci API osu!ppy</string>
-    <string name="opt_apikey_summary">Gunakan API osu!ppy untuk mendapatkan informasi mengenai beatmap. &#xD;Apabila kunci tidak sah, bloodcat akan digunakan (kemungkinan lama/koneksi buruk)</string>
+    <string name="opt_apikey_summary">Gunakan API osu!ppy untuk mendapatkan informasi mengenai beatmap. &#xD;Apabila kunci tidak valid, bloodcat akan digunakan (kemungkinan lama/koneksi buruk)</string>
 	
     <string name="opt_show_scoreboard_title">Perlihatkan panel skor</string>
     <string name="opt_show_scoreboard_summary">Perlihatkan panel skor dari beatmap selama permainan</string>
