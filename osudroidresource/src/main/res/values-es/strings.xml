@@ -2,45 +2,45 @@
 <resources>
     <string name="message_error">Error: %s</string>
     <string name="message_error_createdir">No se puede crear: %s</string>
-    <string name="message_error_multitouch">La función "multitouch" no está soportada por tu dispositivo</string>
-    <string name="message_error_audio">No se pude iniciar audio. Favor de reiniciar la canción.</string>
-    <string name="message_error_sdcard">Almacenamiento externo no está montado</string>
-    <string name="message_error_sdcardread">Almacenamiento externo se encuentra en modo de sólo lectura</string>
+    <string name="message_error_multitouch">La función "multitouch" no es soportada por tu dispositivo.</string>
+    <string name="message_error_audio">No se pude iniciar el audio. Favor de reiniciar la canción.</string>
+    <string name="message_error_sdcard">El almacenamiento externo no está disponible.</string>
+    <string name="message_error_sdcardread">El almacenamiento externo se encuentra en el modo sólo lectura</string>
     <string name="message_error_open">No se puede abrir: %s</string>
     <string name="message_error_mapmode">Modo de mapa inválido: %s</string>
     <string name="message_error_connect">No se puede conectar al servidor</string>
-    <string name="message_error_connectlimit">Alcanzado el límite de errores de conexión</string>
+    <string name="message_error_connectlimit">Se alcanzó el límite de errores de conexión</string>
     <string name="message_error_download">No se pude descargar: %s</string>
     
-    <string name="message_standardplayer">Cambiando a reproductor stándar</string>
+    <string name="message_standardplayer">Cambiando el reproductor a estándar.</string>
     <string name="message_connecting">Conectando al servidor...</string>
     <string name="message_downloaded">¡Se ha descargado: %s !</string>
 
-    <string name="message_lib_update">Actualizando librería...</string>
-    <string name="message_lib_caching">Almacenando librería en cache... Esto puede tomar algunos minutos.</string>
-    <string name="message_lib_complete">Almacenamiento en cache completo. Se encontraron %d beatmaps</string>
-    <string name="message_lib_cleared">Cache eliminado</string>
-    <string name="message_lib_importing">Importando beatmap...</string>
-    <string name="message_lib_importing_several">Fueron encontrados %s beatmaps archivados. Importando...</string>
+    <string name="message_lib_update">Actualizando la librería...</string>
+    <string name="message_lib_caching">Almacenando la librería en el cache... Esto puede tomar algunos minutos.</string>
+    <string name="message_lib_complete">Almacenamiento en el cache completo. Se encontraron %d beatmaps</string>
+    <string name="message_lib_cleared">Se ha eliminado el cache.</string>
+    <string name="message_lib_importing">Importando beatmaps...</string>
+    <string name="message_lib_importing_several">Fueron encontrados %s beatmaps descargados. Importando...</string>
     <string name="message_lib_imported">¡\"%s\" ha sido importado!</string>
     
     
-    <string name="dialog_playername_title">Introduzca nombre del jugador</string>
-    <string name="dialog_playername_message">Introduzca su nombre. Será usado para registrar su puntuaje.</string>
+    <string name="dialog_playername_title">Introduzca el nombre del jugador</string>
+    <string name="dialog_playername_message">Introduzca el nombre del jugador. Será usado para registrar su puntuaje.</string>
     <string name="dialog_ok">Aceptar</string>
     <string name="dialog_cancel">Cancelar</string>
     <string name="dialog_search_title">Buscar</string>
-    <string name="dialog_search_message">Introduzca texto a buscar</string>
+    <string name="dialog_search_message">Introduzca el texto a buscar</string>
     
    	<string name="menu_score" formatted="false">Puntuaje: %s (%dx)</string>
    	<string name="menu_creator">Creador: %s</string>
    	<string name="menu_mod_back">Retroceder</string>
-   	<string name="menu_mod_title">Selección de modificadores</string>
+   	<string name="menu_mod_title">Selección de mods</string>
    	<string name="menu_mod_multiplier">Multiplicador de puntuaje %.2fx</string>
-   	<string name="menu_mod_reset">Reiniciar todos los modificadores</string>
+   	<string name="menu_mod_reset">Reiniciar todos los mods</string>
    	
-   	<string name="menu_properties_title">Propiedades de canción</string>
-   	<string name="menu_properties_offset">Offset de canción:</string>
+   	<string name="menu_properties_title">Propiedades de la canción</string>
+   	<string name="menu_properties_offset">Offset de la canción:</string>
    	<string name="menu_properties_tofavs">Añadir a favoritos</string>
    	<string name="menu_properties_fromfavs">Eliminar de favoritos</string>
    	<string name="menu_properties_delete">Eliminar mapa</string>
