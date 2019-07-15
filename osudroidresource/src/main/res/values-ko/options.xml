@@ -47,7 +47,7 @@
     <string name="opt_combo_burst_title">콤보 버스트</string>
     <string name="opt_combo_burst_summary">콤보 버스트를 표시합니다.</string>
     <string name="opt_cursor_size">커서 사이즈</string>
-    <string name="opt_cursor_size_summary">커서 사이즈를 조정합니다. (25 - 300, 기본: 50)</string>
+    <string name="opt_cursor_size_summary">커서 사이즈를 조정합니다. (25 - 300, 기본: 100)</string>
     <string name="opt_bursts_title">버스트 효과</string>
     <string name="opt_bursts_summary">서클이나 슬라이더를 누를 때 버스트 효과를 표시합니다.</string>
     <string name="opt_hitlighting_title">히트 라이트닝</string>
