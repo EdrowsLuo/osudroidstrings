@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="bg_quality_names">
         <item>높음</item>
@@ -76,7 +76,7 @@
     <string name="opt_corepath_title">기본 경로</string>
     <string name="opt_corepath_summary">osu!droid 기본 경로(기본: /sdcard/osu!droid)</string>
     <string name="opt_skin_top_path_title">스킨 경로</string>
-    <string name="opt_skin_top_path_summary">스킨  포함하는 경로 (기본: /sdcard/osu!droid/Skin)</string>
+    <string name="opt_skin_top_path_summary">스킨을 포함하는 경로 (기본: /sdcard/osu!droid/Skin)</string>
     <string name="opt_syncmusic_title">저지연 동기화 (Low-latency)</string>
     <string name="opt_hide_navibar_title">네비게이션 바</string>
     <string name="opt_hide_navibar_summary">플레이 중에 하단 네비게이션 바를 숨깁니다.</string>
