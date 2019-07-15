@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- after 1.6.7(beta1) -->
+    <string name="frg_score_menu_title">기록</string>
+    <string name="frg_score_menu_export_score">리플레이 추출</string>
+    <string name="frg_score_menu_export_failed">리플레이 추출 실패!</string>
+    <string name="frg_score_menu_export_succeed" formatted="true">리플레이가 다음 경로로 저장되었습니다. %s</string>
+
+</resources>
