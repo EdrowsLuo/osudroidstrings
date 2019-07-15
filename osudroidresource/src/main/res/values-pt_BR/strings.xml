@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_error">Error: %s</string>
+    <string name="message_error_createdir">Não foi possível criar: %s</string>
+    <string name="message_error_multitouch">A função "multi-touch" não é compatível com seu dispositivo.</string>
+    <string name="message_error_audio">Não foi possível carregar o áudio. Por favor reinicie a música.</string>
+    <string name="message_error_sdcard">O armazenamento externo não está disponível.</string>
+    <string name="message_error_sdcardread">O armazenamento externo se encontra em mode de apenas leitura.</string>
+    <string name="message_error_open">Não foi possível abrir: %s</string>
+    <string name="message_error_mapmode">Modo do mapa inválido: %s</string>
+    <string name="message_error_connect">Não foi possível conectar-se ao servidor.</string>
+    <string name="message_error_connectlimit">O limite de erros de conexão foi alcançado.</string>
+    <string name="message_error_download">Não foi possível baixar: %s</string>
+    
+    <string name="message_standardplayer">Mudando para o reprodutor padrão</string>
+    <string name="message_connecting">Conectando-se ao servidor...</string>
+    <string name="message_downloaded">O arquivo %s terminou de ser baixado!</string>
+
+    <string name="message_lib_update">Atualizando a biblioteca...</string>
+    <string name="message_lib_caching">Armazenando a biblioteca do cache... Isto pode demorar alguns minutos.</string>
+    <string name="message_lib_complete">O armazenamento da biblioteca no cache foi concluído. Foram encontrados %d beatmaps.</string>
+    <string name="message_lib_cleared">Cache removido.</string>
+    <string name="message_lib_importing">Importando beatmap...</string>
+    <string name="message_lib_importing_several">Foram encontrados %s novos beatmaps. Importando...</string>
+    <string name="message_lib_imported">Foram importados \"%s\"!</string>
+    
+    
+    <string name="dialog_playername_title">Adicione seu nome de usuário.</string>
+    <string name="dialog_playername_message">Adicione seu nome de usuário aqui. Este será utilizado para registrar sua conta.</string>
+    <string name="dialog_ok">Aceitar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_search_title">Procurar</string>
+    <string name="dialog_search_message">Digite aqui para procurar.</string>
+    
+   	<string name="menu_score" formatted="false">Pontuação: %s (%dx)</string>
+   	<string name="menu_creator">Criador: %s</string>
+   	<string name="menu_mod_back">Voltar</string>
+   	<string name="menu_mod_title">Seleção de mods</string>
+   	<string name="menu_mod_multiplier">Multiplicador de pontuação %.2fx</string>
+   	<string name="menu_mod_reset">Reiniciar todos os mods</string>
+   	
+   	<string name="menu_properties_title">Propriedades da música</string>
+   	<string name="menu_properties_offset">Offset da música:</string>
+   	<string name="menu_properties_tofavs">Adicionar aos favoritos</string>
+   	<string name="menu_properties_fromfavs">Remover dos favoritos</string>
+   	<string name="menu_properties_delete">Remover mapa</string>
+   	<string name="menu_properties_delete_confirm">Tem certeza que deseja remover este mapa?</string>
+   	
+   	<string name="menu_search_title">Opções de busca</string>
+   	<string name="menu_search_filter">Procurar por:</string>
+   	<string name="menu_search_sort">Ordenar por:</string>
+   	<string name="menu_search_sort_title">Título</string>
+   	<string name="menu_search_sort_date">Data</string>
+   	<string name="menu_search_sort_creator">Criador</string>
+   	<string name="menu_search_sort_artist">Artista</string>
+   	<string name="menu_search_favsenabled">Mostrar apenas favoritos: activado</string>
+   	<string name="menu_search_favsdisabled">Mostrar apenas favoritos: desactivado</string>
+   	
+   	<string name="downloader_page" formatted="false">Página %d de %d</string>
+   	<string name="downloader_nomaps">Não foi possível encontrar nenhum beatmap.</string>	
+</resources>
+
+
