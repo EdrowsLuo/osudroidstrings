@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- after 1.6.7(beta1) -->
+    <string name="frg_score_menu_title">スコア</string>
+    <string name="frg_score_menu_export_score">スコア抽出</string>
+    <string name="frg_score_menu_export_failed">スコア抽出失敗!</string>
+    <string name="frg_score_menu_export_succeed" formatted="true">スコアが　%s　に保存されました</string>
+
+</resources>
