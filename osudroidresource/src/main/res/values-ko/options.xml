@@ -151,7 +151,7 @@
     <string name="opt_clearprops_summary">맵 전용 데이터를 초기화합니다. (예. 각맵들의 오프셋)</string>
 
     <string name="opt_apikey_title">[베타] osu!ppy API 키</string>
-    <string name="opt_apikey_summary">osu!ppy API 를 이용해 비트맵 정보를 불러옵니다. &#xD;옳바른 키가 아닐 경우, 블러드캣으로 대체됩니다. (정보가 만료되거나, 연결 상태가 원활하지 않을 수 있습니다.)</string>
+    <string name="opt_apikey_summary">osu!ppy API 를 이용해 비트맵 정보를 불러옵니다. &#xD;올바른 키가 아닐 경우, 블러드캣으로 대체합니다. (정보가 만료되거나, 연결 상태가 원활하지 않을 수 있습니다.)</string>
 
 
     <string name="opt_show_scoreboard_summary">게임 플레이 중에 해당 비트맵의 순위표를 표시합니다.</string>
