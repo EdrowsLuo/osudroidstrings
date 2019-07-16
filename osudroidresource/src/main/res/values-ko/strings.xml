@@ -23,6 +23,7 @@
     <string name="message_lib_importing">비트맵 추출 중...</string>
     <string name="message_lib_importing_several">%s 만큼의 압축 된 비트맵이 발견되었습니다. 추출 중...</string>
     <string name="message_lib_imported">\"%s\" 이 추출되었습니다!</string>
+  <string name="message_loading_skin">새로운 스킨 적용</string>
     
     
     <string name="dialog_playername_title">플레이어 이름을 입력해주세요.</string>
