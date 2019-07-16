@@ -19,6 +19,7 @@
     <string name="message_lib_importing">ビートマップ抽出中...</string>
     <string name="message_lib_importing_several">%sの圧縮されているビートマップが見つかりました。抽出中...</string>
     <string name="message_lib_imported">\"%s\"が抽出されました!</string>
+    <string name="message_loading_skin">新しいスキン適用</string>
 
 
     <string name="dialog_playername_title">ユーザーネームを入力してください</string>
