@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bg_quality_names">
+        <item>Alta</item>
+        <item>Média</item>
+        <item>Baixa</item>
+        <item>Desativado</item>
+    </string-array>
+    <string name="opt_graphics">Gráficos</string>
+    <string name="opt_beatmaps">Biblioteca</string>
+    <string name="opt_bg_title">Qualidade do fundo</string>
+    <string name="opt_bg_summary">Reduz a qualidade do fundo para aumentar o desempenho.</string>
+    <string name="opt_skin_title">Skins de beatmaps</string>
+    <string name="opt_skin_summary">Carrega skins específicas do beatmap caso esteja disponível.</string>
+    <string name="opt_largeimages_title">Contagem regressiva</string>
+    <string name="opt_largeimages_summary">Mostra o contador regressivo no início do beatmap caso esteja disponível.</string>
+    <string name="opt_sound_volume_title">Volume dos efeitos</string>
+    <string name="opt_sound_volume_summary">Volume dos efeitos (Hitsounds)(0-100)</string>
+    <string name="opt_offset_title">Offset global</string>
+    <string name="opt_offset_summary">Offset da música em ms. (valores positivos indicam clicks mais adiantados)</string>
+    <string name="opt_special">Especial</string>
+    <string name="opt_deleteosz_title">Apagar arquivos .osz</string>
+    <string name="opt_deleteosz_summary">Apaga os arquivos .osz após serem importados</string>
+    <string name="opt_directory_title">Pasta dos beatmaps</string>
+    <string name="opt_directory_summary">Caminho para a pasta de beatmaps. (por padrão: /mnt/sdcard/osu!droid/Songs)</string>
+    <string name="opt_clear_title">Remover biblioteca em cache</string>
+    <string name="opt_clear_summary">Força a remoção da biblioteca de beatmaps salva em cache (Isto não ira remover seus beatmaps).</string>
+    <string name="opt_doublesound_title">Sons duplos nos clicks</string>
+    <string name="opt_doublesound_summary">Faz os sons se parecerem mais com os do osu! original!</string>
+    <string name="opt_sound">Som</string>
+    <string name="opt_fps_title">Mostrar FPS</string>
+    <string name="opt_fps_summary">Mostra taxa de quadros por segundos (FPS) durante o jogo.</string>
+	<string name="opt_lowtextures_title">Reduzir qualidade das texturas.</string>
+    <string name="opt_lowtextures_summary">Reduz a qualidade das texturas do jogo. Se desativado, o jogo passara a utilizar as texturas de alta resolução (2x).</string>
+    <string name="opt_nativeplayer_title">Utilizar o reprodutor integrado</string>
+    <string name="opt_nativeplayer_summary">Utilizar o reprodutor integrado para maior precisão (arquivos .ogg não suportados).</string>
+    <string name="opt_bgbrightness_title">Brilho do fundo</string>
+    <string name="opt_bgbrightness_summary">Altera o brilho de fundo</string>
+    <string name="opt_vbroffset_title">Offset de VBR</string>
+    <string name="opt_vbroffset_summary">Offset para arquivos mp3 codificados com uma taxa de bits (bitrate) variável (sólo para reproductor integrado)</string>
+    <string name="opt_sliderborders_title">Mostrar borda dos sliders</string>
+    <string name="opt_sliderborders_summary">Mostra as bordas dos sliders. Desativar para maior desempenho.</string>
+    <string name="opt_complexanimations_title">Efeitos complexos</string>
+    <string name="opt_complexanimations_summary">Ativa os efeitos gráficos avançados (ex. sliders animados). Desativar para maior desempenho.</string>
+    <string name="opt_other_title">Diversos</string>
+    <string name="opt_multitouch_title">Multi-touch</string>
+    <string name="opt_multitouch_summary">Ativa a entrada multi-touch caso esteja disponível.</string>
+    <string name="opt_offsetscreen_title">Configurar offset</string>
+    <string name="opt_offsetscreen_summary">Configura o offset da música.</string>
+    <string name="opt_oggoffset_title">Offset de OGG</string>
+    <string name="opt_oggoffset_summary">Offset adicional para músicas no formato .ogg.</string>
+    <string name="opt_pauseoffset_title">Offset de pausa</string>
+    <string name="opt_pauseoffset_summary">Adiciona Offset cada vez que retomar um jogo pausado.</string>
+    <string name="opt_musicpreview_title">Pre-visualização musical</string>
+    <string name="opt_musicpreview_summary">Tocar prévia da música ao seleccionar um beatmap.</string>
+    <string name="opt_playername_title">Nome do usuário</string>
+    <string name="opt_playername_summary">Nome de usuário local</string>
+    <string name="opt_showcursor_title">Mostrar cursor</string>
+    <string name="opt_showcursor_summary">Mostra o cursor durante o jogo.</string>
+
+    <string name="opt_clearprops_title">Remover dados específicos de um beatmap.</string>
+    <string name="opt_clearprops_summary">Forçar a remoção de todos os dados específicos de cada mapa (ex. offset de um mapa).</string>
+</resources>
+
