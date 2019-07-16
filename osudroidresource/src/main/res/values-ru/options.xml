@@ -110,7 +110,7 @@
     <string name="opt_fps_summary">Показывать FPS (количество кадров в секунду) во время игры</string>
 
     <string name="opt_skipoffset_title">Смещение пропуска</string>
-    <string name="opt_skipoffset_summary">Это смещение будет добавлено, когда вы нажмете кнопку &quot;Пропустить&quot;. Введите -1 для автоматического смещения<</string>
+    <string name="opt_skipoffset_summary">Это смещение будет добавлено, когда вы нажмете кнопку &quot;Пропустить&quot;. Введите -1 для автоматического смещения</string>
 
     <string name="opt_lowtextures_title">Качество текстур</string>
     <string name="opt_lowtextures_summary">Сниженное качество всех текстур. По умолчанию используются текстуры HD качества.</string>
@@ -142,7 +142,7 @@
     <string name="opt_oggoffset_summary">Дополнительный сдвиг музыки в .ogg формате</string>
 
     <string name="opt_pauseoffset_title">Сдвиг паузы</string>
-    <string name="opt_pauseoffset_summary">Смещение добавляется каждый раз, когда вы ставите игру на паузу>
+    <string name="opt_pauseoffset_summary">Смещение добавляется каждый раз, когда вы ставите игру на паузу</string>
 
     <string name="opt_musicpreview_title">Предпросмотр песни</string>
     <string name="opt_musicpreview_summary">Музыка играет, когда ты выбераешь карту</string>
