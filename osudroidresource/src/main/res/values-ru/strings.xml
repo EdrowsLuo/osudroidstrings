@@ -1,62 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
- 	<string name="message_error">Ошибка: %s</string>
-    <string name="message_error_createdir">Невозможно создать %s</string>
-    <string name="message_error_multitouch">Мульти-тач не поддерживается устройством</string>
-    <string name="message_error_audio">Ошибка инициализации аудио</string>
-    <string name="message_error_sdcard">SD-карта недоступна</string>
-    <string name="message_error_sdcardread">SD-карта открыта только для чтения</string>
-    <string name="message_error_open">Невозможно открыть %s</string>
-    <string name="message_error_mapmode">Неизвестный режим игры: %s</string>
-    <string name="message_error_connect">Не удалось соединиться с сервером</string>
-    <string name="message_error_connectlimit">Достигнут лими ошибок на загрузку</string>
-    <string name="message_error_download">Не удалось загрузить %s</string>
-    
-    <string name="message_standardplayer">Переключение на стандартный плеер</string>
-    <string name="message_connecting">Соединение с сервером...</string>
-    <string name="message_downloaded">Карта %s загружена!</string>
 
-    <string name="message_lib_update">Обновление библиотеки...</string>
-    <string name="message_lib_caching">Кеширование библиотеки... Это может занять несколько минут</string>
-    <string name="message_lib_complete">Кеширование завершено. Найдено %d карт</string>
-    <string name="message_lib_cleared">Кеш очищен</string>
-    <string name="message_lib_importing">Импортирование песни...</string>
-    <string name="message_lib_importing_several">Найдено %s архивов. Импортирование...</string>
-    <string name="message_lib_imported">\"%s\" успешно импортирован!</string>
-    
-    
-    <string name="dialog_playername_title">Введите имя</string>
-    <string name="dialog_playername_message">Введите имя игрока. Оно будет использоваться для записи рекордов.</string>
-    <string name="dialog_ok">OК</string>
-    <string name="dialog_cancel">Отмена</string>
-    <string name="dialog_search_title">Поиск</string>
-    <string name="dialog_search_message">Введите фразу для поиска</string>
-    
-   	<string name="menu_score" formatted="false">Очки: %s (%dx)</string>
-   	<string name="menu_creator">Создатель: %s</string>
-   	<string name="menu_mod_back">Назад</string>
-   	<string name="menu_mod_title">Выбор мода</string>
-   	<string name="menu_mod_multiplier">Множитель очков %.2fx</string>
-   	
-   	<string name="menu_properties_title">Свойства песни</string>
-   	<string name="menu_properties_offset">Смещение музыки:</string>
-   	<string name="menu_properties_tofavs">Добавить в избранное</string>
-   	<string name="menu_properties_fromfavs">Убрать из избранного</string>
-   	
-   	<string name="menu_search_title">Опции поиска</string>
-   	<string name="menu_search_filter">Искать:</string>
-   	<string name="menu_search_sort">Сортировка по:</string>
-   	<string name="menu_search_sort_title">Названию</string>
-   	<string name="menu_search_sort_date">Дате</string>
-   	<string name="menu_search_sort_creator">Создателю</string>
-   	<string name="menu_search_sort_artist">Артисту</string>
-   	<string name="menu_search_favsenabled">Только избранное: да</string>
-   	<string name="menu_search_favsdisabled">Только избранное: нет</string>
-   	
-   	<string name="downloader_page" formatted="false">Страница %d из %d</string>
-   	<string name="downloader_nomaps">Список пуст</string>	
-   	
-   	<string name="menu_mod_reset">Сбросить все моды</string>
+	<string name="message_error">Ошибка: %s</string>
+	<string name="message_error_createdir">Невозможно создать %s</string>
+	<string name="message_error_multitouch">Мульти-тач не поддерживается устройством</string>
+	<string name="message_error_audio">Ошибка инициализации аудио. Пожалуйста, перезапустите песню</string>
+	<string name="message_error_sdcard">SD-карта недоступна</string>
+	<string name="message_error_sdcardread">SD-карта доступна только для чтения</string>
+	<string name="message_error_open">Невозможно открыть %s</string>
+	<string name="message_error_mapmode">Неизвестный режим карты: %s</string>
+	<string name="message_error_connect">Не удается подключиться к серверу</string>
+	<string name="message_error_connectlimit">Достигнут лимит ошибок на загрузку</string>
+	<string name="message_error_download">Не удалось загрузить %s</string>
+
+	<string name="message_standardplayer">Переключение на стандартный плеер</string>
+	<string name="message_connecting">Соединение с сервером...</string>
+	<string name="message_downloaded">Карта %s загружена!</string>
+
+	<string name="message_lib_update">Обновление библиотеки...</string>
+	<string name="message_lib_caching">Кеширование библиотеки... Это может занять несколько минут</string>
+	<string name="message_lib_complete">Кеширование завершено. Найдено %d карт</string>
+	<string name="message_lib_cleared">Кеш очистен</string>
+	<string name="message_lib_importing">Импортирование карты...</string>
+	<string name="message_lib_importing_several">Найдено %s запакованных карт. Импорт...</string>
+	<string name="message_lib_imported">\"%s\" успешно импортирован!</string>
+
+	<string name="message_extension_not_found">No extension app found.</string>
+	<string name="message_open_beatmap_in_extension">Open beatmap in extension</string>
+
+	<string name="dialog_playername_title">Введите имя</string>
+	<string name="dialog_playername_message">Введите имя игрока. Оно будет использоваться для записи рекордов.</string>
+	<string name="dialog_ok">Ок</string>
+	<string name="dialog_cancel">Отмена</string>
+	<string name="dialog_search_title">Поиск</string>
+	<string name="dialog_search_message">Введите фразу для поиска</string>
+	<string name="dialog_register">Зарегистрироваться</string>
+
+	<string name="dialog_delete_pp_title">Сбросить ваши PP?</string>
+	<string name="dialog_delete_pp_make_sure">Вы уверены?</string>
+	<string name="dialog_delete_pp_deleted">PP сброшены</string>
+
+	<string name="favorite_folder">Папка:</string>
+	<string name="favorite_default">По умолчанию</string>
+	<string name="favorite_select">Выбрать</string>
+	<string name="favorite_delete">Удалить папку</string>
+	<string name="favorite_add">Создать</string>
+	<string name="favorite_remove">Удалить</string>
+	<string name="favorite_new_folder">Создать новую папку</string>
+	<string name="favorite_warning_on_delete_default">Вы не можете удалить папку по умолчанию</string>
+	<string name="favorite_ensure">Вы уверены?</string>
+	<string name="favorite_manage">Управление папкой карт</string>
+
+	<string name="menu_score" formatted="false">Очки: %s (%dx)</string>
+	<string name="menu_creator">Создатель: %s</string>
+	<string name="menu_mod_back">Назад</string>
+	<string name="menu_mod_title">Выбрать мод</string>
+	<string name="menu_mod_multiplier" formatted="false">Очки %.2fx</string>
+	<string name="menu_mod_reset">Сбросить все моды</string>
+
+	<string name="menu_properties_title">Свойства песни</string>
+	<string name="menu_properties_offset">Смещение песни:</string>
+	<string name="menu_properties_tofavs">Добавить в избранное</string>
+	<string name="menu_properties_fromfavs">Удалить из избранного</string>
 	<string name="menu_properties_delete">Удалить карту</string>
 	<string name="menu_properties_delete_confirm">Вы уверены?</string>
+
+	<string name="menu_deletescore_title">Удалить выбранный счет</string>
+	<string name="menu_deletescore_delete">Удалить</string>
+	<string name="menu_deletescore_delete_confirm">Вы уверены?</string>
+	<string name="menu_deletescore_delete_success">Счет удален!</string>
+
+	<string name="menu_search_title">Опции поиска</string>
+	<string name="menu_search_filter">Искать:</string>
+	<string name="menu_search_sort">Сортировка по:</string>
+	<string name="menu_search_sort_title">Названию</string>
+	<string name="menu_search_sort_date">Дате</string>
+	<string name="menu_search_sort_creator">Создателю</string>
+	<string name="menu_search_sort_artist">Артисту</string>
+	<string name="menu_search_favsenabled">Только избранное: включено</string>
+	<string name="menu_search_favsdisabled">Только избранное: отключено</string>
+
+	<string name="downloader_page" formatted="false">Страница %d из %d</string>
+	<string name="downloader_nomaps">Карты не найдены</string>
+
+	<string name="hint_login">Логин</string>
+	<string name="hint_password">Пароль</string>
+	<string name="hint_confirm">Подтвердите пароль</string>
+	<string name="hint_email">Почта E-mail</string>
+
+	<string name="replay_invalid">Невозможно загрузить реплей</string>
+	<string name="replay_cantdownload">Невозможно скачать реплей</string>
+	<string name="replay_wrongmap">Реплей не из этой карты</string>
+	<string name="replay_corrupted">Файл реплея поврежден</string>
+
+	<string name="online_registration">Регистрация</string>
+	<string name="online_registration_process">Регистрируется...</string>
+	<string name="online_loadrecord">Загрузка информации...</string>
+	<string name="online_invlogin">Неверный логин</string>
+	<string name="online_invpassword">Пароль может содержать 4-32 символа</string>
+	<string name="online_invconfirm">Пароли не совпадают</string>
+	<string name="online_invemail">Неправильный e-mail</string>
+	<string name="online_regcomplete">Регистрация завершена. Введи логин и пароль</string>
+
+	<!-- Color Picker -->
+	<string name="dialog_color_picker">Палитра цветов</string>
+	<string name="press_color_to_apply">Нажмите чтобы применить цвет</string>
+
+	<string name="network_not_connected">Не удалось подключиться к сети. Проверьте настройки сети</string>
+	<string name="xml_parser_failed">数据解析异常</string>
+	<string name="io_exception_error">文件流异常</string>
+	<string name="http_status_code_error">网络异常，错误码：%d</string>
+	<string name="http_exception_error">网络异常，请求超时</string>
+	<string name="socket_exception_error">网络异常，读取数据超时</string>
+
+	<string name="binfoStr1" formatted="false">Длительность: %s BPM: %s Комбо: %d</string>
+	<string name="binfoStr2" formatted="false">Ноты: %d Слайдеры: %d Спиннеры: %d (ID карты: %d)</string>
+
+	<!-- Color -->
+	<color name="notify_title_color">#fff</color>
+
+	<!-- Crash -->
+	<string name="crash">Извините, ненормальная игра решилась себя закрыть.</string>
+	<string name="app_run_code_error">Обнаружена ошибка</string>
+	<string name="osu_parser_error">Ошибка разбора сложности</string>
+	<string name="require_storage_permission">Нет разрешения к доступу памяти, пожалуйста сделайте это вручную</string>
+
+	<string name="update_dialog_title">Доступна новая версия</string>
+	<string name="update_dialog_button_confirm">Обновить сейчас</string>
+	<string name="update_dialog_button_later">Позже</string>
+	<string name="update_info_checking">Проверка обновлений, пожалуйста подождите</string>
+	<string name="update_info_runs_latest">Вы используете последнюю версию игры</string>
+
+	<string name="test_ed_storyboard">Включить сториборд (эксперимент)</string>
+
+	<string name="mod_precise_is_unrank_now">Мод Precise сейчас не оценивается</string>
+
+
+	<!-- new data after 1.6.7(beta1) -->
+    <string name="beta_checking_upgrade">Проверка обновления...</string>
+	<string name="beta_check_upgrade_error">Не удалось проверить новую версию, поаторите попытку позже</string>
+	<string name="beta_you_are_the_latest_version">Вы уже используете последнюю версию</string>
+	<string name="beta_downloading">Загрузка</string>
+	<string name="beta_click_to_view">Нажмите для просмотра</string>
+	<string name="beta_click_to_install">Установить</string>
+	<string name="beta_click_to_retry">Повтор</string>
+	<string name="beta_click_to_continue">Продолжить</string>
+	<string name="beta_download_success">Загрузка успешно завершена</string>
+	<string name="beta_download_error">Загрузка не удалась</string>
+	<string name="beta_have_new_version">Доступна новая версия</string>
+    <string name="menu_map_updatable">Обновите карту</string>
+    <string name="message_loading_skin">Применение нового скина</string>
+
+
+	<string name="message_error_dir_not_found">Путь не найден</string>
+
+	<string name="message_update_hint">Нажмите и держите для обновления</string>
+	<string name="message_update_download_success">Обновление успешно завершено!</string>
+	<string name="message_update_download_fail">Обновление не удалось, повторите попытку позже</string>
+	<string name="message_update_ppy_unavailable">Эта карта не может быть загружена с ppy\n\n</string>
+
 </resources>
