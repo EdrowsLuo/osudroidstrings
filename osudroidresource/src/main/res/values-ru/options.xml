@@ -12,74 +12,269 @@
         <item>4</item>
         <item>0</item>
     </string-array>
-    <string name="opt_graphics">Графика</string>
-    <string name="opt_beatmaps">Библиотека</string>
-    <string name="opt_bg_title">Качество фона</string>
-    <string name="opt_bg_summary">Уменьшите качество фонового рисунка для лучшей производительности</string>
-    <string name="opt_skin_title">Скины песен</string>
-    <string name="opt_skin_summary">Загружать встроенные в песню скины, если возможно</string>
-    <string name="opt_largeimages_title">Отсчет</string>
-    <string name="opt_largeimages_summary">Показывать отсчет в начале песни, если это задано в ее настройках</string>
-    <string name="opt_sound_volume_title">Грокость звуков попадания</string>
-    <string name="opt_sound_volume_summary">Задается в процентах (0-100)</string>
-    <string name="opt_offset_title">Общий сдвиг</string>
-    <string name="opt_offset_summary">Сдвиг музыки в миллисекундах</string>
-    <string name="opt_special">Special</string>
-    <string name="opt_taiko_title">Load T-Aiko! songs</string>
-    <string name="opt_taiko_summary">Load songs also from T-Aiko song directory</string>
-    <string name="opt_deleteosz_title">Удалять .osz</string>
-    <string name="opt_deleteosz_summary">Удалять .osz файлы после импорта</string>
-    <string name="opt_directory_title">Путь хранения песен</string>
-    <string name="opt_directory_summary">Путь к директории, в которой находятся песни (по умлочанию: /mnt/sdcard/osu!droid/Songs)</string>
-    <string name="opt_clear_title">Очистить кеш библиотеки</string>
-    <string name="opt_clear_summary">Принудительно очистить кеш библиотеки</string>
-    <string name="opt_doublesound_title">Составные звуки попадания</string>
-    <string name="opt_doublesound_summary">Звуки попадания будут проигрываться как в оригинальном osu!</string>
-    <string name="opt_sound">Звук</string>
-    <string name="opt_fps_title">Показывать FPS</string>
-    <string name="opt_fps_summary">Показывать количество кадров в секунду во время игры</string>
-    <string name="opt_lowtextures_title">Сниженное качество текстур</string>
-    <string name="opt_lowtextures_summary">Снижение качества всех текстур. По умолчанию используются текстуры HD-качества</string>
-    <string name="opt_nativeplayer_title">Использовать встроенный плеер</string>
-    <string name="opt_nativeplayer_summary">Использовать встроенный плеер для лучшего тайминга (не поддерживает .ogg файлы)</string>
     <string-array name="bg_brightness_names">
         <item>100%</item>
-        <item>80%</item>
-        <item>60%</item>
-        <item>40%</item>
-        <item>20%</item>
+        <item>75%</item>
+        <item>50%</item>
+        <item>25%</item>
+        <item>0%</item>
     </string-array>
     <string-array name="bg_brightness_values">
         <item>100</item>
-        <item>80</item>
-        <item>60</item>
-        <item>40</item>
-        <item>20</item>
+        <item>75</item>
+        <item>50</item>
+        <item>25</item>
+        <item>0</item>
     </string-array>
-    <string name="opt_bgbrightness_title">Яркость фона</string>
-    <string name="opt_bgbrightness_summary">Изменить яркость фонового рисунка</string>
-    <string name="opt_vbroffset_title">Сдвиг VBR</string>
-    <string name="opt_vbroffset_summary">Дополнительный сдвиг для mp3 с переменным битрейтом (только для втроенного плеера)</string>
-    <string name="opt_sliderborders_title">Рисовать контуры слайдеров</string>
-    <string name="opt_sliderborders_summary">Риовать контур для пути слайдера. Отключите для лучшей производительности</string>
+    <string-array name="error_meter_display_names">
+        <item>Показывать</item>
+        <item>Показывать только в реплее</item>
+        <item>Не показывать</item>
+    </string-array>
+    <string-array name="error_meter_display_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="spinner_style_names">
+        <item>Современный</item>
+        <item>Классический</item>
+    </string-array>
+    <string-array name="spinner_style_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="metronome_switch_names">
+        <item>Отключено</item>
+        <item>Включено только в Nightcore моде</item>
+        <item>Включено</item>
+    </string-array>
+    <string-array name="metronome_switch_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="opt_onlineOpt">Настройка аккаунта</string>
+
+    <string name="opt_onlineOpt_normal">Настройка онлайна</string>
+
+    <string name="opt_onlineOpt_user">Настройка пользователя</string>
+
+    <string name="opt_offline">Настройка оффлайна</string>
+
+    <string name="opt_graphics">Графика</string>
+
+    <string name="opt_beatmaps">Библиотека</string>
+
+    <string name="opt_bg_title">Качество фона</string>
+
+    <string name="opt_bg_summary">Уменьшите качество фонового рисунка для лучшей производительности</string>
+
+    <string name="opt_skin_title">Скин карты</string>
+    <string name="opt_skin_summary">Загружать встроенные в карту скины, если возможно</string>
+
+    <string name="opt_sound_title">Звуки карты</string>
+    <string name="opt_sound_summary">Загружать встроенные в карту звуки, если есть</string>
+
+    <string name="opt_largeimages_title">Отсчёт</string>
+    <string name="opt_largeimages_summary">Показывать отсчёт в начале карты, если это задано в её настройках</string>
+
+    <string name="opt_sound_volume_title">Громкость звуков попадания</string>
+    <string name="opt_sound_volume_summary">Задаётся в процентах (0-100), требуется игры</string>
+
+    <string name="opt_bgm_volume_title">Громкость музыки</string>
+    <string name="opt_bgm_volume_summary">Задаётся в процентах (0-100)</string>
+
+    <string name="opt_offset_title">Общий сдвиг</string>
+    <string name="opt_offset_summary">Сдвиг музыки в милесекундах</string>
+
+    <string name="opt_special">Специальные</string>
+    <string name="opt_taiko_title">Загрузка T-Aiko! песен</string>
+    <string name="opt_taiko_summary">Загрузка песен так же из T-Aiko</string>
+
+    <string name="opt_deleteosz_title">Удалять .osz</string>
+    <string name="opt_deleteosz_summary">Удалять .osz файлы после импорта</string>
+
+    <string name="opt_directory_title">Путь хранения карт</string>
+    <string name="opt_directory_summary">Путь к директории, в которой находятся карты (по умлочанию: /mnt/sdcard/osu!droid/Songs)</string>
+
+    <string name="opt_clear_title">Кеш библиотеки</string>
+    <string name="opt_clear_summary">Принудительно очистить кеш библиотеки</string>
+
+    <string name="opt_doublesound_title">Составные звуки попадания</string>
+    <string name="opt_doublesound_summary">Звуки попадания будут проигрываться как в оригигальном Osu!</string>
+
+    <string name="opt_sound">Звук</string>
+
+    <string name="opt_fps_title">Показывать FPS</string>
+    <string name="opt_fps_summary">Показывать FPS (количество кадров в секунду) во время игры</string>
+
+    <string name="opt_skipoffset_title">Смещение пропуска</string>
+    <string name="opt_skipoffset_summary">Это смещение будет добавлено, когда вы нажмете кнопку &quot;Пропустить&quot;. Введите -1 для автоматического смещения<</string>
+
+    <string name="opt_lowtextures_title">Качество текстур</string>
+    <string name="opt_lowtextures_summary">Сниженное качество всех текстур. По умолчанию используются текстуры HD качества.</string>
+
+    <string name="opt_nativeplayer_title">Использовать встроенный плеер</string>
+    <string name="opt_nativeplayer_summary">Использовать плеер для лучшего тайминга(не поддерживает .ogg файлы)</string>
+
+    <string name="opt_metronome_switch_title">Переключатель метронома</string>
+    <string name="opt_metronome_switch_summary">Включить звуковой эффект метронома (только мод Nightcore)</string>
+
+    <string name="opt_vbroffset_title">Смещение переменного битрейта</string>
+    <string name="opt_vbroffset_summary">Смещение для mp3, закодированных с переменным битрейтом (только встроенный проигрыватель)</string>
+
+    <string name="opt_sliderborders_title">Границы слайдера</string>
+    <string name="opt_sliderborders_summary">Рисует границы слайдера. Отключите для лучшей производительности</string>
+
     <string name="opt_complexanimations_title">Сложные эффекты</string>
-    <string name="opt_complexanimations_summary">Включение дополнительных графических эффектов и анимаций. Отключите для лучшей производительности</string>
+    <string name="opt_complexanimations_summary">Включение дополнительных графических эффектов (двигающиеся слацдеры). Отключите для лучшей производительности</string>
+
+
     <string name="opt_other_title">Разное</string>
     <string name="opt_multitouch_title">Мульти-тач</string>
-    <string name="opt_multitouch_summary">Использовать мульти-тач, если он поддерживается устройством</string>
-    <string name="opt_offsetscreen_title">Изменить сдвиги музыки</string>
+    <string name="opt_multitouch_summary">Использовать мульти-тач если он поддерживается устройством</string>
+
+    <string name="opt_offsetscreen_title">Настройка оффеста</string>
     <string name="opt_offsetscreen_summary"></string>
-    <string name="opt_oggoffset_title">Сдвиг для OGG</string>
-    <string name="opt_oggoffset_summary">Дополнительный сдвиг для файлов в .ogg формате</string>
-    <string name="opt_pauseoffset_title">Сдвиг после паузы</string>
-    <string name="opt_pauseoffset_summary">Свиг, добавляемый каждый раз, когда вы ставите игру на паузу</string>
+
+    <string name="opt_oggoffset_title">Сдвиг OGG</string>
+    <string name="opt_oggoffset_summary">Дополнительный сдвиг музыки в .ogg формате</string>
+
+    <string name="opt_pauseoffset_title">Сдвиг паузы</string>
+    <string name="opt_pauseoffset_summary">Смещение добавляется каждый раз, когда вы ставите игру на паузу>
+
     <string name="opt_musicpreview_title">Предпросмотр песни</string>
-    <string name="opt_musicpreview_summary">Проигрывать музыку при выборе песни в меню</string>
-    <string name="opt_playername_title">Имя игрока</string>
+    <string name="opt_musicpreview_summary">Музыка играет, когда ты выбераешь карту</string>
+
+    <string name="opt_playername_title">Имя пользователя</string>
     <string name="opt_playername_summary">Имя локального пользователя</string>
-    <string name="opt_showcursor_title">Показывать курсор</string>
+
+    <string name="opt_showcursor_title">Курсор</string>
     <string name="opt_showcursor_summary">Показывать курсор на месте нажатия во время игры</string>
 
-	<string name="opt_clearprops_title">Очистить настройки песен</string>
-	<string name="opt_clearprops_summary">Принудительно очистить настройки, устанавливаемые отдельно для каждой песни</string>
+
+    <string name="opt_demoSpline_title">Демо сплайн</string>
+    <string name="opt_demoSpline_summary">Используется новый алгоритм для появления Слайров. (эксперимент, могут быть проблемы.)</string>
+
+    <string name="opt_clearprops_title">Настройка карты</string>
+    <string name="opt_clearprops_summary">Удаление всех данных относящиеся к карте (например оффест)</string>
+
+    <string name="opt_online">Онлайн</string>
+    <string name="opt_online_title">Показывать настройки онлайна</string>
+    <string name="opt_online_summary"></string>
+
+    <string name="opt_stayonline_title">Подключение к серверу</string>
+    <string name="opt_stayonline_summary">Подключиться к osu!droid серверу</string>
+
+    <string name="opt_login_title">Логин</string>
+    <string name="opt_login_summary">Твое онлайн имя</string>
+
+    <string name="opt_password_title">Пароль</string>
+    <string name="opt_password_summary">Пароль от твоего аккаунта</string>
+
+    <string name="opt_register_title">Регистрация</string>
+    <string name="opt_register_summary">Регистрация нового аккаунта (ты можешь создать только 1 аккаунт на своем устройстве</string>
+
+    <string name="opt_loadavatar_title">Загрузка аватара</string>
+    <string name="opt_loadavatar_summary">Загрузить без подключения к wi-fi.</string>
+
+
+    <string name="opt_error_meter_display_title">Шкала точности попадания</string>
+    <string name="opt_error_meter_display_summary">Показывает шкалу точности на экране</string>
+
+    <string name="opt_spinner_style_title">Стиль спиннера</string>
+    <string name="opt_spinner_style_summary">Изменение стиля спиннера</string>
+
+    <string name="opt_combo_burst_title">Комбо всплески</string>
+    <string name="opt_combo_burst_summary">Показывает комбо всплески вкл/выкл</string>
+
+    <string name="opt_advanced">Дополнительно</string>
+
+    <string name="opt_advanced_title">Дополнительные настройки</string>
+    <string name="opt_advanced_summary"></string>
+
+    <string name="opt_corepath_title">Путь к игре</string>
+    <string name="opt_corepath_summary">Путь к папке osu!droid</string>
+
+    <string name="opt_lowdelay_title">Задержка ввода</string>
+    <string name="opt_lowdelay_summary">Уменьшает задрежку ввода. Отключите если вам не удобно.</string>
+
+    <string name="opt_fix_frame_offset_title">Исправление случайного смещения.</string>
+    <string name="opt_fix_frame_offset_summary">Попробуйте исправить смещение между временем ввода и временем кадра.</string>
+
+    <string name="opt_enable_extension_title">Включить расширение</string>
+
+    <string name="opt_download_extension_title">Скачать расширение</string>
+
+    <string name="opt_syncmusic_title">Синхронизация с низкой задержкой</string>
+
+    <string name="opt_syncmusic_summary">"Отключи, если твое устройство не поддерживает аудио с низкой задержкой"</string>
+
+    <string name="opt_savereplays_title">Реплеи</string>
+
+    <string name="opt_savereplays_summary">Сохранить реплеи для локальной записи</string>
+
+    <string name="opt_bursts_title">Взрывной эффект</string>
+    <string name="opt_bursts_summary">Показывает взрывной эффект при нажатии на ноты или слайдеры</string>
+
+    <string name="opt_hitlighting_title">Освещение ноты</string>
+    <string name="opt_hitlighting_summary">Добовляет свет позади нот, которое освещает игровое поле</string>
+
+    <string name="opt__title">Дизеринг</string>
+    <string name="opt_dither_summary">Использование дизеринга (обработка изображения)</string>
+
+    <string name="opt_particles_title">Эффекты частиц</string>
+    <string name="opt_particles_summary">Показать эффекты на основе частиц, такие как след курсора</string>
+
+    <string name="opt_bgbrightness_title">Яркость фона</string>
+    <string name="opt_bgbrightness_summary">Изменение яркости фонового изображения</string>
+
+    <string name="opt_hide_navibar_title">Панель навигации</string>
+    <string name="opt_hide_navibar_summary">Скрыть панель навигации</string>
+
+    <string name="opt_enable_pp_title">Система очков производительности(PP)</string>
+    <string name="opt_enable_pp_summary">Показывает оффлайн пп систему. Просто для веселья :)</string>
+    <string name="opt_clear_pp_title">Сбросить очки производительности(PP)</string>
+    <string name="opt_clear_pp_summary"></string>
+
+    <string name="opt_combo_colors_title">Комбо цвета</string>
+    <string name="opt_combo_colors_summary">Использовать собственные цвета комбо</string>
+
+
+
+    <!-- new data after 1.6.7(beta1) -->
+    <string name="opt_update_title">Проверить наличие обновлений</string>
+    <string name="opt_update_summary">Проверка на наличие новой версии игры</string>
+
+    <string name="force_romanized">Использование римских символов</string>
+    <string name="force_romanized_summary">Использование римских символов вместо японских или китайских</string>
+
+    <string name="opt_cursor_size">Размер курсора</string>
+    <string name="opt_cursor_size_summary">Изменение размера курсора (25 - 300, по умолчанию 100)</string>
+
+    <string name="opt_show_first_approach_circle_title">Показать первый круг сужения</string>
+    <string name="opt_show_first_approach_circle_summary">Показывает первый круг сужения при использовании мода Hidden</string>
+
+    <string name="opt_apikey_title">[Beta] osu!ppy API Ключ</string>
+    <string name="opt_apikey_summary">Используется osu!ppy API для получения статуса карты. &#xD;Если ключ не действителен, то используется Bloodcat (может быть недействительным/плохой интернет)</string>
+
+    <string name="opt_show_scoreboard_summary">Показать рекорды игроков на карте во время игры</string>
+    <string name="opt_show_scoreboard_title">Таблица рекордов</string>
+
+    <string name="opt_skinpath_title">Выбор скинов</string>
+    <string name="opt_skinpath_summary">Выберите скин из папки со скинами</string>
+
+    <string name="opt_skin_top_path_title">Путь к скину</string>
+    <string name="opt_skin_top_path_summary">Путь к папке со скинами. (по умолчанию: /sdcard/osu!droid/Skin)</string>
+
+    <string name="opt_enableStoryboard_summary">Твой телефон станет очень горячим!</string>
+    <string name="opt_enableStoryboard_title">Включить сториборд</string>
+
+    <string name="opt_scandownload_summary">Сканировать /Download на наличие новых карт</string>
+    <string name="opt_scandownload_title">Сканирование папки Загрузки</string>
+
+    <string name="opt_superSlider_title">Новые слайдеры</string>
+    <string name="opt_superSlider_summary">Они становятся идеальными</string>
+
 </resources>
