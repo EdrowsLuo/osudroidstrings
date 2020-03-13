@@ -1,56 +1,58 @@
-# 第一届osu!droid挑战赛
-在这次比赛中，玩家游玩预先选好的赛图来获得 **挑战分**， 并通过 **挑战分** 来解锁不同等级的
-徽章，以及参与全球总排名来获取排名奖励。  
-这次比赛适合任何阶段的玩家参加，而且参赛方式十分简单。
+# The First osu!droid Challenge Competition
+In this competition, players will play maps pre-picked to gain **challenge points** and use them to unlock different levels of badges, while also participating in the global leaderboards to gain ranking rewards.  
+This competition is suitable for players of all skill-levels, as participating is very simple. 
 
-## 参赛方式
-下载特定的比赛图包并让osu!droid加载后，联网打图并上传成绩即视为参赛，  
-无需任何的特殊操作。
+## HOW TO PARTICIPATE
+Download the designated map-pack and load it into your osu!droid app. 
+Play the maps online and submit your scores to be considered a participant. 
+No other special steps needed. 
 
-## 比赛图包
-总共30个谱面被分为了3个整合包，分别为萌新组，进阶组和挑战组，每组各10张图。  
-在进阶组和挑战组中各有3个图需要使用对应的mod，具体请看下面的mod部分。
+## COMPETITION MAPPACK
+3 packs are compiled for a total of 30 maps. 
+Named Basic Set, Advanced Set, and Challenge Set. Each set has 10 maps.
+There are 3 maps each in the advanced set and challenge set which has mod requirements, check out the Mod Usage section below for more information.
 
-## 比赛时间
-比赛开始时间为： 北京时间 2020年3月14日 上午8:00  
-比赛结束时间为： 北京时间 2020年3月30日 上午8:00  
-持续16天。这个时间段内任何时候上传赛图的成绩都会被接受，
-超过时间后就会被拒绝接受成绩。
+## COMPETITION PERIOD
+The competition begins from 2020.3.14 8:00 (GMT+8) to 2020.3.30 8:00 (GMT+8), lasting 16 days. 
+Any scores submitted during the match period will be accepted, while anything submitted outside of the match period will not be accepted. 
 
-## 如何查看自己的挑战分
-加入比赛后可以在[挑战赛排行榜](http://ops.dgsrz.com/challenge_ranking.php)
-看到全球排名以及搜索玩家的详细成绩，在网站[登录](http://ops.dgsrz.com/user/?action=login)后
-就可以访问[个人主页](http://ops.dgsrz.com/challenge_profile.php)查看自己最近的成绩以及总挑战分以及排名等信息。
+## HOW TO CHECK MY CHALLENGE SCORE
+You can check the global leaderboards [here](http://ops.dgsrz.com/challenge_ranking.php)
+And you can also check your own score if you have participated, or search for other player's information. 
+After you [log in](http://ops.dgsrz.com/user/?action=login),
+You will be able to check your recent scores, total challenge score and ranking etc on your [personal profile page](http://ops.dgsrz.com/challenge_profile.php)
 
-## 在osu!droid客户端上发生的一些改变
-在挑战赛赛图内，上传成绩后弹出的用户数据会被替换为挑战赛专门的数据。  
+## CHANGES TO THE osu!droid CLIENT
+When playing the challenge mapset, the user data pop-up after submitting a score will be replaced with data specifically for challenges. 
+
 ![upload_sample.png](../img/upload_sample.png)  
-图中的Accuracy（准确度）被替换为了你的 **挑战分**。  
+The accuracy data in the screenshot will be replaced with your **challenge score**.
 ![upload_sample.png](../img/upload_sample.png)  
-全球排行榜上的Accuracy（准确度）也被替换为了这个成绩的 **挑战分**。  
+Your accuracy on the global leaderboards will also be replaced with your **challenge score** for this map.   
 ![version_sample.png](../img/version_sample.png)  
-在谱面的难度名称里会有谱面的**挑战值**，规定的mod，以及谱面的名称。
+On the difficulty names of each map, there’s the map’s **challenge value**, required Mod, and the map’s name. 
 
-## Mod的使用
-除了**Half Time**这种降速mod，以及**Auto**这种不记录排名的mod以外，
-我们允许随意搭配mod，唯一的例外就是如果这个谱面被规定了mod，那么你选取的mod里就必须包含
-这个mod。
-同时在计分时这些mod均不会带来额外的奖励，也不会降低你的奖励（也就是说mod对挑战分无影响）
+## MOD USAGE
+Except for speed decreasing mods like **Half Time** and unranked mods like **Auto**, we allow any mods to be freely used.
+Unless when the map has a required mod, then you must play with this mod included in your mods.
+At the same time, additional mods will not bring bonus score, or decrease your score either. (In other words, your mods will not affect your challenge score)
 
-小提示：**No Fail**不会降低你的分数，因此在尝试高难度的谱面时可以尝试使用**No Fail**  
-小提示：开始游戏时是不会提醒你有没有使用规定的mod的，没使用规定的mod的成绩是被拒绝接受的！
+Hint: Using **No Fail** will not decrease your score, so you can try using it in very difficult maps to gain more score.
+
+Hint: The game will not warn you if you’re using the correct mod of not when you play, beware that scores without the required mod(s) will not be accepted! 
 
 
-## 基础的计分方式
-### 单次成绩的计算
-本次比赛的每一个谱面都被人工的标定了一个**挑战值**，难度越高，**挑战值**越高。
-玩家的每一个成绩都会依据这个**挑战值**来计算出对应的挑战分。  
-你可以粗略的认为在达成93%的准确率以及在没有断连太多的时候拿到**100%**的**挑战值**对应的**挑战分**。
-从这个对应了**100%挑战值**的成绩到SS（也就是说全部都是300判定，100%的准确率）
-之间还有**10%挑战值**的额外挑战分奖励，成绩越好，额外得分越高。
+## BASIC SCORE CALCULATION
+### CALCULATIONS FOR A SINGLE SCORE
+For this competition, every single map has been manually assigned a **challenge value**. 
+The harder the map, the higher it’s **challenge value**. 
+Players’ **challenge scores** will then be calculated according to their respective challenge values.   
+You can roughly think that achieving 93% accuracy with not too many combo breaks will grant you 50% **challenge score** respective to the **challenge value**. 
+From this, spread out **50%** of challenge value to SS (In other words all 300s, 100% accuracy) 
+There’s also a bonus of **10%** challenge score in between. **Better play, higher challenge score bonus.** 
 
-如果你不关心这些分数具体是怎么计算的，那么你或许就可以跳过后面的这部分，
-努力的挑战更好的成绩就是这个比赛的核心意义！
+If you don't care about about the details of how scores are calculated, then perhaps you can skip the rest of this. 
+Work hard and challenge yourself for a better score is the core value of this competition! 
 
 ### 总挑战值的计算
 **总挑战值** = 0.8倍**Best5** + 0.2倍**Recent10**
