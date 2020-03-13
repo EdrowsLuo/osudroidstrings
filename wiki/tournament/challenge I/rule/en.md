@@ -9,7 +9,7 @@ No other special steps needed.
 
 ## COMPETITION MAPPACK
 3 packs are compiled for a total of 30 maps. 
-Named Basic Set, Advanced Set, and Challenge Set. Each set has 10 maps.
+Named Beginner Set, Advanced Set, and Challenge Set. Each set has 10 maps.
 There are 3 maps each in the advanced set and challenge set which has mod requirements, check out the Mod Usage section below for more information.
 
 ## COMPETITION PERIOD
