@@ -88,6 +88,7 @@ Work hard and challenge yourself for a better score is the core value of this co
 |挑战组(-)   |6.8   |
 |挑战组(=)   |7.3   |
 |挑战组(+)   |7.8   |
+|Beyond the Limits(∞)   |8.3   |
 
 在未来的个人主页上可以看到你所获得的徽章。
 
