@@ -47,9 +47,9 @@ Hint: The game will not warn you if you’re using the correct mod of not when y
 For this competition, every single map has been manually assigned a **challenge value**. 
 The harder the map, the higher it’s **challenge value**. 
 Players’ **challenge scores** will then be calculated according to their respective challenge values.   
-You can roughly think that achieving 93% accuracy with not too many combo breaks will grant you 50% **challenge score** respective to the **challenge value**. 
-From this, spread out **50%** of challenge value to SS (In other words all 300s, 100% accuracy) 
-There’s also a bonus of **10%** challenge score in between. **Better play, higher challenge score bonus.** 
+You can roughly think that achieving 93% accuracy with not too many combo breaks will grant you 100% **challenge score** respective to the **challenge value**. 
+From this, spread out **10% MORE** of the challenge value to SS (In other words all 300s, 100% accuracy) 
+So there’s a bonus of **10%** **challenge score**. **Better play, higher challenge score bonus.** 
 
 If you don't care about about the details of how scores are calculated, then perhaps you can skip the rest of this. 
 Work hard and challenge yourself for a better score is the core value of this competition! 
