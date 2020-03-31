@@ -27,6 +27,7 @@ skin.json是在1.6.7版本后新出现的skin.ini的替代品，具有比skin.in
         "disableKiai" : true
     },
     "Layout" : {
+        "useNewLayout" : false,
         "BackButton" : {
             "scaleWhenHold" : false
         },
@@ -100,11 +101,13 @@ ComboColor, Slider, Utils, Layout, Color<br>
 
 ### Layout
 一些关于ui组件的设定<br>
+如果想要让这些设定生效的话需要设置useNewLayout为true<br>
 每一个子类里都有相同的默认属性设定<br>
 示例：<br>
 
 ```json
 "Layout" : {
+    "useNewLayout" : false,
     "BackButton" : {
         "scaleWhenHold" : false
     },
