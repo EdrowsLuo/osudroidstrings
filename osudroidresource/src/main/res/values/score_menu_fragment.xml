@@ -6,4 +6,8 @@
     <string name="frg_score_menu_export_failed">Failed to export replay!</string>
     <string name="frg_score_menu_export_succeed" formatted="true">Replay is saved to %s</string>
 
+    <string name="frg_score_menu_delete_score">Delete Score</string>
+    <string name="frg_score_menu_delete_failed">Failed to delete replay!</string>
+    <string name="frg_score_menu_delete_succeed">Delete score success!</string>
+
 </resources>

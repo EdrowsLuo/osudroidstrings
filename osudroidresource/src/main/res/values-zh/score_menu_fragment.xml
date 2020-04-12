@@ -6,4 +6,8 @@
     <string name="frg_score_menu_export_failed">导出回放失败!</string>
     <string name="frg_score_menu_export_succeed" formatted="true">回放文件成功导出到：%s</string>
 
+    <string name="frg_score_menu_delete_score">删除回放</string>
+    <string name="frg_score_menu_delete_failed">删除回放失败!</string>
+    <string name="frg_score_menu_delete_succeed">删除回放成功!</string>
+
 </resources>
