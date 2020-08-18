@@ -44,7 +44,7 @@
     <string name="opt_bgm_volume_summary">Volume da música de fundo (0-100)</string>
 
     <string name="opt_offset_title">Offset global</string>
-    <string name="opt_offset_summary">Offset da música em ms (Valores positivos indicam clicks mais adiantados)</string>
+    <string name="opt_offset_summary">Offset da música em ms. (Valores positivos indicam clicks mais adiantados)</string>
 
     <string name="opt_special">Especial</string>
     <string name="opt_taiko_title">Carregar sons do T-Aiko!</string>
