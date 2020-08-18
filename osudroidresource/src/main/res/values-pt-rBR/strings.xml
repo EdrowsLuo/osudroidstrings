@@ -134,7 +134,7 @@
 	<!-- new data after 1.6.7(beta1) -->
     <string name="beta_checking_upgrade">Procurando por atualizações...</string>
 	<string name="beta_check_upgrade_error">Falha ao procurar atualizações, tente novamente mais tarde</string>
-	<string name="beta_you_are_the_latest_version">Você já está utilizando a última versão disponível</string>
+	<string name="beta_you_are_the_latest_version">Você já está utilizando a versão mais recente</string>
 	<string name="beta_downloading">Baixando</string>
 	<string name="beta_click_to_view">Clique para visualizar</string>
 	<string name="beta_click_to_install">Instalar</string>
