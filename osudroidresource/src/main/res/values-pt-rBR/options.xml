@@ -22,17 +22,17 @@
     </string-array>
     <string name="opt_graphics">Gráficos</string>
 
-    <string name="opt_beatmaps">Biblióteca</string>
+    <string name="opt_beatmaps">Biblioteca</string>
 
     <string name="opt_bg_title">Qualidade de fundo</string>
 
     <string name="opt_bg_summary">Reduz a qualidade de fundo para aumentar o desempenho.</string>
 
     <string name="opt_skin_title">Skins de beatmaps</string>
-    <string name="opt_skin_summary">Carregara skins de certos beatmaps caso disponível</string>
+    <string name="opt_skin_summary">Carregará skins de certos beatmaps caso disponível</string>
 
     <string name="opt_sound_title">Sons de beatmaps</string>
-    <string name="opt_sound_summary">Carregara sons de certos beatmaps caso disponível</string>
+    <string name="opt_sound_summary">Carregará sons de certos beatmaps caso disponível</string>
 
     <string name="opt_largeimages_title">Contagem regressiva</string>
     <string name="opt_largeimages_summary">Mostra uma contagem regressiva no inicio de um beatmap</string>
@@ -48,7 +48,7 @@
 
     <string name="opt_special">Especial</string>
     <string name="opt_taiko_title">Carregar sons do T-Aiko!</string>
-    <string name="opt_taiko_summary">Também carregara sons do diretório do T-Aiko!</string>
+    <string name="opt_taiko_summary">Também carregará sons do diretório do T-Aiko!</string>
 
     <string name="opt_deleteosz_title">Deletar arquivos .osz</string>
     <string name="opt_deleteosz_summary">Deleta arquivos .osz após importa-los</string>
@@ -56,7 +56,7 @@
     <string name="opt_directory_title">Caminho dos beatmaps</string>
     <string name="opt_directory_summary">Caminho do diretório de beatmaps (padrão: /mnt/sdcard/osu!droid/Songs)</string>
 
-    <string name="opt_clear_title">Cache da biblióteca</string>
+    <string name="opt_clear_title">Cache da biblioteca</string>
     <string name="opt_clear_summary">Força a limpeza do cache da biblióteca</string>
 
     <string name="opt_doublesound_title">Hitsounds melhores</string>
@@ -65,7 +65,7 @@
     <string name="opt_sound">Som</string>
 
     <string name="opt_fps_title">Mostrar o FPS</string>
-    <string name="opt_fps_summary">Mostra o fps (frames por segundo) durante a gameplay</string>
+    <string name="opt_fps_summary">Mostra o FPS (Frames Por Segundo) durante a gameplay</string>
 
     <string name="opt_skipoffset_title">Offset de skip</string>
     <string name="opt_skipoffset_summary">Esse offset vai ser adicionado quando você pressionar o botão de &quot;Skip&quot;. Coloque -1 para um offset automático</string>
@@ -74,16 +74,16 @@
     <string name="opt_lowtextures_summary">Reduz a qualidade das texturas. Se desabilitado, O osu!droid ira utilizar Texturas em resolução HD.</string>
 
     <string name="opt_nativeplayer_title">Usar o player embutido</string>
-    <string name="opt_nativeplayer_summary">Utilizado do player embutido para um timing mais preciso (não suporta arquivos .ogg)</string>
+    <string name="opt_nativeplayer_summary">Utiliza do player embutido para um timing mais preciso (não suporta arquivos .ogg)</string>
 
-    <string name="opt_metronome_switch_title">Switch de metrônoml</string>
-    <string name="opt_metronome_switch_summary">Ativa o efeito sonoro de metrônomo (Apenas no mod nightcore)</string>
+    <string name="opt_metronome_switch_title">Switch de metrônomo</string>
+    <string name="opt_metronome_switch_summary">Ativa o efeito sonóro de metrônomo (Apenas no mod nightcore)</string>
 
     <string name="opt_vbroffset_title">Offset de VBR</string>
     <string name="opt_vbroffset_summary">Offset para arquivos mp3 codificados com um bitrate váriavel (Apenas com o player embutido)</string>
 
     <string name="opt_sliderborders_title">Mostrar bordas nos slider</string>
-    <string name="opt_sliderborders_summary">Os sliders ficam com bordas. Desabilite para obter um ganho em performance</string>
+    <string name="opt_sliderborders_summary">Os sliders ficam com bordas. Desabilite para obter um ganho em desempenho</string>
 
     <string name="opt_complexanimations_title">Efeitos complexos</string>
     <string name="opt_complexanimations_summary">Ativa os efeitos gráficos avançados (ex. sliders animados). Desabilite para um ganho em performance</string>
@@ -116,7 +116,7 @@
     <string name="opt_clearprops_title">Limpar dados relacionados a mapas</string>
     <string name="opt_clearprops_summary">Força a limpeza de todos os dados relacionados a mapas (ex: offsets de mapas específicos)</string>
 
-    <string name="opt_online_title">Mostra opções do modo online</string>
+    <string name="opt_online_title">Mostrar opções do modo online</string>
 
     <string name="opt_stayonline_title">Conexão com o servidor</string>
     <string name="opt_stayonline_summary">Conecta-se ao servidor do osu!droid</string>
@@ -194,7 +194,7 @@
 
 
     <!-- new data after 1.6.7(beta1) -->
-    <string name="opt_update_title">Checar atualizações</string>
+    <string name="opt_update_title">Procurar atualizações</string>
     <string name="opt_update_summary">Procura por atualizações disponiveis</string>
 
     <string name="force_romanized">Forçar metadados romanizados</string>
