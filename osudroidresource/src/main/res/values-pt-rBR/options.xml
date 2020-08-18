@@ -4,61 +4,225 @@
         <item>Alta</item>
         <item>Média</item>
         <item>Baixa</item>
-        <item>Desativado</item>
+        <item>Desabilitado</item>
+    </string-array>
+    <string-array name="error_meter_display_names">
+        <item>Sempre</item>
+        <item>Apenas nos replays</item>
+        <item>Desabilitado</item>
+    </string-array>
+    <string-array name="spinner_style_names">
+        <item>Moderno</item>
+        <item>Clássico</item>
+    </string-array>
+    <string-array name="metronome_switch_names">
+        <item>Desligado</item>
+        <item>Apenas no mod nightcore</item>
+        <item>Sempre</item>
     </string-array>
     <string name="opt_graphics">Gráficos</string>
-    <string name="opt_beatmaps">Biblioteca</string>
-    <string name="opt_bg_title">Qualidade do fundo</string>
-    <string name="opt_bg_summary">Reduz a qualidade do fundo para aumentar o desempenho.</string>
+
+    <string name="opt_beatmaps">Biblióteca</string>
+
+    <string name="opt_bg_title">Qualidade de fundo</string>
+
+    <string name="opt_bg_summary">Reduz a qualidade de fundo para aumentar o desempenho.</string>
+
     <string name="opt_skin_title">Skins de beatmaps</string>
-    <string name="opt_skin_summary">Carrega skins específicas do beatmap caso esteja disponível.</string>
+    <string name="opt_skin_summary">Carregara skins de certos beatmaps caso disponível</string>
+
+    <string name="opt_sound_title">Sons de beatmaps</string>
+    <string name="opt_sound_summary">Carregara sons de certos beatmaps caso disponível</string>
+
     <string name="opt_largeimages_title">Contagem regressiva</string>
-    <string name="opt_largeimages_summary">Mostra o contador regressivo no início do beatmap caso esteja disponível.</string>
+    <string name="opt_largeimages_summary">Mostra uma contagem regressiva no inicio de um beatmap</string>
+
     <string name="opt_sound_volume_title">Volume dos efeitos</string>
-    <string name="opt_sound_volume_summary">Volume dos efeitos (Hitsounds)(0-100)</string>
+    <string name="opt_sound_volume_summary">Volume dos efeitos (hitsounds) (0-100), Você precisa reiniciar o jogo para surgir algum efeito!</string>
+
+    <string name="opt_bgm_volume_title">Volume da música</string>
+    <string name="opt_bgm_volume_summary">Volume da música de fundo (0-100)</string>
+
     <string name="opt_offset_title">Offset global</string>
-    <string name="opt_offset_summary">Offset da música em ms. (valores positivos indicam clicks mais adiantados)</string>
+    <string name="opt_offset_summary">Offset da música em ms (Valores positivos indicam clicks mais adiantados)</string>
+
     <string name="opt_special">Especial</string>
-    <string name="opt_deleteosz_title">Apagar arquivos .osz</string>
-    <string name="opt_deleteosz_summary">Apaga os arquivos .osz após serem importados</string>
-    <string name="opt_directory_title">Pasta dos beatmaps</string>
-    <string name="opt_directory_summary">Caminho para a pasta de beatmaps. (por padrão: /mnt/sdcard/osu!droid/Songs)</string>
-    <string name="opt_clear_title">Remover biblioteca em cache</string>
-    <string name="opt_clear_summary">Força a remoção da biblioteca de beatmaps salva em cache (Isto não ira remover seus beatmaps).</string>
-    <string name="opt_doublesound_title">Sons duplos nos clicks</string>
-    <string name="opt_doublesound_summary">Faz os sons se parecerem mais com os do osu! original!</string>
+    <string name="opt_taiko_title">Carregar sons do T-Aiko!</string>
+    <string name="opt_taiko_summary">Também carregara sons do diretório do T-Aiko!</string>
+
+    <string name="opt_deleteosz_title">Deletar arquivos .osz</string>
+    <string name="opt_deleteosz_summary">Deleta arquivos .osz após importa-los</string>
+
+    <string name="opt_directory_title">Caminho dos beatmaps</string>
+    <string name="opt_directory_summary">Caminho do diretório de beatmaps (padrão: /mnt/sdcard/osu!droid/Songs)</string>
+
+    <string name="opt_clear_title">Cache da biblióteca</string>
+    <string name="opt_clear_summary">Força a limpeza do cache da biblióteca</string>
+
+    <string name="opt_doublesound_title">Hitsounds melhores</string>
+    <string name="opt_doublesound_summary">Faz com que os sons fiquem mais semelhantes ao do osu! original</string>
+
     <string name="opt_sound">Som</string>
-    <string name="opt_fps_title">Mostrar FPS</string>
-    <string name="opt_fps_summary">Mostra taxa de quadros por segundos (FPS) durante o jogo.</string>
-	<string name="opt_lowtextures_title">Reduzir qualidade das texturas.</string>
-    <string name="opt_lowtextures_summary">Reduz a qualidade das texturas do jogo. Se desativado, o jogo passara a utilizar as texturas de alta resolução (2x).</string>
-    <string name="opt_nativeplayer_title">Utilizar o reprodutor integrado</string>
-    <string name="opt_nativeplayer_summary">Utilizar o reprodutor integrado para maior precisão (arquivos .ogg não suportados).</string>
-    <string name="opt_bgbrightness_title">Brilho do fundo</string>
-    <string name="opt_bgbrightness_summary">Altera o brilho de fundo</string>
+
+    <string name="opt_fps_title">Mostrar o FPS</string>
+    <string name="opt_fps_summary">Mostra o fps (frames por segundo) durante a gameplay</string>
+
+    <string name="opt_skipoffset_title">Offset de skip</string>
+    <string name="opt_skipoffset_summary">Esse offset vai ser adicionado quando você pressionar o botão de &quot;Skip&quot;. Coloque -1 para um offset automático</string>
+
+    <string name="opt_lowtextures_title">Qualidade da textura</string>
+    <string name="opt_lowtextures_summary">Reduz a qualidade das texturas. Se desabilitado, O osu!droid ira utilizar Texturas em resolução HD.</string>
+
+    <string name="opt_nativeplayer_title">Usar o player embutido</string>
+    <string name="opt_nativeplayer_summary">Utilizado do player embutido para um timing mais preciso (não suporta arquivos .ogg)</string>
+
+    <string name="opt_metronome_switch_title">Switch de metrônoml</string>
+    <string name="opt_metronome_switch_summary">Ativa o efeito sonoro de metrônomo (Apenas no mod nightcore)</string>
+
     <string name="opt_vbroffset_title">Offset de VBR</string>
-    <string name="opt_vbroffset_summary">Offset para arquivos mp3 codificados com uma taxa de bits (bitrate) variável (sólo para reproductor integrado)</string>
-    <string name="opt_sliderborders_title">Mostrar borda dos sliders</string>
-    <string name="opt_sliderborders_summary">Mostra as bordas dos sliders. Desativar para maior desempenho.</string>
+    <string name="opt_vbroffset_summary">Offset para arquivos mp3 codificados com um bitrate váriavel (Apenas com o player embutido)</string>
+
+    <string name="opt_sliderborders_title">Mostrar bordas nos slider</string>
+    <string name="opt_sliderborders_summary">Os sliders ficam com bordas. Desabilite para obter um ganho em performance</string>
+
     <string name="opt_complexanimations_title">Efeitos complexos</string>
-    <string name="opt_complexanimations_summary">Ativa os efeitos gráficos avançados (ex. sliders animados). Desativar para maior desempenho.</string>
-    <string name="opt_other_title">Diversos</string>
+    <string name="opt_complexanimations_summary">Ativa os efeitos gráficos avançados (ex. sliders animados). Desabilite para um ganho em performance</string>
+
+
+    <string name="opt_other_title">Miscelânea</string>
     <string name="opt_multitouch_title">Multi-touch</string>
-    <string name="opt_multitouch_summary">Ativa a entrada multi-touch caso esteja disponível.</string>
-    <string name="opt_offsetscreen_title">Configurar offset</string>
-    <string name="opt_offsetscreen_summary">Configura o offset da música.</string>
+    <string name="opt_multitouch_summary">Ativa o multi-touch se disponivel</string>
+
+
     <string name="opt_oggoffset_title">Offset de OGG</string>
-    <string name="opt_oggoffset_summary">Offset adicional para músicas no formato .ogg.</string>
+    <string name="opt_oggoffset_summary">Offset adicionar para sons no formato .ogg</string>
+
     <string name="opt_pauseoffset_title">Offset de pausa</string>
-    <string name="opt_pauseoffset_summary">Adiciona Offset cada vez que retomar um jogo pausado.</string>
-    <string name="opt_musicpreview_title">Pre-visualização musical</string>
-    <string name="opt_musicpreview_summary">Tocar prévia da música ao seleccionar um beatmap.</string>
-    <string name="opt_playername_title">Nome do usuário</string>
-    <string name="opt_playername_summary">Nome de usuário local</string>
-    <string name="opt_showcursor_title">Mostrar cursor</string>
-    <string name="opt_showcursor_summary">Mostra o cursor durante o jogo.</string>
+    <string name="opt_pauseoffset_summary">Offset adicionado toda vez que você clica no botão de pausar</string>
 
-    <string name="opt_clearprops_title">Remover dados específicos de um beatmap.</string>
-    <string name="opt_clearprops_summary">Forçar a remoção de todos os dados específicos de cada mapa (ex. offset de um mapa).</string>
+    <string name="opt_musicpreview_title">Pré-visualização musical</string>
+    <string name="opt_musicpreview_summary">Tocar prévia das músicas ao selecionar um beatmap.</string>
+
+    <string name="opt_playername_title">Nome do jogador</string>
+    <string name="opt_playername_summary">Nome do jogador local</string>
+
+    <string name="opt_showcursor_title">Cursor</string>
+    <string name="opt_showcursor_summary">Mostra um cursor debaixo de seu dedo durante a gameplay</string>
+
+
+    <string name="opt_demoSpline_title">Spline demo</string>
+    <string name="opt_demoSpline_summary">Usa um outro algóritmo spline para carregar sliders (experimental, Pode levar a problemas inesperados.)</string>
+
+    <string name="opt_clearprops_title">Dados relacionados a mapas</string>
+    <string name="opt_clearprops_summary">Força a limpeza de todos os dados relacionados a mapas (ex: offsets de mapas específicos)</string>
+
+    <string name="opt_online_title">Mostra opções do modo online</string>
+
+    <string name="opt_stayonline_title">Conexão com o servidor</string>
+    <string name="opt_stayonline_summary">Conecta-se ao servidor do osu!droid</string>
+
+    <string name="opt_login_summary">Seu nome de usuário online</string>
+
+    <string name="opt_password_summary">Senha da sua conta</string>
+
+    <string name="opt_register_title">Registrar-se</string>
+    <string name="opt_register_summary">Registra uma nova conta (Você só pode criar uma conta por dispositivo!)</string>
+
+    <string name="opt_loadavatar_title">Carregar seu avatar</string>
+    <string name="opt_loadavatar_summary">Carrega seu avatar sem se conectar ao wifi.</string>
+
+
+    <string name="opt_error_meter_display_title">Medidor de erro e acerto</string>
+    <string name="opt_error_meter_display_summary">Mostra o medidor de erro e acerto</string>
+
+    <string name="opt_spinner_style_title">Estilo do spinner</string>
+    <string name="opt_spinner_style_summary">Muda o estilo do spinner</string>
+
+    <string name="opt_combo_burst_title">Série de acertos</string>
+    <string name="opt_combo_burst_summary">Desliga ou liga a série de acertos on/off (caso ligado, quando você atingir uma série de acertos o seu osu! mostrará uma imagem nas laterais dependendo da sua skin)</string>
+
+    <string name="opt_advanced">Avançado</string>
+
+    <string name="opt_advanced_title">Opções avançadas</string>
+
+    <string name="opt_corepath_title">Diretório principal</string>
+    <string name="opt_corepath_summary">Diretório principal do osu!droid</string>
+
+    <string name="opt_lowdelay_title">Diminuir o delay de input</string>
+    <string name="opt_lowdelay_summary">Reduz o delay de input. Desabilite se você se sente desconfortável.</string>
+
+    <string name="opt_fix_frame_offset_title">consserta um offset aleátorio.</string>
+    <string name="opt_fix_frame_offset_summary">Tenta conssertar um offset entre tempo de input e o tempo de um frame.</string>
+
+    <string name="opt_enable_extension_title">Habilitar extensão</string>
+
+    <string name="opt_download_extension_title">Baixar extensão</string>
+
+    <string name="opt_syncmusic_title">Sincronização de baixa latência</string>
+
+    <string name="opt_syncmusic_summary">"Desabilite se seu dispositivo não suporta aúdio de baixa latência"</string>
+
+    <string name="opt_savereplays_title">Salvar replays</string>
+
+    <string name="opt_savereplays_summary">Salva replays de seus recordes locais</string>
+
+    <string name="opt_bursts_title">Efeitos de estouro</string>
+    <string name="opt_bursts_summary">Mostra efeitos de estouros ao hittar um circulo ou um slider</string>
+
+    <string name="opt_hitlighting_title">Luz de hit</string>
+    <string name="opt_hitlighting_summary">Adiciona um brilho sútil atrás do efeito de estouro de hit</string>
+
+    <string name="opt_dither_summary">Usa hardware dithering para o processamento de imagens</string>
+
+    <string name="opt_particles_title">Efeitos de párticulas</string>
+    <string name="opt_particles_summary">Mostra efeitos baseados em particulas, como a trilha de um cursor</string>
+
+    <string name="opt_bgbrightness_title">Brilho de fundo</string>
+    <string name="opt_bgbrightness_summary">Muda o brilho de fundo</string>
+
+    <string name="opt_hide_navibar_title">Barra de navegação</string>
+    <string name="opt_hide_navibar_summary">Esconde a barra de navegação enquanto você joga</string>
+
+    <string name="opt_enable_pp_title">Pontos de performance (PP)</string>
+    <string name="opt_enable_pp_summary">Um pequeno sistema offline de pp. Apenas para diversão :)</string>
+    <string name="opt_clear_pp_title">Resetar seu PP</string>
+    <string name="opt_clear_pp_summary"></string>
+
+    <string name="opt_combo_colors_title">Cores dos hitcircles</string>
+    <string name="opt_combo_colors_summary">Usa cores de hitcircles customizadas</string>
+
+
+
+    <!-- new data after 1.6.7(beta1) -->
+    <string name="opt_update_title">Checar atualizações</string>
+    <string name="opt_update_summary">Procura por atualizações disponiveis</string>
+
+    <string name="force_romanized">Forçar metadados romanizados</string>
+    <string name="force_romanized_summary">Força o uso de carácteres romanos para metadados, caso você não saiba chinês nem japônes</string>
+
+    <string name="opt_cursor_size">Tamanho do cursor</string>
+    <string name="opt_cursor_size_summary">Ajusta o tamanho do cursor (25 - 300, Padrão: 100)</string>
+
+    <string name="opt_show_first_approach_circle_title">Forçar a aparição do primeiro circulo de aproximação</string>
+    <string name="opt_show_first_approach_circle_summary">Nunca esconder o primeiro circulo de aparição no modo hidden</string>
+
+    <string name="opt_apikey_summary">Usa a API do osu!ppy para pegar informações de beatmaps. &#xD;Se a chave for inválida o osu!droid utilizara a api da bloodcar no lugar (provavelmente desatualizada/conexão ruim)</string>
+
+    <string name="opt_show_scoreboard_summary">Mostra o placar de líderes durante a gameplay</string>
+    <string name="opt_show_scoreboard_title">Mostrar placar de líderes</string>
+
+    <string name="opt_skinpath_title">Selecionar skin</string>
+    <string name="opt_skinpath_summary">Seleciona uma skin do diretório de skin</string>
+
+    <string name="opt_skin_top_path_title">Diretório de skins</string>
+    <string name="opt_skin_top_path_summary">Caminho do diretório com arquivos de skins (padrão: /sdcard/osu!droid/Skin)</string>
+
+    <string name="opt_enableStoryboard_summary">Não recomendado seu celular vai esquentar...!</string>
+    <string name="opt_enableStoryboard_title">Ativa os storyboards</string>
+
+    <string name="opt_scandownload_summary">Escaneia o diretório de downloads por novos beatmaps no formato .osz</string>
+    <string name="opt_scandownload_title">Escanear downloads</string>
+
+    <string name="opt_superSlider_summary">Sliders perfeitos e bonitinhos!</string>
+
 </resources>
-
