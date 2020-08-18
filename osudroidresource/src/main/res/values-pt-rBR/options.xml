@@ -17,7 +17,7 @@
     </string-array>
     <string-array name="metronome_switch_names">
         <item>Desligado</item>
-        <item>Apenas no mod nightcore</item>
+        <item>Apenas no modo nightcore</item>
         <item>Sempre</item>
     </string-array>
     <string name="opt_graphics">Gráficos</string>
@@ -51,7 +51,7 @@
     <string name="opt_taiko_summary">Também carregará sons do diretório do T-Aiko!</string>
 
     <string name="opt_deleteosz_title">Deletar arquivos .osz</string>
-    <string name="opt_deleteosz_summary">Deleta arquivos .osz após importa-los</string>
+    <string name="opt_deleteosz_summary">Deletar arquivos .osz após importa-los</string>
 
     <string name="opt_directory_title">Caminho dos beatmaps</string>
     <string name="opt_directory_summary">Caminho do diretório de beatmaps (padrão: /mnt/sdcard/osu!droid/Songs)</string>
