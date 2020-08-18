@@ -17,7 +17,7 @@
     </string-array>
     <string-array name="metronome_switch_names">
         <item>Desligado</item>
-        <item>Apenas no modo nightcore</item>
+        <item>Apenas no mod nightcore</item>
         <item>Sempre</item>
     </string-array>
     <string name="opt_graphics">Gráficos</string>
@@ -204,7 +204,7 @@
     <string name="opt_cursor_size_summary">Ajusta o tamanho do cursor (25 - 300, Padrão: 100)</string>
 
     <string name="opt_show_first_approach_circle_title">Forçar a aparição do primeiro circulo de aproximação</string>
-    <string name="opt_show_first_approach_circle_summary">Nunca esconder o primeiro circulo de aparição no modo hidden</string>
+    <string name="opt_show_first_approach_circle_summary">Nunca esconder o primeiro circulo de aparição no mod hidden</string>
 
     <string name="opt_apikey_summary">Usa a API do osu!ppy para pegar informações de beatmaps. &#xD;Se a chave for inválida o osu!droid utilizara a api da bloodcar no lugar (provavelmente desatualizada/conexão ruim)</string>
 
