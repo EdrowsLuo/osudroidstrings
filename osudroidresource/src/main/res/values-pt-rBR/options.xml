@@ -95,10 +95,10 @@
 
 
     <string name="opt_oggoffset_title">Offset de OGG</string>
-    <string name="opt_oggoffset_summary">Offset adicionar para sons no formato .ogg</string>
+    <string name="opt_oggoffset_summary">Offset adicionar para músicas no formato .ogg</string>
 
     <string name="opt_pauseoffset_title">Offset de pausa</string>
-    <string name="opt_pauseoffset_summary">Offset adicionado toda vez que você clica no botão de pausar</string>
+    <string name="opt_pauseoffset_summary">Offset adicionado toda vez que você retoma a um jogo anteriormente pausado</string>
 
     <string name="opt_musicpreview_title">Pré-visualização musical</string>
     <string name="opt_musicpreview_summary">Tocar prévia das músicas ao selecionar um beatmap.</string>
@@ -113,7 +113,7 @@
     <string name="opt_demoSpline_title">Spline demo</string>
     <string name="opt_demoSpline_summary">Usa um outro algóritmo spline para carregar sliders (experimental, Pode levar a problemas inesperados.)</string>
 
-    <string name="opt_clearprops_title">Dados relacionados a mapas</string>
+    <string name="opt_clearprops_title">Limpar dados relacionados a mapas</string>
     <string name="opt_clearprops_summary">Força a limpeza de todos os dados relacionados a mapas (ex: offsets de mapas específicos)</string>
 
     <string name="opt_online_title">Mostra opções do modo online</string>
