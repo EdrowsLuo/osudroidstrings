@@ -77,7 +77,7 @@
     <string name="opt_nativeplayer_summary">Utiliza do player embutido para um timing mais preciso (não suporta arquivos .ogg)</string>
 
     <string name="opt_metronome_switch_title">Switch de metrônomo</string>
-    <string name="opt_metronome_switch_summary">Ativa o efeito sonóro de metrônomo (Apenas no mod nightcore)</string>
+    <string name="opt_metronome_switch_summary">Ativa o efeito sonoro de metrônomo (Apenas no mod nightcore)</string>
 
     <string name="opt_vbroffset_title">Offset de VBR</string>
     <string name="opt_vbroffset_summary">Offset para arquivos mp3 codificados com um bitrate váriavel (Apenas com o player embutido)</string>
@@ -95,7 +95,7 @@
 
 
     <string name="opt_oggoffset_title">Offset de OGG</string>
-    <string name="opt_oggoffset_summary">Offset adicionar para músicas no formato .ogg</string>
+    <string name="opt_oggoffset_summary">Offset adicional para músicas no formato .ogg</string>
 
     <string name="opt_pauseoffset_title">Offset de pausa</string>
     <string name="opt_pauseoffset_summary">Offset adicionado toda vez que você retoma a um jogo anteriormente pausado</string>
