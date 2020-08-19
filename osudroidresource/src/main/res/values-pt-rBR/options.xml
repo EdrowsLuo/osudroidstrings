@@ -83,7 +83,7 @@
     <string name="opt_vbroffset_summary">Offset para arquivos mp3 codificados com um bitrate váriavel (Apenas com o player embutido)</string>
 
     <string name="opt_sliderborders_title">Mostrar bordas nos slider</string>
-    <string name="opt_sliderborders_summary">Os sliders ficam com bordas. Desabilite para obter um ganho em desempenho</string>
+    <string name="opt_sliderborders_summary">Os sliders ficam bordados. Desabilite para obter um ganho em desempenho</string>
 
     <string name="opt_complexanimations_title">Efeitos complexos</string>
     <string name="opt_complexanimations_summary">Ativa os efeitos gráficos avançados (ex. sliders animados). Desabilite para um ganho em performance</string>
