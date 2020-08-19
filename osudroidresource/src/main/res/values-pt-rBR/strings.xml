@@ -78,7 +78,7 @@
 	<string name="menu_search_sort_creator">Criadof</string>
 	<string name="menu_search_sort_artist">Artista</string>
 	<string name="menu_search_favsenabled">Apenas favoritos: habilitado</string>
-	<string name="menu_search_favsdisabled">Apenas favoritos: desabilitado</string>
+	<string name="menu_search_favsdisabled">Apenas favoritos: desativado</string>
 
 	<string name="downloader_page" formatted="false">Página %d de %d</string>
 	<string name="downloader_nomaps">Nenhum beatmap encontrado</string>

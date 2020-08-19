@@ -4,19 +4,19 @@
         <item>Alta</item>
         <item>Média</item>
         <item>Baixa</item>
-        <item>Desabilitado</item>
+        <item>Desativado</item>
     </string-array>
     <string-array name="error_meter_display_names">
         <item>Sempre</item>
         <item>Apenas nos replays</item>
-        <item>Desabilitado</item>
+        <item>Desativado</item>
     </string-array>
     <string-array name="spinner_style_names">
         <item>Moderno</item>
         <item>Clássico</item>
     </string-array>
     <string-array name="metronome_switch_names">
-        <item>Desligado</item>
+        <item>Desativado</item>
         <item>Apenas no mod nightcore</item>
         <item>Sempre</item>
     </string-array>
@@ -71,7 +71,7 @@
     <string name="opt_skipoffset_summary">Esse offset vai ser adicionado quando você pressionar o botão de &quot;Skip&quot;. Coloque -1 para um offset automático</string>
 
     <string name="opt_lowtextures_title">Qualidade da textura</string>
-    <string name="opt_lowtextures_summary">Reduz a qualidade das texturas. Se desabilitado, O osu!droid ira utilizar Texturas em resolução HD.</string>
+    <string name="opt_lowtextures_summary">Reduz a qualidade das texturas. Se desativado, O osu!droid ira utilizar Texturas em resolução HD.</string>
 
     <string name="opt_nativeplayer_title">Usar o player embutido</string>
     <string name="opt_nativeplayer_summary">Utiliza do player embutido para um timing mais preciso (não suporta arquivos .ogg)</string>
