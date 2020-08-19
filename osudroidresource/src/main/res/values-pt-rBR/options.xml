@@ -68,10 +68,10 @@
     <string name="opt_fps_summary">Mostra o FPS (Frames Por Segundo) durante a gameplay</string>
 
     <string name="opt_skipoffset_title">Offset de skip</string>
-    <string name="opt_skipoffset_summary">Esse offset vai ser adicionado quando você pressionar o botão de &quot;Skip&quot;. Coloque -1 para um offset automático</string>
+    <string name="opt_skipoffset_summary">Esse offset vai ser adicionado quando você pressionar o botão &quot;Skip&quot;. Digite -1 para um offset automático</string>
 
     <string name="opt_lowtextures_title">Qualidade da textura</string>
-    <string name="opt_lowtextures_summary">Reduz a qualidade das texturas. Se desativado, O osu!droid ira utilizar Texturas em resolução HD.</string>
+    <string name="opt_lowtextures_summary">Reduz a qualidade das texturas. Se desativado, O osu!droid irá utilizar Texturas em resolução HD.</string>
 
     <string name="opt_nativeplayer_title">Usar o player embutido</string>
     <string name="opt_nativeplayer_summary">Utiliza do player embutido para um timing mais preciso (não suporta arquivos .ogg)</string>
@@ -82,7 +82,7 @@
     <string name="opt_vbroffset_title">Offset de VBR</string>
     <string name="opt_vbroffset_summary">Offset para arquivos mp3 codificados com um bitrate váriavel (Apenas com o player embutido)</string>
 
-    <string name="opt_sliderborders_title">Mostrar bordas nos slider</string>
+    <string name="opt_sliderborders_title">Bordas em sliders</string>
     <string name="opt_sliderborders_summary">Os sliders ficam bordados. Desabilite para obter um ganho em desempenho</string>
 
     <string name="opt_complexanimations_title">Efeitos complexos</string>
@@ -101,13 +101,13 @@
     <string name="opt_pauseoffset_summary">Offset adicionado toda vez que você retoma a um jogo anteriormente pausado</string>
 
     <string name="opt_musicpreview_title">Pré-visualização musical</string>
-    <string name="opt_musicpreview_summary">Tocar prévia das músicas ao selecionar um beatmap.</string>
+    <string name="opt_musicpreview_summary">Tocar prévias de músicas ao selecionar um beatmap.</string>
 
     <string name="opt_playername_title">Nome do jogador</string>
     <string name="opt_playername_summary">Nome do jogador local</string>
 
     <string name="opt_showcursor_title">Cursor</string>
-    <string name="opt_showcursor_summary">Mostra um cursor debaixo de seu dedo durante a gameplay</string>
+    <string name="opt_showcursor_summary">Mostra um cursor debaixo de seus dedos durante a gameplay</string>
 
 
     <string name="opt_demoSpline_title">Spline demo</string>
@@ -151,8 +151,8 @@
     <string name="opt_lowdelay_title">Diminuir o delay de input</string>
     <string name="opt_lowdelay_summary">Reduz o delay de input. Desabilite se você se sente desconfortável.</string>
 
-    <string name="opt_fix_frame_offset_title">consserta um offset aleátorio.</string>
-    <string name="opt_fix_frame_offset_summary">Tenta conssertar um offset entre tempo de input e o tempo de um frame.</string>
+    <string name="opt_fix_frame_offset_title">corrigir um offset aleátorio.</string>
+    <string name="opt_fix_frame_offset_summary">Tenta corrigir um offset entre tempo de input e o tempo de um frame.</string>
 
     <string name="opt_enable_extension_title">Habilitar extensão</string>
 
