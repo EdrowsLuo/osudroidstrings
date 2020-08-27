@@ -96,7 +96,7 @@
 	<string name="online_loadrecord">Carregando detalhes gravados...</string>
 	<string name="online_invlogin">Login inválido</string>
 	<string name="online_invpassword">A senha tem que ser de 4-32 carácteres</string>
-	<string name="online_invconfirm">As senhas não conbinam</string>
+	<string name="online_invconfirm">As senhas não combinam</string>
 	<string name="online_invemail">Invaild e-mail</string>
 	<string name="online_regcomplete">Registração completa. reinicie o app para fazer login</string>
 
