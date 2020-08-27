@@ -217,7 +217,7 @@
     <string name="opt_skin_top_path_title">Diretório de skins</string>
     <string name="opt_skin_top_path_summary">Caminho do diretório com arquivos de skins (padrão: /sdcard/osu!droid/Skin)</string>
 
-    <string name="opt_enableStoryboard_summary">Não recomendado seu celular vai esquentar...!</string>
+    <string name="opt_enableStoryboard_summary">Não recomendado, seu celular vai esquentar...!</string>
     <string name="opt_enableStoryboard_title">Ativa os storyboards</string>
 
     <string name="opt_scandownload_summary">Escaneia o diretório de downloads por novos beatmaps no formato .osz</string>
