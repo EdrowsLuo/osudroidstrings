@@ -117,7 +117,7 @@
 	<!-- Crash -->
 	<string name="crash">Desculpa, situação anormal, fechando o jogo.</string>
 	<string name="app_run_code_error">Erro fatal encontrado</string>
-	<string name="osu_parser_error">Erro ao tenar analizar a dificuldade</string>
+	<string name="osu_parser_error">Erro ao tentar analizar a dificuldade</string>
 	<string name="require_storage_permission">Por favor habilite as permissões de armazenamento manualmente, fechando o jogo.</string>
 
 	<string name="update_dialog_title">Nova versão disponivel</string>
