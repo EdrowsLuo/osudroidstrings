@@ -57,7 +57,7 @@
     <string name="opt_directory_summary">Caminho do diretório de beatmaps (padrão: /mnt/sdcard/osu!droid/Songs)</string>
 
     <string name="opt_clear_title">Cache da biblioteca</string>
-    <string name="opt_clear_summary">Força a limpeza do cache da biblióteca</string>
+    <string name="opt_clear_summary">Força a limpeza do cache da biblioteca</string>
 
     <string name="opt_doublesound_title">Hitsounds melhores</string>
     <string name="opt_doublesound_summary">Faz com que os sons fiquem mais semelhantes ao do osu! original</string>
@@ -217,7 +217,7 @@
     <string name="opt_skin_top_path_title">Diretório de skins</string>
     <string name="opt_skin_top_path_summary">Caminho do diretório com arquivos de skins (padrão: /sdcard/osu!droid/Skin)</string>
 
-    <string name="opt_enableStoryboard_summary">Não recomendado seu celular vai esquentar...!</string>
+    <string name="opt_enableStoryboard_summary">Não recomendado, seu celular vai esquentar...!</string>
     <string name="opt_enableStoryboard_title">Ativa os storyboards</string>
 
     <string name="opt_scandownload_summary">Escaneia o diretório de downloads por novos beatmaps no formato .osz</string>
