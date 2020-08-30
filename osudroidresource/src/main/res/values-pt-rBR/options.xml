@@ -167,7 +167,7 @@
     <string name="opt_savereplays_summary">Salva replays de seus recordes locais</string>
 
     <string name="opt_bursts_title">Efeitos de estouro</string>
-    <string name="opt_bursts_summary">Mostra efeitos de estouros ao tocar em um circulo ou um slider</string>
+    <string name="opt_bursts_summary">Mostra efeitos de estouros ao tocar em um círculo ou um slider</string>
 
     <string name="opt_hitlighting_title">Luz de hit</string>
     <string name="opt_hitlighting_summary">Adiciona um brilho sútil atrás do efeito de estouro de hit</string>
