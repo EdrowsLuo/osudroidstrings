@@ -47,8 +47,8 @@
     <string name="opt_offset_summary">Offset da música em ms. (Valores positivos indicam clicks mais adiantados)</string>
 
     <string name="opt_special">Especial</string>
-    <string name="opt_taiko_title">Carregar sons do T-Aiko!</string>
-    <string name="opt_taiko_summary">Também carregará sons do diretório do T-Aiko!</string>
+    <string name="opt_taiko_title">Carregar músicas do T-Aiko!</string>
+    <string name="opt_taiko_summary">Também carregará músicas do diretório do T-Aiko!</string>
 
     <string name="opt_deleteosz_title">Deletar arquivos .osz</string>
     <string name="opt_deleteosz_summary">Deletar arquivos .osz após importa-los</string>
@@ -126,10 +126,10 @@
     <string name="opt_password_summary">Senha da sua conta</string>
 
     <string name="opt_register_title">Registrar-se</string>
-    <string name="opt_register_summary">Registra uma nova conta (Você só pode criar uma conta por dispositivo!)</string>
+    <string name="opt_register_summary">Registrar uma nova conta (Você só pode criar uma conta por dispositivo!)</string>
 
     <string name="opt_loadavatar_title">Carregar seu avatar</string>
-    <string name="opt_loadavatar_summary">Carrega seu avatar sem se conectar ao wifi.</string>
+    <string name="opt_loadavatar_summary">Carrega seu avatar sem se conectar ao wi-fi.</string>
 
 
     <string name="opt_error_meter_display_title">Medidor de erro e acerto</string>
@@ -151,7 +151,7 @@
     <string name="opt_lowdelay_title">Diminuir o delay de input</string>
     <string name="opt_lowdelay_summary">Reduz o delay de input. Desabilite se você se sente desconfortável.</string>
 
-    <string name="opt_fix_frame_offset_title">corrigir um offset aleátorio.</string>
+    <string name="opt_fix_frame_offset_title">Corrigir um offset aleátorio.</string>
     <string name="opt_fix_frame_offset_summary">Tenta corrigir um offset entre tempo de input e o tempo de um frame.</string>
 
     <string name="opt_enable_extension_title">Habilitar extensão</string>
@@ -167,7 +167,7 @@
     <string name="opt_savereplays_summary">Salva replays de seus recordes locais</string>
 
     <string name="opt_bursts_title">Efeitos de estouro</string>
-    <string name="opt_bursts_summary">Mostra efeitos de estouros ao hittar um circulo ou um slider</string>
+    <string name="opt_bursts_summary">Mostra efeitos de estouros ao tocar em um círculo ou um slider</string>
 
     <string name="opt_hitlighting_title">Luz de hit</string>
     <string name="opt_hitlighting_summary">Adiciona um brilho sútil atrás do efeito de estouro de hit</string>
@@ -203,13 +203,13 @@
     <string name="opt_cursor_size">Tamanho do cursor</string>
     <string name="opt_cursor_size_summary">Ajusta o tamanho do cursor (25 - 300, Padrão: 100)</string>
 
-    <string name="opt_show_first_approach_circle_title">Forçar a aparição do primeiro circulo de aproximação</string>
-    <string name="opt_show_first_approach_circle_summary">Nunca esconder o primeiro circulo de aparição no mod hidden</string>
+    <string name="opt_show_first_approach_circle_title">Forçar a aparição do primeiro círculo de aproximação</string>
+    <string name="opt_show_first_approach_circle_summary">Nunca esconder o primeiro círculo de aparição no mod Hidden</string>
 
-    <string name="opt_apikey_summary">Usa a API do osu!ppy para pegar informações de beatmaps. &#xD;Se a chave for inválida o osu!droid utilizara a api da bloodcar no lugar (provavelmente desatualizada/conexão ruim)</string>
+    <string name="opt_apikey_summary">Usa a API do osu!ppy para pegar informações de beatmaps. &#xD;Se a chave for inválida o osu!droid utilizara a api da bloodcat no lugar (provavelmente desatualizada/conexão ruim)</string>
 
-    <string name="opt_show_scoreboard_summary">Mostra o placar de líderes durante a gameplay</string>
-    <string name="opt_show_scoreboard_title">Mostrar placar de líderes</string>
+    <string name="opt_show_scoreboard_summary">Mostrar o placar durante a gameplay</string>
+    <string name="opt_show_scoreboard_title">Mostrar placar</string>
 
     <string name="opt_skinpath_title">Selecionar skin</string>
     <string name="opt_skinpath_summary">Seleciona uma skin do diretório de skin</string>
