@@ -203,8 +203,8 @@
     <string name="opt_cursor_size">Tamanho do cursor</string>
     <string name="opt_cursor_size_summary">Ajusta o tamanho do cursor (25 - 300, Padrão: 100)</string>
 
-    <string name="opt_show_first_approach_circle_title">Forçar a aparição do primeiro circulo de aproximação</string>
-    <string name="opt_show_first_approach_circle_summary">Nunca esconder o primeiro circulo de aparição no mod Hidden</string>
+    <string name="opt_show_first_approach_circle_title">Forçar a aparição do primeiro círculo de aproximação</string>
+    <string name="opt_show_first_approach_circle_summary">Nunca esconder o primeiro círculo de aparição no mod Hidden</string>
 
     <string name="opt_apikey_summary">Usa a API do osu!ppy para pegar informações de beatmaps. &#xD;Se a chave for inválida o osu!droid utilizara a api da bloodcat no lugar (provavelmente desatualizada/conexão ruim)</string>
 
