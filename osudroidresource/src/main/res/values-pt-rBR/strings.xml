@@ -1,62 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="message_error">Error: %s</string>
-    <string name="message_error_createdir">Não foi possível criar: %s</string>
-    <string name="message_error_multitouch">A função "multi-touch" não é compatível com seu dispositivo.</string>
-    <string name="message_error_audio">Não foi possível carregar o áudio. Por favor reinicie a música.</string>
-    <string name="message_error_sdcard">O armazenamento externo não está disponível.</string>
-    <string name="message_error_sdcardread">O armazenamento externo se encontra em mode de apenas leitura.</string>
-    <string name="message_error_open">Não foi possível abrir: %s</string>
-    <string name="message_error_mapmode">Modo do mapa inválido: %s</string>
-    <string name="message_error_connect">Não foi possível conectar-se ao servidor.</string>
-    <string name="message_error_connectlimit">O limite de erros de conexão foi alcançado.</string>
-    <string name="message_error_download">Não foi possível baixar: %s</string>
-    
-    <string name="message_standardplayer">Mudando para o reprodutor padrão</string>
-    <string name="message_connecting">Conectando-se ao servidor...</string>
-    <string name="message_downloaded">O arquivo %s terminou de ser baixado!</string>
 
-    <string name="message_lib_update">Atualizando a biblioteca...</string>
-    <string name="message_lib_caching">Armazenando a biblioteca do cache... Isto pode demorar alguns minutos.</string>
-    <string name="message_lib_complete">O armazenamento da biblioteca no cache foi concluído. Foram encontrados %d beatmaps.</string>
-    <string name="message_lib_cleared">Cache removido.</string>
-    <string name="message_lib_importing">Importando beatmap...</string>
-    <string name="message_lib_importing_several">Foram encontrados %s novos beatmaps. Importando...</string>
-    <string name="message_lib_imported">Foram importados \"%s\"!</string>
-    
-    
-    <string name="dialog_playername_title">Adicione seu nome de usuário.</string>
-    <string name="dialog_playername_message">Adicione seu nome de usuário aqui. Este será utilizado para registrar sua conta.</string>
-    <string name="dialog_ok">Aceitar</string>
-    <string name="dialog_cancel">Cancelar</string>
-    <string name="dialog_search_title">Procurar</string>
-    <string name="dialog_search_message">Digite aqui para procurar.</string>
-    
-   	<string name="menu_score" formatted="false">Pontuação: %s (%dx)</string>
-   	<string name="menu_creator">Criador: %s</string>
-   	<string name="menu_mod_back">Voltar</string>
-   	<string name="menu_mod_title">Seleção de mods</string>
-   	<string name="menu_mod_multiplier">Multiplicador de pontuação %.2fx</string>
-   	<string name="menu_mod_reset">Reiniciar todos os mods</string>
-   	
-   	<string name="menu_properties_title">Propriedades da música</string>
-   	<string name="menu_properties_offset">Offset da música:</string>
-   	<string name="menu_properties_tofavs">Adicionar aos favoritos</string>
-   	<string name="menu_properties_fromfavs">Remover dos favoritos</string>
-   	<string name="menu_properties_delete">Remover mapa</string>
-   	<string name="menu_properties_delete_confirm">Tem certeza que deseja remover este mapa?</string>
-   	
-   	<string name="menu_search_title">Opções de busca</string>
-   	<string name="menu_search_filter">Procurar por:</string>
-   	<string name="menu_search_sort">Ordenar por:</string>
-   	<string name="menu_search_sort_title">Título</string>
-   	<string name="menu_search_sort_date">Data</string>
-   	<string name="menu_search_sort_creator">Criador</string>
-   	<string name="menu_search_sort_artist">Artista</string>
-   	<string name="menu_search_favsenabled">Mostrar apenas favoritos: activado</string>
-   	<string name="menu_search_favsdisabled">Mostrar apenas favoritos: desactivado</string>
-   	
-   	<string name="downloader_page" formatted="false">Página %d de %d</string>
-   	<string name="downloader_nomaps">Não foi possível encontrar nenhum beatmap.</string>	
+	<string name="message_error">Erro: %s</string>
+	<string name="message_error_createdir">Não foi possível criar %s</string>
+	<string name="message_error_multitouch">Multitouch não é suportado pelo seu dispositivo</string>
+	<string name="message_error_audio">Não foi possível inicializar o áudio. favor reiniciar a música</string>
+	<string name="message_error_sdcard">Não foi possível encontrar nenhum armazenamento externo!</string>
+	<string name="message_error_sdcardread">O armazenamento externo está no modo apenas leitura</string>
+	<string name="message_error_open">Não foi possível abrir %s</string>
+	<string name="message_error_mapmode">Modo de mapa inválido: %s</string>
+	<string name="message_error_connect">Não foi possível conectar-se ao servidor</string>
+	<string name="message_error_connectlimit">O limite de erros de conexões foi atingido</string>
+	<string name="message_error_download">Não foi possível baixar %s</string>
+
+	<string name="message_standardplayer">Trocando para o player padrão</string>
+	<string name="message_connecting">Conectando-se ao servidor...</string>
+	<string name="message_downloaded">%s foi baixado!</string>
+
+	<string name="message_lib_update">Atualizando a biblioteca...</string>
+	<string name="message_lib_caching">Armazenando a biblioteca ao cache... Pode demorar alguns minutinhos</string>
+	<string name="message_lib_complete">O caching foi concluído. Encontrei %d beatmaps</string>
+	<string name="message_lib_cleared">O cache foi limpo</string>
+	<string name="message_lib_importing">Importando beatmap...</string>
+	<string name="message_lib_importing_several">Encontrei %s beatmaps arquivados. Importando...</string>
+	<string name="message_lib_imported">\"%s\" foi importado!</string>
+
+	<string name="message_extension_not_found">Nenhum aplicativo de extensão foi encontrado.</string>
+	<string name="message_open_beatmap_in_extension">Abrir beatmap na extensão</string>
+
+	<string name="dialog_playername_title">Coloque o seu nome de usuário</string>
+	<string name="dialog_playername_message">Coloque seu nome de usuário. Ele sera usado para os seus scores.</string>
+	<string name="dialog_ok">Confirmar</string>
+	<string name="dialog_cancel">Cancelar</string>
+	<string name="dialog_search_title">Procurar</string>
+	<string name="dialog_search_message">Coloque o que você deseja procurar</string>
+	<string name="dialog_register">Registrar</string>
+
+	<string name="dialog_delete_pp_title">Resetar seu PP?</string>
+	<string name="dialog_delete_pp_make_sure">CERTEZA?</string>
+	<string name="dialog_delete_pp_deleted">O seu PP foi resetado!</string>
+
+	<string name="favorite_folder">Pasta:</string>
+	<string name="favorite_default">Padrão</string>
+	<string name="favorite_select">Selecionar</string>
+	<string name="favorite_delete">Deletar pasta</string>
+	<string name="favorite_add">Adicionar</string>
+	<string name="favorite_remove">Remover</string>
+	<string name="favorite_new_folder">Criar nova pasta</string>
+	<string name="favorite_warning_on_delete_default">Você não pode apagar a pasta padrão!</string>
+	<string name="favorite_ensure">Você tem certeza?</string>
+	<string name="favorite_manage">Gerencie a pasta de beatmaps</string>
+
+	<string name="menu_score" formatted="false">Pontuação: %s (%dx)</string>
+	<string name="menu_creator">Criador: %s</string>
+	<string name="menu_mod_back">Voltar</string>
+	<string name="menu_mod_title">Seleção de mods</string>
+	<string name="menu_mod_multiplier" formatted="false">Pontuação: %.2fx</string>
+	<string name="menu_mod_reset">Resetar todos os mods</string>
+
+	<string name="menu_properties_title">Propriedades da música</string>
+	<string name="menu_properties_offset">Offset da música:</string>
+	<string name="menu_properties_tofavs">Adicionar aos favoritos</string>
+	<string name="menu_properties_fromfavs">Remover dos favoritos</string>
+	<string name="menu_properties_delete">Deletar mapa</string>
+	<string name="menu_properties_delete_confirm">Você tem certeza?</string>
+
+	<string name="menu_deletescore_title">Deletar score selecionado</string>
+	<string name="menu_deletescore_delete">Deletar</string>
+	<string name="menu_deletescore_delete_confirm">Você tem certeza</string>
+	<string name="menu_deletescore_delete_success">Score deletado com sucesso!</string>
+
+	<string name="menu_search_title">Opções de pesquisa</string>
+	<string name="menu_search_filter">Pesquisar por:</string>
+	<string name="menu_search_sort">Ordenar por:</string>
+	<string name="menu_search_sort_title">Título</string>
+	<string name="menu_search_sort_date">Data</string>
+	<string name="menu_search_sort_creator">Criador(a)</string>
+	<string name="menu_search_sort_artist">Artista</string>
+	<string name="menu_search_favsenabled">Apenas favoritos: habilitado</string>
+	<string name="menu_search_favsdisabled">Apenas favoritos: desativado</string>
+
+	<string name="downloader_page" formatted="false">Página %d de %d</string>
+	<string name="downloader_nomaps">Nenhum beatmap encontrado</string>
+
+	<string name="hint_password">Senha</string>
+	<string name="hint_confirm">Confirmar senha</string>
+
+	<string name="replay_invalid">Não foi possível carregar o replay</string>
+	<string name="replay_cantdownload">Não foi possível baixar o replay</string>
+	<string name="replay_wrongmap">O replay não combina com o beatmap</string>
+	<string name="replay_corrupted">O arquivo de replay está corrompido</string>
+
+	<string name="online_registration">Registração</string>
+	<string name="online_registration_process">Registrando...</string>
+	<string name="online_loadrecord">Carregando detalhes gravados...</string>
+	<string name="online_invlogin">Login inválido</string>
+	<string name="online_invpassword">A senha deve ter de 4-32 caracteres</string>
+	<string name="online_invconfirm">A senha não combina</string>
+	<string name="online_invemail">E-mail inválido</string>
+	<string name="online_regcomplete">Registração completa. reinicie o app para fazer login</string>
+
+	<!-- Color Picker -->
+	<string name="dialog_color_picker">Seletor de cor</string>
+	<string name="press_color_to_apply">Pressione na cor para aplicar</string>
+
+	<string name="network_not_connected">Falha na conexão de rede, favor verificar as configurações da rede</string>
+	<string name="xml_parser_failed">Anomalia na análise de dados</string>
+	<string name="io_exception_error">Anomalia no fluxo de arquivos</string>
+	<string name="http_status_code_error">Anomalia na rede, código do erro：%d</string>
+	<string name="http_exception_error">Anomalia na rede, timeout solicitado</string>
+	<string name="socket_exception_error">Anomalia na rede, leitura de dados falhou</string>
+
+	<string name="binfoStr1" formatted="false">Duração: %s BPM: %s Combo: %d</string>
+	<string name="binfoStr2" formatted="false">Círculos: %d Sliders: %d Spinners: %d (MapId: %d)</string>
+
+	<!-- Crash -->
+	<string name="crash">Desculpe, o programa está instável, fechando o jogo.</string>
+	<string name="app_run_code_error">Erro fatal encontrado</string>
+	<string name="osu_parser_error">Erro ao tentar analisar a dificuldade</string>
+	<string name="require_storage_permission">Por favor habilite as permissões de armazenamento manualmente, fechando o jogo.</string>
+
+	<string name="update_dialog_title">Nova versão disponível</string>
+	<string name="update_dialog_button_confirm">Atualizar agora</string>
+	<string name="update_dialog_button_later">Atualizar mais tarde</string>
+	<string name="update_info_checking">Procurando por atualizações, por favor aguarde</string>
+	<string name="update_info_runs_latest">Você já está rodando a versão mais recente :D</string>
+
+	<string name="test_ed_storyboard">Ver storyboards (experimental)</string>
+
+	<string name="mod_precise_is_unrank_now">O mod PRECISE não esta ranqueado por enquanto</string>
+
+
+	<!-- new data after 1.6.7(beta1) -->
+    <string name="beta_checking_upgrade">Procurando por atualizações...</string>
+	<string name="beta_check_upgrade_error">Falha ao procurar atualizações, tente novamente mais tarde</string>
+	<string name="beta_you_are_the_latest_version">Você já está utilizando a versão mais recente</string>
+	<string name="beta_downloading">Baixando</string>
+	<string name="beta_click_to_view">Clique para visualizar</string>
+	<string name="beta_click_to_install">Instalar</string>
+	<string name="beta_click_to_retry">Tentar novamente</string>
+	<string name="beta_click_to_continue">Continuar</string>
+	<string name="beta_download_success">O download foi feito com sucesso</string>
+	<string name="beta_download_error">O download falhou</string>
+	<string name="beta_have_new_version">Nova versão disponível</string>
+    <string name="menu_map_updatable">Atualizar beatmap</string>
+    <string name="message_loading_skin">Aplicando uma nova skin</string>
+
+
+	<string name="message_error_dir_not_found">Diretório não encontrado!</string>
+
+	<string name="message_update_hint">Segure para atualizar</string>
+	<string name="message_update_download_success">Atualizado com sucesso!</string>
+	<string name="message_update_download_fail">A atualização falhou tente novamente mais tarde</string>
+	<string name="message_update_ppy_unavailable">Não foi possível baixar esse mapa em ppy\n\n</string>
+
 </resources>
-

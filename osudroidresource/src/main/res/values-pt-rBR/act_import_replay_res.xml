@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- after 1.6.7(beta1) -->
+    <string name="act_import_replay">Importar replays para o osu!droid</string>
+    <string name="invalid_edr_file">Replay inválido!</string>
+    <string name="failed_to_import_edr">Falha ao importar replay!</string>
+    <string name="failed_to_import_edr_with_err" formatted="true">Erro ao importar replay: %s</string>
+    <string name="import_edr_successfully">Replay importado com sucesso!</string>
+
+</resources>
