@@ -4,7 +4,7 @@
         <item>Alta</item>
         <item>Media</item>
         <item>Baja</item>
-        <item>Deshabilitado</item>
+        <item>Deshabilitada</item>
     </string-array>
     <string name="opt_graphics">Gráficos</string>
     <string name="opt_beatmaps">Librería</string>
