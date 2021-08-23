@@ -13,7 +13,7 @@
     <string name="opt_skin_title">Usar la Skin del beatmap</string>
     <string name="opt_skin_summary">Cargar las Skins específicas de cada beatmap solo si está disponible</string>
     <string name="opt_largeimages_title">Cuenta regresiva</string>
-    <string name="opt_largeimages_summary">Mostrar la cuenta regresiva al principio de un mapa sólo si está disponible</string>
+    <string name="opt_largeimages_summary">Mostrar la cuenta regresiva al principio de un mapa si está disponible</string>
     <string name="opt_sound_volume_title">Volúmen de los golpes</string>
     <string name="opt_sound_volume_summary">Volúmen de los golpes(0-100)</string>
     <string name="opt_offset_title">Offset global</string>
