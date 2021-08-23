@@ -9,7 +9,7 @@
     <string name="opt_graphics">Gráficos</string>
     <string name="opt_beatmaps">Librería</string>
     <string name="opt_bg_title">Calidad del fondo</string>
-    <string name="opt_bg_summary">Reducir la calidad del fondo puede aumenta el rendimiento</string>
+    <string name="opt_bg_summary">Reducir la calidad del fondo puede aumentar el rendimiento</string>
     <string name="opt_skin_title">Usar la Skin del beatmap</string>
     <string name="opt_skin_summary">Cargar las Skins específicas de cada beatmap solo si está disponible</string>
     <string name="opt_largeimages_title">Cuenta regresiva</string>
