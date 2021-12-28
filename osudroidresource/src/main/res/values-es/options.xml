@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	
     <string-array name="bg_quality_names">
         <item>Alta</item>
         <item>Media</item>
         <item>Baja</item>
         <item>Fondo Desactivado</item>
     </string-array>
+	
     <string-array name="bg_quality_values">
         <item>1</item>
         <item>2</item>
         <item>4</item>
         <item>0</item>
     </string-array>
+	
     <string-array name="bg_brightness_names">
         <item>100%</item>
         <item>75%</item>
@@ -19,6 +22,7 @@
         <item>25%</item>
         <item>0%</item>
     </string-array>
+	
     <string-array name="bg_brightness_values">
         <item>100</item>
         <item>75</item>
@@ -26,34 +30,45 @@
         <item>25</item>
         <item>0</item>
     </string-array>
+	
     <string-array name="error_meter_display_names">
         <item>Siempre activada</item>
         <item>Solo en repeticiones</item>
         <item>Desactivada</item>
     </string-array>
+	
     <string-array name="error_meter_display_values">
         <item>1</item>
         <item>2</item>
         <item>0</item>
     </string-array>
+	
     <string-array name="spinner_style_names">
         <item>Moderno</item>
         <item>Clasico</item>
     </string-array>
+	
     <string-array name="spinner_style_values">
         <item>1</item>
         <item>0</item>
     </string-array>
+	
     <string-array name="metronome_switch_names">
         <item>Desactivado</item>
         <item>Solo con mod NC (Nightcore)</item>
         <item>Desactivado</item>
     </string-array>
+	
     <string-array name="metronome_switch_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
+	
+    <string-array name="placeholder_values">
+        <item>placeholder</item>
+    </string-array>
+	
     <string-array name="set_playfield_names">
         <item>100%</item>
         <item>95%</item>
@@ -61,6 +76,7 @@
         <item>85%</item>
         <item>80%</item>
     </string-array>
+	
     <string-array name="set_playfield_values">
         <item>100</item>
         <item>95</item>
@@ -68,6 +84,8 @@
         <item>85</item>
         <item>80</item>
     </string-array>
+	
+
     <string name="opt_onlineOpt">Cuenta</string>
 
     <string name="opt_onlineOpt_normal">ONLINE</string>
@@ -81,7 +99,6 @@
     <string name="opt_beatmaps">Directorios y otros</string>
 
     <string name="opt_bg_title">Calidad de fondos</string>
-
     <string name="opt_bg_summary">Reducir la calidad de los fondos puede ayudar a aumentar el rendimiento</string>
 
     <string name="opt_skin_title">Usar skins de los mapas</string>
@@ -103,6 +120,7 @@
     <string name="opt_offset_summary">Offset de la musica en ms (valores positivos indican golpes mas tempranos)</string>
 
     <string name="opt_special">Special</string>
+	
     <string name="opt_taiko_title">Load T-Aiko! songs</string>
     <string name="opt_taiko_summary">Load songs also from T-Aiko song directory</string>
 
@@ -146,6 +164,7 @@
 
 
     <string name="opt_other_title">Otros</string>
+	
     <string name="opt_multitouch_title">Multi-touch</string>
     <string name="opt_multitouch_summary">Activa el multitouch si está disponible</string>
 
@@ -167,7 +186,6 @@
     <string name="opt_showcursor_title">Mostrar Cursor</string>
     <string name="opt_showcursor_summary">Mostrar un cursor debajo de tus dedos muentras juegas</string>
 
-
     <string name="opt_demoSpline_title">Demo Spline</string>
     <string name="opt_demoSpline_summary">Utiliza otro algoritmo de spline para los sliders.  (experimental, puede causar algunos problemas inesperados)</string>
 
@@ -175,6 +193,7 @@
     <string name="opt_clearprops_summary">Elimina todos los datos de cada mapa (ej: offset, carpeta guardada, favs...)</string>
 
     <string name="opt_online">Online</string>
+	
     <string name="opt_online_title">Muestra las opciones online</string>
     <string name="opt_online_summary"></string>
 
@@ -221,15 +240,12 @@
     <string name="opt_remove_sliderlock_spinnerlock_summary">Intenta quitar el bloqueo de slider y del spinner. El estilo 2b ahora es jugable.</string>
 
     <string name="opt_enable_extension_title">Enable extension</string>
-
     <string name="opt_download_extension_title">Download extension</string>
 
     <string name="opt_syncmusic_title">Sincronización de baja latencia</string>
-
     <string name="opt_syncmusic_summary">Desactivalo si tu dispositivo no tiene soporte para audio de baja latencia</string>
 
     <string name="opt_savereplays_title">Repeticiones</string>
-
     <string name="opt_savereplays_summary"></string>
 
     <string name="opt_bursts_title">Explosiones al golpear</string>
@@ -244,7 +260,7 @@
     <string name="opt_particles_title">Efectos de particulas</string>
     <string name="opt_particles_summary">Muestra efectos de partículas como el trail del cursor</string>
 	
-	<string name="opt_long_trail_title">Long cursor trail</string>
+    <string name="opt_long_trail_title">Long cursor trail</string>
     <string name="opt_long_trail_summary">Show longer cursor trail, if Particle effects is on</string>
 
     <string name="opt_bgbrightness_title">Brillo del fondo</string>
@@ -255,6 +271,7 @@
 
     <string name="opt_enable_pp_title">PerformancePoint System(PP)</string>
     <string name="opt_enable_pp_summary">A simple offline pp system. Just for fun :)</string>
+	
     <string name="opt_clear_pp_title">Reset Performance Points(PP)</string>
     <string name="opt_clear_pp_summary"></string>
 
@@ -279,20 +296,20 @@
     <string name="opt_apikey_title">[Beta] osu!ppy API Key</string>
     <string name="opt_apikey_summary">Uses osu!ppy API to get beatmaps\' information. &#xD;If key is invalid, uses bloodcat instead (might be outdated/bad connection)</string>
 
-    <string name="opt_show_scoreboard_summary"></string>
     <string name="opt_show_scoreboard_title">Mostrar scoreboard</string>
+    <string name="opt_show_scoreboard_summary"></string>
 
     <string name="opt_skinpath_title">Seleccionar Skin</string>
     <string name="opt_skinpath_summary"></string>
 
     <string name="opt_skin_top_path_title">Directorio de skins</string>
     <string name="opt_skin_top_path_summary">(Por defecto: /sdcard/osu!droid/Skin)</string>
-
-    <string name="opt_enableStoryboard_summary">Tu movil estará caliente!</string>
+	
     <string name="opt_enableStoryboard_title">Activar Storyboard</string>
-
-    <string name="opt_scandownload_summary">Escanea automáticamente el directorio de Descargas para nuevos mapas (.osz) (Puede no funcionar si el directorio de mapas esta en la tarjeta SD)</string>
+    <string name="opt_enableStoryboard_summary">Tu movil estará caliente!</string>
+    
     <string name="opt_scandownload_title">Escanear mapas</string>
+    <string name="opt_scandownload_summary">Escanea automáticamente el directorio de Descargas para nuevos mapas (.osz) (Puede no funcionar si el directorio de mapas esta en la tarjeta SD)</string>
 
     <string name="opt_superSlider_title">Super Slider</string>
     <string name="opt_superSlider_summary">Slider de forma perfecta</string>
@@ -303,8 +320,8 @@
     <string name="opt_enablespeedchange_title">Activar la velocidad del juego</string>
     <string name="opt_enableforcear_title">Activar Forzar AR"</string>
 	
-	<string name="opt_calculate_slider_path_in_game_start_title">Calcular sliders al entrar a un mapa</string>
-	<string name="opt_calculate_slider_path_in_game_start_summary">Mejora el rendimiento en mapas con sliders complejos, pero tarda más en cargar</string>
+    <string name="opt_calculate_slider_path_in_game_start_title">Calcular sliders al entrar a un mapa</string>
+    <string name="opt_calculate_slider_path_in_game_start_summary">Mejora el rendimiento en mapas con sliders complejos, pero tarda más en cargar</string>
 
     <string name="opt_display_score_pp_title">Mostrar PP en la pantalla de resultados</string>
     <string name="opt_display_score_pp_summary">Displays PP value in score result screen</string>
@@ -320,4 +337,5 @@
 
     <string name="opt_hide_ingame_ui_title">Ocultar UI</string>
     <string name="opt_hide_ingame_ui_summary">Oculta toda la interfaz mientras juegas (ej: vida, scoreboard, combo, accuracy, etc..)</string>
+	
 </resources>
