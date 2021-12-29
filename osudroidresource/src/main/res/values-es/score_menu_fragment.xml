@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- after 1.6.7(beta1) -->
+    <string name="frg_score_menu_title">Score</string>
+    <string name="frg_score_menu_export_score">Exportar repetición</string>
+    <string name="frg_score_menu_export_failed">Ha habido un problema al exportar la repetición</string>
+    <string name="frg_score_menu_export_succeed" formatted="true">Se ha exportado la repetición en: %s</string>
+
+</resources>
