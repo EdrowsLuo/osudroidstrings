@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- after 1.6.7(beta1) -->
+    <string name="act_import_replay">Importar repetición a osu!droid</string>
+    <string name="invalid_edr_file">Repetición inválida</string>
+    <string name="failed_to_import_edr">Ha habido un error al importar la repetición</string>
+    <string name="failed_to_import_edr_with_err" formatted="true">La repetición no se ha podido importar: %s</string>
+    <string name="import_edr_successfully">La repetición se ha importado con éxito!</string>
+
+</resources>

@@ -1,63 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="message_error">Error: %s</string>
-    <string name="message_error_createdir">No se puede crear: %s</string>
-    <string name="message_error_multitouch">La función "multitouch" no es soportada por tu dispositivo</string>
-    <string name="message_error_audio">No se pude iniciar el audio. Favor de reiniciar la canción.</string>
-    <string name="message_error_sdcard">El almacenamiento externo no está disponible</string>
-    <string name="message_error_sdcardread">El almacenamiento externo se encuentra en el modo sólo lectura</string>
-    <string name="message_error_open">No se puede abrir: %s</string>
-    <string name="message_error_mapmode">Modo del mapa inválido: %s</string>
-    <string name="message_error_connect">No se puede conectar al servidor</string>
-    <string name="message_error_connectlimit">Se alcanzo el límite de errores de conexión</string>
-    <string name="message_error_download">No se puede descargar: %s</string>
-    
-    <string name="message_standardplayer">Cambiando a reproductor estándar</string>
-    <string name="message_connecting">Conectando al servidor...</string>
-    <string name="message_downloaded">¡Se ha descargado: %s !</string>
+	<string name="message_error">Error: %s</string>
+	<string name="message_error_createdir">No se puede crear %s</string>
+	<string name="message_error_multitouch">Tu dispositivo no soporta la función Multitouch.</string>
+	<string name="message_error_audio">No se puede iniciar el audio. Prueba a reiniciar el mapa</string>
+	<string name="message_error_sdcard">No se ha encontrado ninguna memoria externa</string>
+	<string name="message_error_sdcardread">La memoria externa está en modo de "Solo lectura"</string>
+	<string name="message_error_open">No se puede abrir %s</string>
+	<string name="message_error_mapmode">Modo del mapa inválido: %s</string>
+	<string name="message_error_connect">No se puede conectar al servidor</string>
+	<string name="message_error_connectlimit">Se ha alcanzado el límite de errores de conexión</string>
+	<string name="message_error_download">No se puede descargar %s</string>
 
-    <string name="message_lib_update">Actualizando la librería...</string>
-    <string name="message_lib_caching">Almacenando la librería en el cache... Esto puede tomar algunos minutos.</string>
-    <string name="message_lib_complete">Almacenamiento en el cache completo. Se encontraron %d beatmaps</string>
-    <string name="message_lib_cleared">Cache eliminado</string>
-    <string name="message_lib_importing">Importando beatmap...</string>
-    <string name="message_lib_importing_several">Fueron encontrados %s beatmaps descargados. Importando...</string>
-    <string name="message_lib_imported">¡\"%s\" ha sido importado!</string>
-    
-    
-    <string name="dialog_playername_title">Introduzca su nombre de jugador</string>
-    <string name="dialog_playername_message">Introduzca su nombre de jugador. Este será usado para registrar su puntuaje.</string>
-    <string name="dialog_ok">Aceptar</string>
-    <string name="dialog_cancel">Cancelar</string>
-    <string name="dialog_search_title">Buscar</string>
-    <string name="dialog_search_message">Introducir el texto a buscar</string>
-    
-   	<string name="menu_score" formatted="false">Puntuaje: %s (%dx)</string>
-   	<string name="menu_creator">Creador: %s</string>
-   	<string name="menu_mod_back">Atrás</string>
-   	<string name="menu_mod_title">Selección de mods</string>
-   	<string name="menu_mod_multiplier">Multiplicador de puntuaje %.2fx</string>
-   	<string name="menu_mod_reset">Reiniciar todos los mods</string>
-   	
-   	<string name="menu_properties_title">Propiedades de la canción</string>
-   	<string name="menu_properties_offset">Offset de la canción:</string>
-   	<string name="menu_properties_tofavs">Añadir a favoritos</string>
-   	<string name="menu_properties_fromfavs">Eliminar de favoritos</string>
-   	<string name="menu_properties_delete">Eliminar mapa</string>
-   	<string name="menu_properties_delete_confirm">¿Estás seguro?</string>
-   	
-   	<string name="menu_search_title">Opciones de búsqueda</string>
-   	<string name="menu_search_filter">Buscar por:</string>
-   	<string name="menu_search_sort">Ordenar por:</string>
-   	<string name="menu_search_sort_title">Título</string>
-   	<string name="menu_search_sort_date">Fecha</string>
-   	<string name="menu_search_sort_creator">Creador</string>
-   	<string name="menu_search_sort_artist">Artista</string>
-   	<string name="menu_search_favsenabled">Sólo favoritos: activado</string>
-   	<string name="menu_search_favsdisabled">Sólo favoritos: desactivado</string>
-   	
-   	<string name="downloader_page" formatted="false">Página %d de %d</string>
-   	<string name="downloader_nomaps">No se encontraron beatmaps</string>	
+	<string name="message_standardplayer">Cambiando al reproductor estándar</string>
+	<string name="message_connecting">Conectando al servidor...</string>
+	<string name="message_downloaded">%s se ha descargado!</string>
+
+	<string name="message_lib_update">Actualizando librería...</string>
+	<string name="message_lib_caching">Cacheando librería, esto puede tardar unos minutos...</string>
+	<string name="message_lib_complete">Cacheo completo. Se han encontrado %d beatmaps</string>
+	<string name="message_lib_cleared">Se ha limpiado la caché</string>
+	<string name="message_lib_importing">Importando beatmap...</string>
+	<string name="message_lib_importing_several">Se han encontrado %s beatmaps. Importando...</string>
+	<string name="message_lib_imported">\"%s\" se ha importado!</string>
+
+	<string name="message_extension_not_found">No extension app found.</string>
+	<string name="message_open_beatmap_in_extension">Open beatmap in extension</string>
+
+	<string name="dialog_playername_title">Nombre de jugador</string>
+	<string name="dialog_playername_message">Se usará para enviar tu score en cada mapa.</string>
+	<string name="dialog_ok">Ok</string>
+	<string name="dialog_cancel">Cancelar</string>
+	<string name="dialog_search_title">Buscar</string>
+	<string name="dialog_search_message">Consulta de búsqueda</string>
+	<string name="dialog_register">Registrar</string>
+
+	<string name="dialog_delete_pp_title">Reset your pp?</string>
+	<string name="dialog_delete_pp_make_sure">Really?</string>
+	<string name="dialog_delete_pp_deleted">PP reset</string>
+
+	<string name="dialog_exit_message">¿Quieres salir del juego?</string>
+	<string name="dialog_exit_yes">Sí</string>
+	<string name="dialog_exit_no">No</string>
+
+	<string name="dialog_visit_osu_website_message">Do you want to visit the official osu! website?</string>
+	<string name="dialog_visit_osudroid_website_message">¿Quieres visitar la página oficial de osu!Droid?</string>
+
+        <string name="dialog_visit_profile_page">Quieres ver tu perfil en la página de osu!droid?</string>
+
+	<string name="favorite_folder">Carpeta:</string>
+	<string name="favorite_default">Predeterminada</string>
+	<string name="favorite_select">Seleccionar</string>
+	<string name="favorite_delete">Eliminar</string>
+	<string name="favorite_add">Añadir</string>
+	<string name="favorite_remove">Eliminar</string>
+	<string name="favorite_new_folder">Crear nueva</string>
+	<string name="favorite_warning_on_delete_default">No puedes borrar la carpeta predeterminaa</string>
+	<string name="favorite_ensure">¿Estás seguro?</string>
+	<string name="favorite_manage">Añadir a una carpeta</string>
+
+	<string name="menu_score" formatted="false">Score: %s (%dx)</string>
+	<string name="menu_creator">Creador: %s</string>
+	<string name="menu_mod_back">Atrás</string>
+	<string name="menu_mod_title">Selección de mods</string>
+	<string name="menu_mod_multiplier" formatted="false">Score %.2fx</string>
+	<string name="menu_mod_reset">Reiniciar mods</string>
+
+	<string name="menu_properties_title">Propiedades</string>
+	<string name="menu_properties_offset">Offset:</string>
+	<string name="menu_properties_tofavs">Añadir a favoritos</string>
+	<string name="menu_properties_fromfavs">Quitar de favoritos</string>
+	<string name="menu_properties_delete">Eliminar mapa</string>
+	<string name="menu_properties_delete_confirm">¿Quieres eliminar el mapa?</string>
+
+        <string name="menu_settings_title">Opciones</string>
+
+	<string name="menu_deletescore_title">Eliminar score</string>
+	<string name="menu_deletescore_delete">Eliminar</string>
+	<string name="menu_deletescore_delete_confirm">¿Quieres borrar el score?</string>
+	<string name="menu_deletescore_delete_success">Se ha eliminado el score</string>
+
+	<string name="menu_search_title">Opciones de búsqueda</string>
+	<string name="menu_search_filter">Buscar:</string>
+	<string name="menu_search_sort">Clasificado por:</string>
+	<string name="menu_search_sort_title">Título</string>
+	<string name="menu_search_sort_date">Fecha</string>
+	<string name="menu_search_sort_creator">Creador</string>
+	<string name="menu_search_sort_artist">Artista</string>
+	<string name="menu_search_sort_bpm">Bpm</string>
+	<string name="menu_search_sort_stars">Estrellas</string>
+	<string name="menu_search_sort_length">Duración</string>
+	<string name="menu_search_favsenabled">Solo favoritos: Activado</string>
+	<string name="menu_search_favsdisabled">Solo favoritos: Desactivado</string>
+
+	<string name="downloader_page" formatted="false">Página %d de %d</string>
+	<string name="downloader_nomaps">No se han encontrado mapas</string>
+
+	<string name="hint_login">Nombre de usuario</string>
+	<string name="hint_password">Contraseña</string>
+	<string name="hint_confirm">Confirma la contraseña</string>
+	<string name="hint_email">Correo electrónico</string>
+
+	<string name="replay_invalid">No se puede cargar la repetición</string>
+	<string name="replay_cantdownload">No se puede descargar la repetición</string>
+	<string name="replay_wrongmap">Este archivo de repetición no es de este mapa</string>
+	<string name="replay_corrupted">El archivo de repetición está corrupto</string>
+
+	<string name="online_registration">Registration</string>
+	<string name="online_registration_process">Registrando...</string>
+	<string name="online_loadrecord">Cargando datos de la replay...</string>
+	<string name="online_invlogin">Inicio de sesión incorrecto</string>
+	<string name="online_invpassword">La contraseña debe tener 4-32 caracteres</string>
+	<string name="online_invconfirm">Las contraseñas no coinciden</string>
+	<string name="online_invemail">El correo no es válido, porfavor usa otro</string>
+	<string name="online_regcomplete">Ya estas has registrado! Reinicia el juego y ya podrás usar tu cuenta</string>
+
+	<string name="userpanel_not_online">No estás conectado. Inicia sesión o revisa tu conexion</string>
+	<string name="userpanel_logging_in">Iniciando sesión...</string>
+
+	<!-- Color Picker -->
+	<string name="dialog_color_picker"></string>
+	<string name="press_color_to_apply">Presiona el color que hayas elegido para seleccionarlo</string>
+
+	<string name="network_not_connected">网络连接失败，请检查网络设置</string>
+	<string name="xml_parser_failed">数据解析异常</string>
+	<string name="io_exception_error">文件流异常</string>
+	<string name="http_status_code_error">网络异常，错误码：%d</string>
+	<string name="http_exception_error">网络异常，请求超时</string>
+	<string name="socket_exception_error">网络异常，读取数据超时</string>
+
+	<string name="binfoStr1" formatted="false">Duración: %s BPM: %s Combo: %d</string>
+	<string name="binfoStr2" formatted="false">Círculos: %d Sliders: %d Spinners: %d (Id: %d)</string>
+
+	<!-- Color -->
+	<color name="notify_title_color">#fff</color>
+
+	<!-- Crash -->
+	<string name="crash">Ha habido un problema, el jugeo se cerrará ahora.</string>
+	<string name="app_run_code_error">Error fatal</string>
+	<string name="osu_parser_error">Error del analizador de dificultades</string>
+	<string name="osu_parser_music_not_found" formatted="false">No se puede cargar %s: No hay ningún archivo de audio</string>
+	<string name="osu_parser_timing_error" formatted="false">No se puede cargar %s: No hay ningun punto de </string>
+	<string name="require_storage_permission">El juego necesita acceder al almacenamiento, porfavor concede el permiso manualmente</string>
+	
+	<string name="update_dialog_message">¡Hay una nueva versión disponible!</string>
+	<string name="update_dialog_button_update">Actualizar</string>
+	<string name="update_dialog_button_changelog">Changelog</string>
+	<string name="update_dialog_button_later">Ahora no</string>
+	<string name="update_info_checking">Buscando actualizaciones, espera un momento...</string>
+	<string name="update_info_latest">¡Estás usando la versión mas reciente!</string>
+
+	<string name="test_ed_storyboard">Activar storyboard (experimental)</string>
+
+	
+	<!-- new data after 1.6.7(beta1) -->
+        <string name="ingame_settings">Opciones</string>
+        <string name="beta_checking_upgrade">Analizado actualización</string>
+	<string name="beta_check_upgrade_error">Ha habido un problema al analizar la actualización, prueba más tarde</string>
+	<string name="beta_you_are_the_latest_version">Ya estás usando la versión más reciente</string>
+	<string name="beta_downloading">Descargando...</string>
+	<string name="beta_click_to_view">Presiona para ver</string>
+	<string name="beta_click_to_install">Instalar</string>
+	<string name="beta_click_to_retry">Reintentar</string>
+	<string name="beta_click_to_continue">Continuar</string>
+	<string name="beta_download_success">Descarga completa</string>
+	<string name="beta_download_error">Descarga fallida</string>
+	<string name="beta_have_new_version">¡Hay una nueva versión disponible!</string>
+        <string name="menu_map_updatable">Subir beatmap</string>
+        <string name="message_loaded_skin">¡Se ha aplicado la nueva skin!</string>
+
+	<string name="message_error_dir_not_found">No se ha encontrado el directorio</string>
+
+	<string name="message_update_hint">Long press to update</string>
+	<string name="message_update_download_success">Update Successful!</string>
+	<string name="message_update_download_fail">Update fail, try again later</string>
+	<string name="message_update_ppy_unavailable">This map can not be downloaded on ppy\n\n</string>
+
+	<string name="message_low_storage_space">Queda poca memoria en el almacenamiento: %s GB. Esto puede causar bugs y problemas al enviar score o descargar repeticiones.</string>
+        <string name="close_this_page">Cerrar</string>
+        <string name="markdown_title">Título</string>
+        <string name="click_to_see_change_list">Lista de cambios</string>
+
+	<string name="changelog_title">Changelog</string>
+	<string name="unranked_features">↓ Unranked ↓</string>
+
+        <string name="str_save_failed_replay">Presiona aquí para guardar la repetición fallida</string>
+        <string name="message_save_replay_successful">¡Se ha guardado la repetición!</string>
+	<string name="message_save_replay_failed">No se ha podido guardar la repetición</string>
+
+        <string name="message_autoclicker_detected">Se ha detectado un auto-clicker activado, porfavor desactivalo para jugar</string>
+	
 </resources>
-
-
